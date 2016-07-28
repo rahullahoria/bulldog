@@ -25,7 +25,7 @@ function saveUsage($username){
 
         $db = getDB();
         foreach ($usage as $k => $u){
-            if ($u->program) {
+            if (isset($u)) {
                 $stmt = $db->prepare($sql);
 
                 $stmt->bindParam("program", $u->program);
