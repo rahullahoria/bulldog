@@ -27,11 +27,11 @@ function saveUsage($username){
         foreach ($usage as $k => $u){
             if (isset($u->program)) {
                 $stmt = $db->prepare($sql);
-
+                $ti = intval($u->time/60);
                 $stmt->bindParam("program", $u->program);
                 $stmt->bindParam("instance", $k);
-                $stmt->bindParam("time", $u->time);
-                $stmt->bindParam("newT", $u->time);
+                $stmt->bindParam("time", $ti);
+                $stmt->bindParam("newT", $ti);
                 $stmt->bindParam("date", date('Y-m-d'));
 
 
