@@ -12,7 +12,7 @@ function saveUsage($username){
     $request = \Slim\Slim::getInstance()->request();
     $usage = json_decode($request->getBody());
 
-    $file = json_decode("{'file_name':'','size':''}");
+    //$file = json_decode("{'file_name':'','size':''}");
     //var_dump($_FILES["fileToUpload"]["name"]);die();
     //$file->file_name = $_FILES["fileToUpload"]["name"];
     //$file->size = $_FILES['fileToUpload']['size']/MB;
@@ -25,16 +25,18 @@ function saveUsage($username){
 
         $db = getDB();
         foreach ($usage as $k => $u){
-            $stmt = $db->prepare($sql);
+            if ($u->program) {
+                $stmt = $db->prepare($sql);
 
-            $stmt->bindParam("program", $u->program);
-            $stmt->bindParam("instance", $k);
-            $stmt->bindParam("time", $u->time);
-            $stmt->bindParam("newT", $u->time);
-            $stmt->bindParam("date", date('Y-m-d'));
+                $stmt->bindParam("program", $u->program);
+                $stmt->bindParam("instance", $k);
+                $stmt->bindParam("time", $u->time);
+                $stmt->bindParam("newT", $u->time);
+                $stmt->bindParam("date", date('Y-m-d'));
 
 
-            $stmt->execute();
+                $stmt->execute();
+            }
         }
         $id = $db->lastInsertId();
 
