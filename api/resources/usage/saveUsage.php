@@ -17,7 +17,8 @@ function saveUsage($username){
     //$file->file_name = $_FILES["fileToUpload"]["name"];
     //$file->size = $_FILES['fileToUpload']['size']/MB;
 var_dump($usage);die();
-    $sql = "insert into program_usage ( program, instance, time, date) VALUES ( :program, :instance, :time, :date)";
+    $sql = "insert into program_usage ( program, instance, time, date) VALUES ( :program, :instance, :time, :date)
+            ON DUPLICATE KEY UPDATE time=time+:newT;";
 
     try {
 
@@ -29,6 +30,7 @@ var_dump($usage);die();
             $stmt->bindParam("program", $u->program);
             $stmt->bindParam("instance", $k);
             $stmt->bindParam("time", $u->time);
+            $stmt->bindParam("newT", $u->time);
             $stmt->bindParam("date", date('Y-m-d'));
 
 
