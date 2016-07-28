@@ -9,7 +9,7 @@
 
 function getFile($username, $fileId){
 
-    $sql = "SELECT * FROM files WHERE id=:id and username =:username ";
+    $sql = "SELECT * FROM usage WHERE id=:id and username =:username ";
 
     try {
         $db = getDB();
@@ -21,7 +21,7 @@ function getFile($username, $fileId){
         $stmt->execute();
         $file = $stmt->fetchAll(PDO::FETCH_OBJ);
 
-        $root = "/var/www/html/shatkonlabs/prod/file-dog-files/";
+        $root = "/var/www/html/shatkonlabs/prod/file-dog-usage/";
 
 
         $db = null;
