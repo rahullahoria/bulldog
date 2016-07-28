@@ -16,7 +16,7 @@ function saveUsage($username){
     //var_dump($_FILES["fileToUpload"]["name"]);die();
     //$file->file_name = $_FILES["fileToUpload"]["name"];
     //$file->size = $_FILES['fileToUpload']['size']/MB;
-
+var_dump($usage);die();
     $sql = "insert into program_usage ( program, instance, time, date) VALUES ( :program, :instance, :time, :date)";
 
     try {
