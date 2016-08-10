@@ -9,11 +9,11 @@
 //SELECT `user_id`,`date`,sum(time)/60/60 FROM `program_usage` WHERE 1 group by `user_id`,`date
 
 $db_handle = mysqli_connect("localhost","root","redhat@11111p","bulldog");
-$result = mysqli_query($db_handle,"SELECT `user_id`,`date`,sum(time)/60/60 as time FROM `program_usage` WHERE user_id=5 group by `user_id`,`date`;");
+$result = mysqli_query($db_handle,"SELECT `user_id`,`date`,sum(time) as time FROM `program_usage` WHERE user_id=5 group by `user_id`,`date`;");
 $strData = "";
 while($row = mysqli_fetch_assoc($result)){
 
-    $strData .= "date: " .$row['date'] . " user_id: " . $row['user_id'] . " time in hrs: " . $row['time'] . "<br/>"  ;
+    $strData .= "date: " .$row['date'] . " user_id: " . $row['user_id'] . " time in hrs: " . gmdate("H:i:s", $row['time']) . "<br/>"  ;
 
 
 }
