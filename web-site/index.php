@@ -13,7 +13,7 @@ $result = mysqli_query($db_handle,"SELECT `user_id`,`date`,sum(time)/60/60 as ti
 $strData = "";
 while($row = mysqli_fetch_assoc($result)){
 
-    $strData .= "date: " .$row['date'] . " user_id: " . $row['user_id'] . " time in hrs: " . $row['time']  ;
+    $strData .= "date: " .$row['date'] . " user_id: " . $row['user_id'] . " time in hrs: " . $row['time'] . "<br/>"  ;
 
 
 }
@@ -21,9 +21,9 @@ while($row = mysqli_fetch_assoc($result)){
 mysqli_close($db_handle);
 ?>
 <div style="text-align: center;">
-    <img class="raleway-logo" src="http://shatkonlabs.com/images/logo.png">
+    <img class="raleway-logo" src="http://shatkonlabs.com/images/logo.png" height="70px">
     <h1>Shatkon Labs Pvt. Ltd.</h1>
-    <img class="raleway-logo" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Clyde_The_Bulldog.jpg">
+    <img class="raleway-logo" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Clyde_The_Bulldog.jpg" height="100px">
     <h2>Bulldog</h2>
     <?= $strData ?>
     <h4><i> if you have any problem contact at rahul@shatkonlabs.com or Call at 9599075955 </i></h4>
