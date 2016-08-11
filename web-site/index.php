@@ -18,7 +18,7 @@ while($row = mysqli_fetch_assoc($result)){
     $strData .= "date: " .$row['date'] . " user_id: " . $row['user_id'] . " time in hrs: " . gmdate("H:i:s", $row['time']) . "<br/>"  ;
 
     $labels .= "\"".$row['date']."\",";
-    $workingHrs .=  "\"".gmdate("H:i:s", $row['time'])."\",";
+    $workingHrs .=  "\"".gmdate("H", $row['time'])."\",";
 
 }
 $labels = rtrim($labels, ",");
