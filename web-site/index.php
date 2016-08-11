@@ -43,6 +43,14 @@ mysqli_close($db_handle);
     <img class="raleway-logo" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Clyde_The_Bulldog.jpg" height="100px">
     <h2>Bulldog</h2>
     <?= $strData ?>
+
+    <div class="container">
+        <h2>Graph</h2>
+        <div>
+            <canvas id="canvas"></canvas>
+        </div>
+    </div>
+
     <h4><i> if you have any problem contact at rahul@shatkonlabs.com or Call at 9599075955 </i></h4>
 </div>
 
