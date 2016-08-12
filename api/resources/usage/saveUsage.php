@@ -42,7 +42,7 @@ function saveUsage($username){
 
                 $stmt->execute();
                 $id = $db->lastInsertId();
-                foreach ($u->program->files as $k1 => $u1){
+                foreach ($u->files as $k1 => $u1){
 
                     $stmt = $db->prepare($sql2);
 
