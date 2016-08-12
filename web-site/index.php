@@ -28,15 +28,14 @@ while($row = mysqli_fetch_assoc($result)){
     $expectedHrs .= "\"8\",";
     $fun .= "\"".rand(0,4)."\",";
     $workingDays++;
-    if($workingDays == 1) $first = $row['date'];
+    $last = $row['date'];
 
 }
 
-echo $row['date']. " " . $first. "<br/>";
 
 
 
-$totalDays = floor(abs(strtotime($row['date']."") - strtotime($first.""))/(60*60*24));
+$totalDays = floor(abs(strtotime($last."") - strtotime($first.""))/(60*60*24));
 
 $labels = rtrim($labels, ",");
 $workingHrs = rtrim($workingHrs, ",");
