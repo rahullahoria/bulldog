@@ -192,7 +192,7 @@ mysqli_close($db_handle);
         ]
     };
 
-   /* Chart.defaults.global = {
+    Chart.defaults.global = {
         // Boolean - Whether to animate the chart
         animation: true,
 
@@ -322,9 +322,9 @@ mysqli_close($db_handle);
 
         // Function - Will fire on animation completion.
         onAnimationComplete: function(){}
-    };*/
+    };
 
-   // Chart.defaults.global.responsive = true;
+    Chart.defaults.global.responsive = true;
 
 
 
