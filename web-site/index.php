@@ -61,8 +61,7 @@ mysqli_close($db_handle);
 </div>
 
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.0/Chart.min.js'></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.0/Chart.bundle.min.js"></script>
 
 
 <script>
