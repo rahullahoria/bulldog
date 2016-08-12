@@ -192,7 +192,7 @@ mysqli_close($db_handle);
         ]
     };
 
-    Chart.defaults.global = {
+   /* Chart.defaults.global = {
         // Boolean - Whether to animate the chart
         animation: true,
 
@@ -322,9 +322,9 @@ mysqli_close($db_handle);
 
         // Function - Will fire on animation completion.
         onAnimationComplete: function(){}
-    };
+    };*/
 
-    Chart.defaults.global.responsive = true;
+   // Chart.defaults.global.responsive = true;
 
 
 
@@ -393,9 +393,12 @@ mysqli_close($db_handle);
     };
 
 
-
     var ctx = document.getElementById("canvas").getContext("2d");
-    var myLineChart = new Chart(ctx).Line(data, options);
+    new Chart(ctx, {type:'line', data, options});
+
+
+
+    //var myLineChart = new Chart(ctx).Line(data, options);
 
 
 
