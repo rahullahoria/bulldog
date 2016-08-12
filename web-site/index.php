@@ -29,10 +29,11 @@ while($row = mysqli_fetch_assoc($result)){
 
 }
 
+echo $row['date']. " " . $first. "<br/>";
 
 
 
-$totalDays = floor(abs(strtotime($row['date']."") - strtotime($first.""))/(3600*24));
+$totalDays = floor(abs(strtotime($row['date']."") - strtotime($first.""))/(60*60*24));
 
 $labels = rtrim($labels, ",");
 $workingHrs = rtrim($workingHrs, ",");
