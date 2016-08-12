@@ -72,32 +72,18 @@ mysqli_close($db_handle);
             {
                 label: "Expected working hours",
                 backgroundColor: "rgba(0,220,0,0.2)",
-                strokeColor: "rgba(0,220,0,1)",
-                pointColor: "rgba(0,220,0,1)",
-                pointStrokeColor: "#fff",
-                pointHighlightFill: "#fff",
-                pointHighlightStroke: "rgba(0,220,0,1)",
+
 
                 data: [<?= $expectedHrs ?>]
             },
             {
                 label: "Fun Time",
-                fillColor: "rgba(151,0,0,0.2)",
-                strokeColor: "rgba(151,0,0,1)",
-                pointColor: "rgba(151,0,0,1)",
-                pointStrokeColor: "#fff",
-                pointHighlightFill: "#fff",
-                pointHighlightStroke: "rgba(151,187,205,1)",
+                backgroundColor: "rgba(151,0,0,0.2)",
                 data: [<?= $fun ?>]
             },
             {
                 label: "Working Hours",
-                fillColor: "rgba(151,187,0,0.2)",
-                strokeColor: "rgba(151,187,0,1)",
-                pointColor: "rgba(151,187,0,1)",
-                pointStrokeColor: "#fff",
-                pointHighlightFill: "#fff",
-                pointHighlightStroke: "rgba(151,187,0,1)",
+                backgroundColor: "rgba(151,187,0,0.2)",
                 data: [<?= $workingHrs ?>]
             }/*,
             {
