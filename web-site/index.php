@@ -70,7 +70,7 @@ mysqli_close($db_handle);
         labels: [<?= $labels ?>],
         datasets: [
             {
-                label: "My First dataset",
+                label: "Expected working hours",
                 fillColor: "rgba(0,220,0,0.2)",
                 strokeColor: "rgba(0,220,0,1)",
                 pointColor: "rgba(0,220,0,1)",
@@ -80,7 +80,7 @@ mysqli_close($db_handle);
                 data: [<?= $expectedHrs ?>]
             },
             {
-                label: "My Second dataset",
+                label: "Fun Time",
                 fillColor: "rgba(151,0,0,0.2)",
                 strokeColor: "rgba(151,0,0,1)",
                 pointColor: "rgba(151,0,0,1)",
@@ -90,7 +90,7 @@ mysqli_close($db_handle);
                 data: [<?= $fun ?>]
             },
             {
-                label: "My Second dataset",
+                label: "Working Hours",
                 fillColor: "rgba(151,187,0,0.2)",
                 strokeColor: "rgba(151,187,0,1)",
                 pointColor: "rgba(151,187,0,1)",
