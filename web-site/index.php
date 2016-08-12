@@ -30,7 +30,7 @@ while($row = mysqli_fetch_assoc($result)){
 }
 
 
-$totalDays=date_diff(date_create($first),date_create($row['date']));
+$totalDays=date_diff($first,$row['date']);
 
 $labels = rtrim($labels, ",");
 $workingHrs = rtrim($workingHrs, ",");
