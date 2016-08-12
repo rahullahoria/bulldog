@@ -13,16 +13,19 @@ $result = mysqli_query($db_handle,"SELECT `user_id`,`date`,sum(time) as time FRO
 $strData = "";
 $labels = "";
 $workingHrs = "";
+$expectedHrs = "";
 while($row = mysqli_fetch_assoc($result)){
 
     $strData .= "date: " .$row['date'] . " user_id: " . $row['user_id'] . " time in hrs: " . gmdate("H:i:s", $row['time']) . "<br/>"  ;
 
     $labels .= "\"".$row['date']."\",";
-    $workingHrs .=  "\"".gmdate("H", $row['time'])."\",";
+    $workingHrs .=  "\"".gmdate("H.i", $row['time'])."\",";
+    $expectedHrs .= "\"8\",";
 
 }
 $labels = rtrim($labels, ",");
 $workingHrs = rtrim($workingHrs, ",");
+$expectedHrs = rtrim($expectedHrs, ",");
 
 mysqli_close($db_handle);
 ?>
@@ -66,24 +69,24 @@ mysqli_close($db_handle);
         datasets: [
             {
                 label: "My First dataset",
-                fillColor: "rgba(220,220,220,0.2)",
-                strokeColor: "rgba(220,220,220,1)",
-                pointColor: "rgba(220,220,220,1)",
+                fillColor: "rgba(0,220,0,0.2)",
+                strokeColor: "rgba(0,220,0,1)",
+                pointColor: "rgba(0,220,0,1)",
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(220,220,220,1)",
                 data: [<?= $workingHrs ?>]
-            }/*,
+            },
             {
                 label: "My Second dataset",
-                fillColor: "rgba(151,187,205,0.2)",
-                strokeColor: "rgba(151,187,205,1)",
-                pointColor: "rgba(151,187,205,1)",
+                fillColor: "rgba(151,0,0,0.2)",
+                strokeColor: "rgba(151,0,0,1)",
+                pointColor: "rgba(151,0,0,1)",
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(151,187,205,1)",
-                data: [28, 48, 40, 19, 86, 27, 90]
-            },
+                data: [<?= $expectedHrs ?>]
+            }/*,
             {
                 label: "My Second dataset",
                 fillColor: "rgba(151,187,205,0.2)",
