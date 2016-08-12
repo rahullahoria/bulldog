@@ -16,7 +16,10 @@ $workingHrs = "";
 $expectedHrs = "";
 $fun = "";
 $workingDays = 0;
+$first = null;
 while($row = mysqli_fetch_assoc($result)){
+
+    if($workingDays == 0) $first = $row['date'];
 
     $strData .= "date: " .$row['date'] . " user_id: " . $row['user_id'] . " time in hrs: " . gmdate("H:i:s", $row['time']) . "<br/>"  ;
 
