@@ -20,6 +20,9 @@ function saveUsage($username){
     $sql = "insert into program_usage ( program, instance, time, date, user_id) VALUES ( :program, :instance, :time, :date, :user_id)
             ON DUPLICATE KEY UPDATE time=time+:newT;";
 
+    $sql2 = "insert into files ( file_name, program_usage_id, time) VALUES ( :file_name, :program_usage_id, :time)
+            ON DUPLICATE KEY UPDATE time=time+:newT;";
+
     try {
 
 
@@ -38,6 +41,18 @@ function saveUsage($username){
 
 
                 $stmt->execute();
+                $id = $db->lastInsertId();
+                foreach ($u->program->files as $k1 => $u1){
+
+                    $stmt = $db->prepare($sql2);
+
+                    $stmt->bindParam("program_usage_id", $id);
+                    $stmt->bindParam("file_name", $u);
+                    $stmt->bindParam("time", $u1);
+                    $stmt->bindParam("newT", $u1);
+
+                    $stmt->execute();
+                }
             }
         }
         $id = $db->lastInsertId();
