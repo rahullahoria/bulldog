@@ -62,9 +62,9 @@ while ($row = mysqli_fetch_assoc($result)) {
     $fun = rand(intval($row['time']/4),intval($row['time']/2));
     $emp .= "<tr>
                 <td>".$row['name']."</td>
-                <td>".gmdate("H:i", $row['time'])."</td>
-                <td>".gmdate("H:i", $fun)."</td>
-                <td>".gmdate("H:i", $row['time'] - $fun)."</td>
+                <td>". intval($row['time']/60/60)."</td>
+                <td>".intval($fun/60/60) ."</td>
+                <td>".intval(date("d")*7)."</td>
              </tr>";
 
 }
