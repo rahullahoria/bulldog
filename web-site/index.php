@@ -71,12 +71,13 @@ mysqli_close($db_handle);
         datasets: [
             {
                 label: "Expected working hours",
-                fillColor: "rgba(0,220,0,0.2)",
+                backgroundColor: "rgba(0,220,0,0.2)",
                 strokeColor: "rgba(0,220,0,1)",
                 pointColor: "rgba(0,220,0,1)",
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(0,220,0,1)",
+
                 data: [<?= $expectedHrs ?>]
             },
             {
@@ -192,7 +193,7 @@ mysqli_close($db_handle);
         ]
     };
 
-    Chart.defaults.global = {
+   /* Chart.defaults.global = {
         // Boolean - Whether to animate the chart
         animation: true,
 
@@ -322,9 +323,9 @@ mysqli_close($db_handle);
 
         // Function - Will fire on animation completion.
         onAnimationComplete: function(){}
-    };
+    };*/
 
-    Chart.defaults.global.responsive = true;
+   // Chart.defaults.global.responsive = true;
 
 
 
