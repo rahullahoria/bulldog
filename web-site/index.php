@@ -14,6 +14,7 @@ $strData = "";
 $labels = "";
 $workingHrs = "";
 $expectedHrs = "";
+$fun = "";
 while($row = mysqli_fetch_assoc($result)){
 
     $strData .= "date: " .$row['date'] . " user_id: " . $row['user_id'] . " time in hrs: " . gmdate("H:i:s", $row['time']) . "<br/>"  ;
@@ -21,11 +22,13 @@ while($row = mysqli_fetch_assoc($result)){
     $labels .= "\"".$row['date']."\",";
     $workingHrs .=  "\"".gmdate("H.i", $row['time'])."\",";
     $expectedHrs .= "\"8\",";
+    $fun .= "\".rand(0,4).\",";
 
 }
 $labels = rtrim($labels, ",");
 $workingHrs = rtrim($workingHrs, ",");
 $expectedHrs = rtrim($expectedHrs, ",");
+$fun = rtrim($fun, ",");
 
 mysqli_close($db_handle);
 ?>
@@ -74,8 +77,8 @@ mysqli_close($db_handle);
                 pointColor: "rgba(0,220,0,1)",
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
-                pointHighlightStroke: "rgba(220,220,220,1)",
-                data: [<?= $workingHrs ?>]
+                pointHighlightStroke: "rgba(0,220,0,1)",
+                data: [<?= $expectedHrs ?>]
             },
             {
                 label: "My Second dataset",
@@ -85,18 +88,18 @@ mysqli_close($db_handle);
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(151,187,205,1)",
-                data: [<?= $expectedHrs ?>]
-            }/*,
+                data: [<?= $fun ?>]
+            },
             {
                 label: "My Second dataset",
-                fillColor: "rgba(151,187,205,0.2)",
-                strokeColor: "rgba(151,187,205,1)",
-                pointColor: "rgba(151,187,205,1)",
+                fillColor: "rgba(151,187,0,0.2)",
+                strokeColor: "rgba(151,187,0,1)",
+                pointColor: "rgba(151,187,0,1)",
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
-                pointHighlightStroke: "rgba(151,187,205,1)",
-                data: [28, 48, 40, 19, 86, 27, 90]
-            },
+                pointHighlightStroke: "rgba(151,187,0,1)",
+                data: [<?= $workingHrs ?>]
+            }/*,
             {
                 label: "My Second dataset",
                 fillColor: "rgba(151,187,205,0.2)",
