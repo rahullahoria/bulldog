@@ -47,7 +47,7 @@ function saveUsage($username){
                     $stmt = $db->prepare($sql2);
 
                     $stmt->bindParam("program_usage_id", $id);
-                    $stmt->bindParam("file_name", $u);
+                    $stmt->bindParam("file_name", $k1);
                     $stmt->bindParam("time", $u1);
                     $stmt->bindParam("newT", $u1);
 
