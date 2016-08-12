@@ -22,7 +22,7 @@ while($row = mysqli_fetch_assoc($result)){
     $labels .= "\"".$row['date']."\",";
     $workingHrs .=  "\"".gmdate("H.i", $row['time'])."\",";
     $expectedHrs .= "\"8\",";
-    $fun .= "\".rand(0,4).\",";
+    $fun .= "\"".rand(0,4)."\",";
 
 }
 $labels = rtrim($labels, ",");
