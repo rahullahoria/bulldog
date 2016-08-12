@@ -331,6 +331,21 @@ mysqli_close($db_handle);
 
     var options = {
 
+        scales: {
+            xAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Date'
+                }
+            }],
+            yAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Hours'
+                }
+            }]
+        },
+
         ///Boolean - Whether grid lines are shown across the chart
         scaleShowGridLines : true,
 
