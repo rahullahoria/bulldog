@@ -87,9 +87,10 @@ mysqli_close($db_handle);
 <body>
 <div style="text-align: center;">
     <img class="raleway-logo" src="http://shatkonlabs.com/images/logo.png" height="70px">
-    <h1>Shatkon Labs Pvt. Ltd.</h1>
     <img class="raleway-logo" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Clyde_The_Bulldog.jpg"
          height="100px">
+    <h3>Shatkon Labs Pvt. Ltd.</h3>
+
     <h2>Bulldog</h2>
     <table id="example">
         <thead>
