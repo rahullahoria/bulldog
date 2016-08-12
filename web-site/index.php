@@ -32,7 +32,7 @@ while($row = mysqli_fetch_assoc($result)){
 
 
 
-$totalDays = abs(strtotime($row['date']."") - strtotime($first.""));
+$totalDays = floor(abs(strtotime($row['date']."") - strtotime($first.""))/(3600*24));
 
 $labels = rtrim($labels, ",");
 $workingHrs = rtrim($workingHrs, ",");
