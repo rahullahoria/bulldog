@@ -34,7 +34,7 @@ if (isset($userId)) {
         $labels .= "\"" . $row['date'] . "\",";
         $workingHrs .= "\"" . gmdate("H.i", $row['time']) . "\",";
         $expectedHrs .= "\"8\",";
-        $fun .= "\"" . rand(0, 4) . "\",";
+        $fun .= "\"" . rand(1, 4) . "\",";
         $workingDays++;
         $last = $row['date'];
 
