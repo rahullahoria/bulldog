@@ -60,7 +60,7 @@ function saveUsage($username){
 
         $db = null;
 
-        echo '{"file": { "id":"' . $id . '"}}';
+        echo '{"usage": '.json_encode($usage).'}';
 
 
     } catch (PDOException $e) {
