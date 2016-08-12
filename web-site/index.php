@@ -78,12 +78,12 @@ mysqli_close($db_handle);
             },
             {
                 label: "Fun Time",
-                backgroundColor: "rgba(151,0,0,0.2)",
+                backgroundColor: "rgba(151,0,0,0.8)",
                 data: [<?= $fun ?>]
             },
             {
                 label: "Working Hours",
-                backgroundColor: "rgba(151,187,0,0.2)",
+                backgroundColor: "rgba(151,187,0,0.4)",
                 data: [<?= $workingHrs ?>]
             }/*,
             {
