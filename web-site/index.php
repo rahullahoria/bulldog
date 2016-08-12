@@ -61,10 +61,11 @@ while ($row = mysqli_fetch_assoc($result)) {
 
     $fun = rand(intval($row['time']/4),intval($row['time']/2));
     $emp .= "<tr>
-                <td>".$row['name']."</td>
+                <td><a href='?user_id=".$row['user_id']."'> ".$row['name']."</a></td>
                 <td>". intval($row['time']/60/60)."</td>
                 <td>".intval($fun/60/60) ."</td>
-                <td>".intval(date("d")*7)."</td>
+                <td>".intval(date("d")*6.85)."</td>
+                <td>".intval((($row['time']/60/60)/(date("d")*6.85))*100)."%</td>
              </tr>";
 
 }
@@ -97,6 +98,7 @@ mysqli_close($db_handle);
             <th>Total Work in Hrs</th>
             <th>Total Fun in Hrs</th>
             <th>Expected Working Hrs</th>
+            <th>Efficiency</th>
         </tr>
         </thead>
         <tbody>
