@@ -15,6 +15,7 @@ $labels = "";
 $workingHrs = "";
 $expectedHrs = "";
 $fun = "";
+$workingDays = 0;
 while($row = mysqli_fetch_assoc($result)){
 
     $strData .= "date: " .$row['date'] . " user_id: " . $row['user_id'] . " time in hrs: " . gmdate("H:i:s", $row['time']) . "<br/>"  ;
@@ -23,8 +24,14 @@ while($row = mysqli_fetch_assoc($result)){
     $workingHrs .=  "\"".gmdate("H.i", $row['time'])."\",";
     $expectedHrs .= "\"8\",";
     $fun .= "\"".rand(0,4)."\",";
+    $workingDays++;
+    if($workingDays == 1) $first = $row['date'];
 
 }
+
+
+$totalDays=date_diff(date_create($first),date_create($row['date']));
+
 $labels = rtrim($labels, ",");
 $workingHrs = rtrim($workingHrs, ",");
 $expectedHrs = rtrim($expectedHrs, ",");
@@ -51,9 +58,16 @@ mysqli_close($db_handle);
     <?= $strData ?>
 
     <div class="container">
-        <h2>Graph</h2>
-        <div>
-            <canvas id="canvas"></canvas>
+        <div class="row">
+            <div class="col-md-10">
+            <h2>Graph</h2>
+            <div>
+                <canvas id="canvas"></canvas>
+            </div>
+            </div>
+            <div class="col-md-2">
+                ReportFor = <?= $workingDays ?>/<?= $totalDays ?>
+            </div>
         </div>
     </div>
 
