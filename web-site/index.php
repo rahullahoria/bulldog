@@ -31,8 +31,6 @@ if (isset($userId)) {
 
         if ($workingDays == 0) $first = $row['date'];
 
-        $strData .= "date: " . $row['date'] . " user_id: " . $row['user_id'] . " time in hrs: " . gmdate("H:i:s", $row['time']) . "<br/>";
-
         $labels .= "\"" . $row['date'] . "\",";
         $workingHrs .= "\"" . gmdate("H.i", $row['time']) . "\",";
         $expectedHrs .= "\"8\",";
@@ -50,6 +48,27 @@ if (isset($userId)) {
     $expectedHrs = rtrim($expectedHrs, ",");
     $fun = rtrim($fun, ",");
 }
+
+$sql = "SELECT `user_id` ,u.name, sum( time ) AS time
+            FROM `program_usage` as p inner join users as u
+            WHERE p.`user_id` = u.id
+            GROUP BY `user_id` ";
+
+$result = mysqli_query($db_handle, $sql);
+
+$emp = "";
+while ($row = mysqli_fetch_assoc($result)) {
+
+    $fun = rand(intval($row['time']/4),intval($row['time']/2));
+    $emp .= "<tr>
+                <td>".$row['name']."</td>
+                <td>".gmdate("H:i", $row['time'])."</td>
+                <td>".gmdate("H:i", $fun)."</td>
+                <td>".gmdate("H:i", $row['time'] - $fun)."</td>
+             </tr>";
+
+}
+
 mysqli_close($db_handle);
 ?>
 <!DOCTYPE html>
@@ -59,6 +78,8 @@ mysqli_close($db_handle);
     <title>BullDog</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
+
 
 </head>
 
@@ -69,7 +90,19 @@ mysqli_close($db_handle);
     <img class="raleway-logo" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Clyde_The_Bulldog.jpg"
          height="100px">
     <h2>Bulldog</h2>
-    <?= $strData ?>
+    <table id="example">
+        <thead>
+        <tr>
+            <th>Username</th>
+            <th>Total Work in Hrs</th>
+            <th>Total Fun in Hrs</th>
+            <th>Expected Working Hrs</th>
+        </tr>
+        </thead>
+        <tbody>
+        <?= $emp ?>
+        </tbody>
+    </table>
 
     <div class="row">
         <div class="col-md-10">
@@ -89,6 +122,13 @@ mysqli_close($db_handle);
     <h4><i> if you have any problem contact at rahul@shatkonlabs.com or Call at 9599075955 </i></h4>
 </div>
 
+<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+<script>
+    $(function(){
+        $("#example").dataTable();
+    })
+</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.0/Chart.bundle.min.js"></script>
 
