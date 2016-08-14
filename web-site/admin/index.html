@@ -8,13 +8,20 @@
     <meta name="author" content="Rahul Lahoria">
     
     <title>NCY with Bulldog</title>
-    <!-- <title>AngularJS User Registration and Login Example</title> -->
-    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" /> -->
+
         <!-- Bootstrap Core CSS -->
     <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
     <link href="./bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <link href="./dist/css/timeline.css" rel="stylesheet">
+
+
+
+    <!-- Morris Charts CSS -->
+    <link href="./bower_components/morrisjs/morris.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="./dist/css/sb-admin-2.css" rel="stylesheet">
@@ -23,18 +30,25 @@
     <link href="./bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     
     <link href="app-content/app.css" rel="stylesheet" />
+
+
+
+
+
+
 </head>
 <body>
 
-    <div class="jumbotron" style="padding-top: 0px;">
+
         <div class="container">
             <div class="col-sm-8 col-sm-offset-2">
                 <div ng-class="{ 'alert': flash, 'alert-success': flash.type === 'success', 'alert-danger': flash.type === 'error' }" ng-if="flash" ng-bind="flash.message"></div>
 
             </div>
-            <div ng-view></div>
+
         </div>
-    </div>
+        <div ng-view></div>
+
 
 
 <!--    <script src="//code.jquery.com/jquery-2.0.3.min.js"></script> -->
@@ -48,17 +62,39 @@
     <!-- Metis Menu Plugin JavaScript -->
     <script src="./bower_components/metisMenu/dist/metisMenu.min.js"></script>
 
+
+
+
+
+    <!-- Morris Charts JavaScript -->
+    <!--<script src="./bower_components/raphael/raphael-min.js"></script>
+    <script src="./bower_components/morrisjs/morris.min.js"></script>
+    <script src="./js/morris-data.js"></script>-->
+
     <!-- Custom Theme JavaScript -->
     <script src="./dist/js/sb-admin-2.js"></script>
+
+
     
     
-    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
+    <!--<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
 
 
     <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.js"></script>
     <script src="//code.angularjs.org/1.2.20/angular.js"></script>
     <script src="//code.angularjs.org/1.2.20/angular-route.js"></script>
-    <script src="//code.angularjs.org/1.2.13/angular-cookies.js"></script>
+    <script src="//code.angularjs.org/1.2.13/angular-cookies.js"></script>-->
+
+    <link rel="stylesheet" type="text/css" href="./bower_components/datatables/media/css/jquery.dataTables.css">
+
+
+    <script type="text/javascript" charset="utf8" src="./bower_components/datatables/media/js/jquery.dataTables.js"></script>
+
+    <script src="./js/angular.js"></script>
+
+    <script src="./js/angular-route.js"></script>
+    <script src="./js/angular-cookies.js"></script>
+
 
 
 
@@ -78,6 +114,7 @@
    <!--  <script src="app-services/user.service.local-storage.js"></script> -->
 
     <script src="home/home.controller.js"></script>
+    <script src="manager/manager.controller.js"></script>
     <script src="login/login.controller.js"></script>
     <script src="register/register.controller.js"></script>
     <script src="index/index.controller.js"></script>

@@ -35,6 +35,13 @@
                 
             })
 
+            .when('/manager', {
+                controller: 'ManagerController',
+                templateUrl: 'manager/manager.view.html',
+                controllerAs: 'vm'
+
+            })
+
             .when('/home/:mobile', {
                 controller: 'HomeController',
                 templateUrl: 'home/home.view.html',
