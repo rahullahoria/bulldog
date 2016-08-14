@@ -7,15 +7,58 @@
  */
 
 //SELECT `user_id`,`date`,sum(time)/60/60 FROM `program_usage` WHERE 1 group by `user_id`,`date
+function getUser($user_id){
+    $db_handle = mysqli_connect("localhost", "root", "redhat@11111p", "bulldog");
+    $result = mysqli_query($db_handle,"select * from users where id = $user_id;");
+
+    $user = mysqli_fetch_assoc($result);
+
+    mysqli_close($db_handle);
+
+    return $user;
+
+}
+
+function getUserProfileInstance($user,$type){
+    $db_handle = mysqli_connect("localhost", "root", "redhat@11111p", "bulldog");
+    $result = mysqli_query($db_handle,"select * from p_i_map as pi INNER JOIN p_i as i  where pi.pro_inst_id = p.id AND  profession_id =". $user['profession_id'].";");
+
+    $emp = "";
+    while ($row = mysqli_fetch_assoc($result)) {
+
+        $tFun = rand(intval($row['time']/4),intval($row['time']/2));
+        $emp .= "<tr>
+                <td><a href='?user_id=".$row['user_id']."'> ".$row['name']."</a></td>
+                <td>". intval($row['time']/60/60)."</td>
+                <td>".intval($tFun/60/60) ."</td>
+                <td>".intval(date("d")*6.85)."</td>
+                <td>".intval((($row['time']/60/60)/(date("d")*6.85))*100)."%</td>
+             </tr>";
+
+    }
+
+
+    mysqli_close($db_handle);
+
+    return $emp;
+
+
+
+}
 
 
 $db_handle = mysqli_connect("localhost", "root", "redhat@11111p", "bulldog");
 if($_GET[user_id]){
     //here auth should be checked first
     $userId = $_GET[user_id];
+
 }
 
 if (isset($userId)) {
+
+    $user = getUser($userId);
+
+    $htmlProfileInstance = getUserProfileInstance($user,'white');
 
     $result = mysqli_query($db_handle, "SELECT `user_id`,`date`,sum(time) as time FROM `program_usage` WHERE user_id="
         . $userId
