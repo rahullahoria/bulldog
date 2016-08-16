@@ -26,7 +26,7 @@
 
         function GetAll(society_id) {
             return $http
-                        .get('http://api.bluenet.blueteam.in/workers/society?society_id=1')
+                        .get('http://api.bulldog.shatkonlabs.com/companies/:company_id/managers/:manager_id/employees')
                         .then(handleSuccess, handleError('Error getting all users'));
         }
 
