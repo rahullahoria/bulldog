@@ -15,6 +15,7 @@
 
         service.GetAll = GetAll;
         service.GetById = GetById;
+        service.GetByManagerEmployeeId = GetByManagerEmployeeId;
         service.GetByUsername = GetByUsername;
         service.Create = Create;
         service.Update = Update;
@@ -55,6 +56,10 @@
 
         function GetById(id) {
             return $http.get('/api/users/' + id).then(handleSuccess, handleError('Error getting user by id'));
+        }
+
+        function GetByManagerEmployeeId(id) {
+            return $http.get('http://api.bulldog.shatkonlabs.com/companies/:company_id/managers/:manager_id/employees/' + id).then(handleSuccess, handleError('Error getting user by id'));
         }
 
         function GetByUsername(username) {

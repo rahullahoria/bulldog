@@ -24,6 +24,8 @@ $app->post('/usage/:username', 'saveUsage');
 
 $app->get('/companies/:company_id/managers/:manager_id/employees','getManagerEmployees');
 
+$app->get('/companies/:company_id/managers/:manager_id/employees/:employee','getEmployee');
+
 //$app->post('/login','login');
 /* Ending Routes */
 

@@ -5,9 +5,11 @@
         .module('app')
         .controller('EmployeeController', EmployeeController);
 
-    EmployeeController.$inject = ['UserService',  'CandidateService', '$rootScope', 'FlashService'];
-    function EmployeeController(UserService, CandidateService,  $rootScope, FlashService) {
+    EmployeeController.$inject = ['UserService',  'CandidateService', '$rootScope','$routeParams', 'FlashService'];
+    function EmployeeController(UserService, CandidateService,  $rootScope, $routeParams, FlashService) {
         var vm = this;
+
+        console.log($routeParams.emp);
 
         vm.user = null;
         vm.inUser = null;
@@ -21,14 +23,17 @@
           //  loadCurrentUser();
            // loadAllUsers();
 
-            //loadUser();
-            loadToCallCandidates();
+            loadUser($routeParams.emp);
+            //loadToCallCandidates();
 
         }
 
-        function loadUser(){
-            vm.inUser = UserService.GetInUser();
-            console.log("in user",vm.inUser);
+        function loadUser(emp){
+            CandidateService.GetByManagerEmployeeId(emp)
+                .then(function (response) {
+                    vm.employee = response.employee;
+                    console.log(vm.employee);
+                });
 
 
         }

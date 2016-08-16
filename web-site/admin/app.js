@@ -42,7 +42,7 @@
 
             })
 
-            .when('/employee/:id', {
+            .when('/employee/:emp', {
                 controller: 'EmployeeController',
                 templateUrl: 'employee/employee.view.html',
                 controllerAs: 'vm'
