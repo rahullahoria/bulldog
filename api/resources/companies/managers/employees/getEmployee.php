@@ -8,7 +8,7 @@
 
 function getEmployee($companyId, $managerId, $employee){
 
-    $sql = "SELECT `user_id`,`date`,sum(time) as time FROM `program_usage` WHERE user_id=:employee and MONTH(date) = MONTH(CURDATE()) group by `user_id`,`date`;";
+    $sql = "SELECT `date`,sum(time) as time FROM `program_usage` WHERE user_id=:employee and MONTH(date) = MONTH(CURDATE()) group by `user_id`,`date`;";
 
     try {
         $db = getDB();

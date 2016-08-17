@@ -38,6 +38,70 @@
 
 
         }
+//polarArea
+        function drawPolarAreaChart(eHrs, wHr, fHrs){
+
+            var ctx = document.getElementById("donutchart").getContext("2d");
+            var myChart = new Chart(ctx, {
+                type: 'polarArea',
+                data: {
+                    labels: ["Expected Working Hrs", "Working Hrs", "Fun Hrs"],
+                    datasets: [{
+                        label: 'Polar Area Chart',
+                        data: [eHrs, wHr, fHrs],
+                        backgroundColor: [
+
+                            "#36A2EB",
+                            "#4BC0C0",
+                            "#FF6384",
+                        ]
+                    }]
+                },
+                options: {
+                    elements: {
+                        arc: {
+                            borderColor: "#000000"
+                        }
+                    }
+                }
+            });
+        }
+
+        function drawBarChart(eHrs, wHr, fHrs){
+
+            var ctx = document.getElementById("barchart").getContext("2d");
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ["Expected Working Hrs", "Working Hrs", "Fun Hrs"],
+                    datasets: [{
+                        label: 'Performance Bar Chart',
+                        data: [eHrs, wHr, fHrs],
+                        backgroundColor: [
+
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(255, 99, 132, 0.2)',
+                        ],
+                        borderColor: [
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(255, 99, 132, 1)',
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero:true
+                            }
+                        }]
+                    }
+                }
+            });
+        }
 
         function drawGraph(){
             var labels = [] ;
@@ -45,13 +109,16 @@
             var fun= [];
             var workingHrs = [];
             var totalWork = 0;
+            var totalFun = 0;
             for(var i=0;i< vm.employee.length; i++ ){
                 console.log(vm.employee[i].date);
                 var t = vm.employee[i].date;
                 var date = new Date(t);
                 labels.push(date.getDate());
                 expectedHrs.push(8);
-                fun.push(Math.floor((Math.random() * (vm.employee[i].time/60/60)) + 1));
+                var dayFun =Math.floor((Math.random() * (vm.employee[i].time/60/60)) + 1);
+                totalFun += dayFun;
+                fun.push(dayFun);
                 workingHrs.push(vm.employee[i].time/60/60);
                 totalWork += vm.employee[i].time/60/60;
 
@@ -150,6 +217,9 @@
 
             var ctx = document.getElementById("canvas").getContext("2d");
             new Chart(ctx, {type: 'line', data, options});
+
+            drawBarChart((new Date().getDate()*6.85),totalWork, totalFun);
+            drawPolarAreaChart((new Date().getDate()*6.85),totalWork, totalFun);
 
         }
 

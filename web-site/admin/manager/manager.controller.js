@@ -15,6 +15,16 @@
         vm.deleteUser = deleteUser;
         vm.loadUser = loadUser;
 
+        vm.champs = 0;
+        vm.good = 0;
+        vm.improve = 0;
+        vm.bad = 0;
+
+        vm.successFilter = true;
+        vm.dangerFilter = true;
+        vm.warningFilter = true;
+        vm.primaryFilter = true;
+
         initController();
 
         function initController() {
@@ -26,12 +36,68 @@
 
         }
 
+        vm.logout = function(){
+            vm.inUser = null;
+            $location.path('#/login');
+        };
+
         function loadUser(){
             vm.inUser = UserService.GetInUser();
             console.log("in user",vm.inUser);
 
 
         }
+
+        vm.filterIt = function(status){
+
+            if(status == "all")  {
+
+                vm.successFilter = true;
+                vm.dangerFilter = true;
+                vm.warningFilter = true;
+                vm.primaryFilter = true;
+                return;
+
+            }
+
+            if(status == "success")  {
+
+                vm.successFilter = true;
+                vm.dangerFilter = false;
+                vm.warningFilter = false;
+                vm.primaryFilter = false;
+                return;
+
+            }
+            if(status == "danger")  {
+
+                vm.successFilter = false;
+                vm.dangerFilter = true;
+                vm.warningFilter = false;
+                vm.primaryFilter = false;
+                return;
+
+            }
+            if(status == "warning")  {
+
+                vm.successFilter = false;
+                vm.dangerFilter = false;
+                vm.warningFilter = true;
+                vm.primaryFilter = false;
+                return;
+
+            }
+            if(status == "primary")  {
+
+                vm.successFilter = false;
+                vm.dangerFilter = false;
+                vm.warningFilter = false;
+                vm.primaryFilter = true;
+                return;
+
+            }
+
+        };
 
         vm.loadToCallCandidates = loadToCallCandidates;
 
@@ -66,6 +132,15 @@
             CandidateService.GetAll()
                 .then(function (response) {
                     vm.toCallCandidates = response.employees;
+
+                    for(var i=0;i < vm.toCallCandidates.length ; i++){
+
+                        vm.champs += (vm.getColor(vm.toCallCandidates[i].time) == "primary")?1:0;
+                        vm.good += (vm.getColor(vm.toCallCandidates[i].time) == "success")?1:0;
+                        vm.improve += (vm.getColor(vm.toCallCandidates[i].time) == "warning")?1:0;
+                        vm.bad += (vm.getColor(vm.toCallCandidates[i].time) == "danger")?1:0;
+                    }
+
                     console.log(vm.toCallCandidates[1].name);
                 });
 

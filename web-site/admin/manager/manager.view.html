@@ -21,18 +21,18 @@
                 <ul class="nav" id="side-menu">
 
                     <li>
-                        <a href="#/manager"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        <a href="#/manager" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
 
                     <li>
-                        <a href="tables.html"><i class="fa fa-table fa-fw"></i> My Performance</a>
+                        <a href="#"><i class="fa fa-table fa-fw"></i> My Performance</a>
                     </li>
 
                     <li>
-                        <a href="tables.html"><i class="glyphicon glyphicon-cog fa-fw"></i> Settings</a>
+                        <a href="#"><i class="glyphicon glyphicon-cog fa-fw"></i> Settings</a>
                     </li>
                     <li>
-                        <a href="forms.html"><i class="glyphicon glyphicon-off fa-fw"></i> Logout</a>
+                        <a ng-click="vm.logout()"><i class="glyphicon glyphicon-off fa-fw"></i> Logout</a>
                     </li>
 
                 </ul>
@@ -50,6 +50,7 @@
             &lt;!&ndash; /.col-lg-12 &ndash;&gt;
         </div>-->
         <!-- /.row -->
+        <br/>
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <div class="panel panel-primary">
@@ -59,14 +60,14 @@
                                 <i class="glyphicon glyphicon-king  fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="huge">26</div>
+                                <div class="huge">{{ vm.champs }}</div>
                                 <div>Champions</div>
                             </div>
                         </div>
                     </div>
-                    <a href="#">
+                    <a ng-click="vm.filterIt('primary')">
                         <div class="panel-footer">
-                            <span class="pull-left">View Details</span>
+                            <span class="pull-left">Select</span>
                             <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                             <div class="clearfix"></div>
                         </div>
@@ -81,14 +82,14 @@
                                 <i class="glyphicon glyphicon-knight fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="huge">12</div>
+                                <div class="huge">{{ vm.good }}</div>
                                 <div>Doing Good</div>
                             </div>
                         </div>
                     </div>
-                    <a href="#">
+                    <a ng-click="vm.filterIt('success')">
                         <div class="panel-footer">
-                            <span class="pull-left">View Details</span>
+                            <span class="pull-left">Select</span>
                             <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                             <div class="clearfix"></div>
                         </div>
@@ -103,14 +104,14 @@
                                 <i class="glyphicon glyphicon-bishop fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="huge">124</div>
+                                <div class="huge">{{ vm.improve }}</div>
                                 <div>Need Improvement</div>
                             </div>
                         </div>
                     </div>
-                    <a href="#">
+                    <a ng-click="vm.filterIt('warning')">
                         <div class="panel-footer">
-                            <span class="pull-left">View Details</span>
+                            <span class="pull-left">Select</span>
                             <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                             <div class="clearfix"></div>
                         </div>
@@ -125,20 +126,21 @@
                                 <i class="glyphicon glyphicon-pawn fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="huge">13</div>
+                                <div class="huge">{{ vm.bad }}</div>
                                 <div>Bad Working Hours</div>
                             </div>
                         </div>
                     </div>
-                    <a href="#">
+                    <a ng-click="vm.filterIt('danger')">
                         <div class="panel-footer">
-                            <span class="pull-left">View Details</span>
+                            <span class="pull-left">Select</span>
                             <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                             <div class="clearfix"></div>
                         </div>
                     </a>
                 </div>
             </div>
+            <a ng-click="vm.filterIt('all')">See All</a>
         </div>
         <!-- /.row -->
         <div class="row">
@@ -170,19 +172,19 @@
                     <div class="panel-body">
                         <div class="table-responsive">
 
-                        <table datatable="ng"  class="table table-bordered table-hover table-striped">
+                        <table datatable="ng"  class="table table-bordered table-hover table-striped" style="max-width: 99%;">
                             <thead>
                             <tr>
                                 <th>Username</th>
-                                <th>Total Work in Hrs</th>
-                                <th>Total Fun in Hrs</th>
-                                <th>Expected Working Hrs</th>
+                                <th>#Working Hrs</th>
+                                <th>#Fun Hrs</th>
+                                <th>#Expected Working Hrs</th>
                                 <th>Efficiency</th>
                             </tr>
                             </thead>
                             <tbody>
 
-                            <tr ng-repeat="toCallCandidate in vm.toCallCandidates" class="{{ vm.getColor( toCallCandidate.time) }}">
+                            <tr ng-repeat="toCallCandidate in vm.toCallCandidates" ng-show="vm.{{ vm.getColor( toCallCandidate.time) }}Filter" class="{{ vm.getColor( toCallCandidate.time) }}">
 
                                 <td>{{ toCallCandidate.name }}</td>
                                 <td>{{ toCallCandidate.time/60/60 | number: 0 }} </td>

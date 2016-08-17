@@ -81,8 +81,8 @@
                             <li><a href="#features" class="smooth-scroll">Features</a></li>
                             <li><a href="#testimonials" class="smooth-scroll">Testimonials</a></li>
                             <li><a href="#pricing" class="smooth-scroll">Pricing</a></li>
-                            <li><a href="page.html">Demo</a></li>
-                            <li><a href="page.html">Login</a></li>
+                            <li><a href="http://bulldog.shatkonlabs.com/admin/#/login">Demo</a></li>
+                            <li><a href="http://bulldog.shatkonlabs.com/admin/#/login">Login</a></li>
                             <li class="menu-btn"><a href="#">Personal Sign-Up!</a></li>
                         </ul>
                         
@@ -199,8 +199,10 @@
                         
                         <div class="col-sm-6 col-md-5 margin-bottom40">
                             <figure><img src="images/managerUI.png" style="border: dashed" alt="Image"></figure>
-                            <br/><br/>
-                            <figure><img src="images/managerUI.png" style="border: dashed" alt="Image"></figure>
+                            <br/>
+                            <figure><img src="images/employee.png" style="border: dashed" alt="Image"></figure>
+                            <br/>
+                            <figure><img src="images/bar.png" style="border: dashed" alt="Image"></figure>
                         </div>
                         
                         <div class="col-sm-6 col-md-7 col-lg-6 col-lg-offset-1 margin-bottom20">
