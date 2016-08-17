@@ -5,8 +5,8 @@
         .module('app')
         .controller('ManagerController', ManagerController);
 
-    ManagerController.$inject = ['UserService',  'CandidateService', '$rootScope', 'FlashService'];
-    function ManagerController(UserService, CandidateService,  $rootScope, FlashService) {
+    ManagerController.$inject = ['UserService',  'CandidateService', '$rootScope', 'FlashService','$location'];
+    function ManagerController(UserService, CandidateService,  $rootScope, FlashService,$location) {
         var vm = this;
 
         vm.user = null;
