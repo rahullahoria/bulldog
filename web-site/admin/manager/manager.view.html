@@ -186,7 +186,7 @@
 
                             <tr ng-repeat="toCallCandidate in vm.toCallCandidates" ng-show="vm.{{ vm.getColor( toCallCandidate.time) }}Filter" class="{{ vm.getColor( toCallCandidate.time) }}">
 
-                                <td><a href="#/employee/{{ toCallCandidate.id }}"> {{ toCallCandidate.name }}</a></td>
+                                <td><a href="#/employee/{{ toCallCandidate.user_id }}"> {{ toCallCandidate.name }}</a></td>
                                 <td>{{ toCallCandidate.time/60/60 | number: 0 }} </td>
 
                                 <td>{{ vm.getFun(toCallCandidate.time)| number: 0  }}</td>
