@@ -30,7 +30,7 @@
                         <a href="tables.html"><i class="fa fa-table fa-fw"></i> Settings</a>
                     </li>
                     <li>
-                        <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Logout</a>
+                        <a ng-click="vm.logout()"><i class="fa fa-edit fa-fw"></i> Logout</a>
                     </li>
 
                 </ul>
@@ -54,7 +54,7 @@
             <div class="col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <i class="fa fa-bar-chart-o fa-fw"></i> Rahul Performance Graph ({{ vm.performance | number : 2}}%)
+                        <i class="fa fa-bar-chart-o fa-fw"></i> {{ vm.who }} Performance Graph ({{ vm.performance | number : 2}}%)
                         <div class="pull-right">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
@@ -96,7 +96,7 @@
             <div class="col-lg-6">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <i class="fa fa-bar-chart-o fa-fw"></i> Rahul Performance Graph ({{ vm.performance | number : 2}}%)
+                        <i class="fa fa-bar-chart-o fa-fw"></i> {{ vm.who }} Performance Graph ({{ vm.performance | number : 2}}%)
                         <div class="pull-right">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
@@ -134,7 +134,7 @@
             <div class="col-lg-6">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <i class="fa fa-bar-chart-o fa-fw"></i> Rahul Performance Graph ({{ vm.performance | number : 2}}%)
+                        <i class="fa fa-bar-chart-o fa-fw"></i> {{ vm.who }} Performance Graph ({{ vm.performance | number : 2}}%)
                         <div class="pull-right">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">

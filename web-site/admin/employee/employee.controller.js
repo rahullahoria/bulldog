@@ -103,7 +103,14 @@
             });
         }
 
+        vm.logout = function(){
+            vm.inUser = null;
+            $location.path('#/login');
+        };
+        vm.who = "";
         function drawGraph(){
+
+            vm.who = vm.employee[0].name;
             var labels = [] ;
             var expectedHrs = [];
             var fun= [];
