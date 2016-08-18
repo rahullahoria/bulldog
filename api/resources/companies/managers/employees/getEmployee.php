@@ -8,7 +8,10 @@
 
 function getEmployee($companyId, $managerId, $employee){
 
-    $sql = "SELECT `date`,sum(time) as time FROM `program_usage` WHERE md5_id=:employee and MONTH(date) = MONTH(CURDATE()) group by `user_id`,`date`;";
+    $sql = "SELECT pu.`date`,sum(pu.time) as time
+              FROM `program_usage` as pu INNER JOIN users as u
+                  WHERE pu.user_id=u.id andu.md5_id=:employee and MONTH(date) = MONTH(CURDATE())
+                  group by `user_id`,`date`;";
 
     try {
         $db = getDB();
