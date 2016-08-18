@@ -9,7 +9,7 @@
 
 function getManagerEmployees($companyId, $managerId){
 
-    $sql = "SELECT `user_id` ,u.name, sum( time ) AS time
+    $sql = "SELECT `user_id` ,u.name, u.md5_id, sum( time ) AS time
             FROM `program_usage` as p inner join users as u
             WHERE p.`user_id` = u.id
             GROUP BY `user_id` ";
