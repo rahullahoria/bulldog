@@ -11,6 +11,7 @@ require_once "resources/usage/saveUsage.php";
 require_once "resources/usage/getFile.php";
 require_once "resources/companies/managers/getManagerEmployees.php";
 require_once "resources/companies/managers/employees/getEmployee.php";
+require_once "resources/auth/authUser.php";
 
 //app
 require_once "app.php";

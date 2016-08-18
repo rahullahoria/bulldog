@@ -22,10 +22,8 @@
         }
 
         function Auth(user) {
-            var root = {};
-            root['root'] = user;
-            console.log(root);
-            return $http.post('https://blueteam.in/api/login/society', root).then(handleSuccess, handleError('Error creating user'));
+
+            return $http.post('https://blueteam.in/api/login/society', user).then(handleSuccess, handleError('Error creating user'));
         }
 
         // private functions

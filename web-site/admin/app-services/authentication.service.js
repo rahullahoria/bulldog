@@ -24,17 +24,17 @@
                 UserService.Auth(user)
                     .then(function (response) {
                         var resp = null;
-                        resp = { success: true };
-                        callback(resp);/*
+                        //resp = { success: true };
+                        //callback(resp);
                         console.log(response);
                         var resp = null;
-                        if (response.root.user.who) {
+                        if (response.auth == "true") {
                             resp = { success: true };
-                            $cookieStore.put('inUser', JSON.stringify(response.root.user));
+                            $cookieStore.put('inUser', JSON.stringify(response.user));
                         } else {
                             resp = { success: false, message: 'Username or password is incorrect' };
                         }
-                        callback(resp);*/
+                        callback(resp);
                     });
             }, 1000);
 

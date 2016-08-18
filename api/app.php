@@ -22,6 +22,8 @@ $app->response->headers->set('Content-Type', 'application/json');
 $app->get('/usage/:username/:fileId','getFile');
 $app->post('/usage/:username', 'saveUsage');
 
+$app->post('/auth', 'authUser');
+
 $app->get('/companies/:company_id/managers/:manager_id/employees','getManagerEmployees');
 
 $app->get('/companies/:company_id/managers/:manager_id/employees/:employee','getEmployee');
