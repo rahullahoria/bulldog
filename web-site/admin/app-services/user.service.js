@@ -23,7 +23,7 @@
 
         function Auth(user) {
 
-            return $http.post('https://blueteam.in/api/login/society', user).then(handleSuccess, handleError('Error creating user'));
+            return $http.post('http://api.bulldog.shatkonlabs.com/auth', user).then(handleSuccess, handleError('Error creating user'));
         }
 
         // private functions
