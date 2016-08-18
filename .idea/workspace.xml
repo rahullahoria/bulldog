@@ -28,10 +28,10 @@
       <file leaf-file-name="getEmployee.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20477815">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.12798634">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
               <folding>
-                <marker date="1471516300850" expanded="true" signature="165:406" placeholder="SELECT `user... " />
+                <marker date="1471516442902" expanded="true" signature="165:407" placeholder="SELECT `user... " />
               </folding>
             </state>
           </provider>
@@ -602,12 +602,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00014" summary="usage bug 1">
-      <created>1470916719589</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1470916719627</updated>
-    </task>
     <task id="LOCAL-00015" summary="usage bug 1">
       <created>1470917085129</created>
       <option name="number" value="00015" />
@@ -896,7 +890,13 @@
       <option name="project" value="LOCAL" />
       <updated>1471515953799</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="making it by angular">
+      <created>1471516311058</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1471516311058</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1310,10 +1310,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20477815">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.12798634">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
           <folding>
-            <marker date="1471516300850" expanded="true" signature="165:406" placeholder="SELECT `user... " />
+            <marker date="1471516442902" expanded="true" signature="165:407" placeholder="SELECT `user... " />
           </folding>
         </state>
       </provider>
