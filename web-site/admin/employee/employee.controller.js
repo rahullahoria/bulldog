@@ -42,8 +42,8 @@
 
                     CandidateService.GetUserInstance(vm.employee[0].profession,vm.inUser.type)
                         .then(function (response) {
-                            vm.employeeInstance = response.instances;
-                            console.log(vm.employeeInstance);
+                            vm.employeeInstances = response.instances;
+                            console.log(vm.employeeInstances);
 
                         });
 

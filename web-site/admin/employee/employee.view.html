@@ -204,23 +204,18 @@
                             <table datatable="ng"  class="table table-bordered table-hover table-striped" style="max-width: 99%;">
                                 <thead>
                                 <tr>
-                                    <th>Username</th>
-                                    <th>#Working Hrs</th>
-                                    <th>#Fun Hrs</th>
-                                    <th>#Expected Working Hrs</th>
-                                    <th>Efficiency</th>
+                                    <th>Instance Name</th>
+                                    <th>Change Type</th>
+
                                 </tr>
                                 </thead>
                                 <tbody>
 
-                                <tr ng-repeat="toCallCandidate in vm.toCallCandidates" ng-show="vm.{{ vm.getColor( toCallCandidate.time) }}Filter" class="{{ vm.getColor( toCallCandidate.time) }}">
+                                <tr ng-repeat="employeeInstance in vm.employeeInstance" ng-show="vm.{{ vm.getColor( toCallCandidate.time) }}Filter" class="{{ vm.getColor( toCallCandidate.time) }}">
 
-                                    <td><a href="#/employee/{{ toCallCandidate.md5_id }}"> {{ toCallCandidate.name }}</a></td>
-                                    <td>{{ toCallCandidate.time/60/60 | number: 0 }} </td>
+                                    <td>{{ employeeInstance.name }}</td>
+                                    <td>Make it Fun</td>
 
-                                    <td>{{ vm.getFun(toCallCandidate.time)| number: 0  }}</td>
-                                    <td>{{ vm.date1*6.85 | number: 0}} </td>
-                                    <td>{{ (toCallCandidate.time/60/60/(vm.date1*6.85))*100 | number: 2}}% </td>
 
 
                                 </tr>
