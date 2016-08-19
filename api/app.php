@@ -26,6 +26,9 @@ $app->post('/auth', 'authUser');
 
 $app->get('/companies/:company_id/managers/:manager_id/employees','getManagerEmployees');
 
+$app->get('/profession/:profession/type/:type','getInstance');
+$app->post('/instance','updateInstance');
+
 $app->get('/companies/:company_id/managers/:manager_id/employees/:employee','getEmployee');
 
 //$app->post('/login','login');

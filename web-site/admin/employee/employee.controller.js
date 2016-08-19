@@ -13,6 +13,7 @@
 
         vm.user = null;
         vm.inUser = null;
+        vm.employeeInstance = [];
         vm.allUsers = [];
         vm.deleteUser = deleteUser;
         vm.loadUser = loadUser;
@@ -29,11 +30,23 @@
         }
 
         function loadUser(emp){
+
+            vm.inUser = UserService.GetInUser();
+
+
             CandidateService.GetByManagerEmployeeId(emp)
                 .then(function (response) {
                     vm.employee = response.employee;
                     console.log(vm.employee);
                     drawGraph();
+
+                    CandidateService.GetUserInstance(vm.employee[0].profession,vm.inUser.type)
+                        .then(function (response) {
+                            vm.employeeInstance = response.instances;
+                            console.log(vm.employeeInstance);
+
+                        });
+
                 });
 
 

@@ -22,6 +22,7 @@
         service.Delete = Delete;
         service.Search = Search;
         service.GetAllProfession = GetAllProfession;
+        service.GetUserInstance = GetUserInstance;
 
         return service;
 
@@ -29,6 +30,12 @@
             return $http
                         .get('http://api.bulldog.shatkonlabs.com/companies/:company_id/managers/:manager_id/employees')
                         .then(handleSuccess, handleError('Error getting all users'));
+        }
+
+        function GetUserInstance(professionId,uType) {
+            return $http
+                .get('http://api.bulldog.shatkonlabs.com/profession/'+professionId+'/type/'+uType)
+                .then(handleSuccess, handleError('Error getting all users'));
         }
 
         function GetAllProfession() {

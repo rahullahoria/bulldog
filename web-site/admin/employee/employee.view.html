@@ -171,6 +171,74 @@
             <!-- /.col-lg-8 -->
 
         </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <i class="fa fa-bar-chart-o fa-fw"></i> {{ vm.who }} Performance Graph ({{ vm.performance | number : 2}}%)
+                        <div class="pull-right">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                    Actions
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu pull-right" role="menu">
+                                    <li><a href="#">Action</a>
+                                    </li>
+                                    <li><a href="#">Another action</a>
+                                    </li>
+                                    <li><a href="#">Something else here</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Separated link</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel-heading -->
+                    <div class="panel-body">
+                        <div class="table-responsive">
+
+                            <table datatable="ng"  class="table table-bordered table-hover table-striped" style="max-width: 99%;">
+                                <thead>
+                                <tr>
+                                    <th>Username</th>
+                                    <th>#Working Hrs</th>
+                                    <th>#Fun Hrs</th>
+                                    <th>#Expected Working Hrs</th>
+                                    <th>Efficiency</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                <tr ng-repeat="toCallCandidate in vm.toCallCandidates" ng-show="vm.{{ vm.getColor( toCallCandidate.time) }}Filter" class="{{ vm.getColor( toCallCandidate.time) }}">
+
+                                    <td><a href="#/employee/{{ toCallCandidate.md5_id }}"> {{ toCallCandidate.name }}</a></td>
+                                    <td>{{ toCallCandidate.time/60/60 | number: 0 }} </td>
+
+                                    <td>{{ vm.getFun(toCallCandidate.time)| number: 0  }}</td>
+                                    <td>{{ vm.date1*6.85 | number: 0}} </td>
+                                    <td>{{ (toCallCandidate.time/60/60/(vm.date1*6.85))*100 | number: 2}}% </td>
+
+
+                                </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+                <!-- /.panel -->
+
+
+            </div>
+            <!-- /.col-lg-8 -->
+
+        </div>
+
     </div>
     <!-- /#page-wrapper -->
 

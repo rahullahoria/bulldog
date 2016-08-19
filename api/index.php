@@ -13,6 +13,10 @@ require_once "resources/companies/managers/getManagerEmployees.php";
 require_once "resources/companies/managers/employees/getEmployee.php";
 require_once "resources/auth/authUser.php";
 
+require_once "resources/instance/getInstance.php";
+require_once "resources/instance/updateInstanceType.php";
+
+
 //app
 require_once "app.php";
 
