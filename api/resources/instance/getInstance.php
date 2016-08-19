@@ -11,7 +11,7 @@ function getInstance($profession,$type){
     if ($type == "manager") $type = "white";
     if ($type == "employee") $type = "black";
 
-    $sql = "SELECT p.`pro_inst_id`, pi.name
+    $sql = "SELECT p.`pro_inst_id`, CONVERT(pi.name USING utf8)
               FROM p_i as pi inner join `p_i_maps`as p
                 WHERE p.`pro_inst_id` = pi.id and p.type='".$type."' and p.profession_id='".$profession."';";
 
