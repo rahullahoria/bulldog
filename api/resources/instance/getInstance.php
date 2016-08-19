@@ -11,7 +11,7 @@ function getInstance($profession,$type){
     if ($type == "manager") $type = "white";
     if ($type == "employee") $type = "black";
 
-    $sql = "SELECT *
+    $sql = "SELECT p.`pro_inst_id`,pi.name
               FROM `p_i_maps`as p inner join p_i as pi
                 WHERE p.`pro_inst_id` = pi.id and p.type='".$type."' and p.profession_id='".$profession."';";
 
@@ -38,6 +38,9 @@ function getInstance($profession,$type){
 
     } catch (PDOException $e) {
         //error_log($e->getMessage(), 3, '/var/tmp/php.log');
+        echo '{"error":{"text":' . $e->getMessage() . '}}';
+    }
+    catch (Exception $e){
         echo '{"error":{"text":' . $e->getMessage() . '}}';
     }
 }
