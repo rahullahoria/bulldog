@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="344364a9-2d53-495e-8ca0-bd89e14a9f1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/resources/instance/getInstance.php" afterPath="$PROJECT_DIR$/api/resources/instance/getInstance.php" />
     </list>
     <ignored path="bulldog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,24 +91,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getInstance.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getInstance.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.041667">
-              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.46245733">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="e#6#93#0#PHP" expanded="true" />
-                <marker date="1471578668521" expanded="true" signature="241:372" placeholder="SELECT * FRO... program_usage" />
-                <marker date="1471578668521" expanded="true" signature="241:424" placeholder="SELECT p.`pr... p_i_maps" />
+                <marker date="1471597301180" expanded="true" signature="241:372" placeholder="SELECT * FRO... program_usage" />
+                <marker date="1471597301180" expanded="true" signature="241:424" placeholder="SELECT p.`pr... p_i_maps" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12798634">
+            <state vertical-scroll-proportion="-3.125">
               <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
@@ -609,12 +610,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00025" summary="New changelist">
-      <created>1470981813303</created>
-      <option name="number" value="00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1470981813303</updated>
-    </task>
     <task id="LOCAL-00026" summary="New changelist">
       <created>1470982036123</created>
       <option name="number" value="00026" />
@@ -903,7 +898,13 @@
       <option name="project" value="LOCAL" />
       <updated>1471578682587</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="making it by angular">
+      <created>1471578829977</created>
+      <option name="number" value="00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1471578829977</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1317,23 +1318,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
+    <entry file="file://$PROJECT_DIR$/api/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.041667">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding>
-            <element signature="e#6#93#0#PHP" expanded="true" />
-            <marker date="1471578668521" expanded="true" signature="241:372" placeholder="SELECT * FRO... program_usage" />
-            <marker date="1471578668521" expanded="true" signature="241:424" placeholder="SELECT p.`pr... p_i_maps" />
-          </folding>
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/db.php">
+    <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12798634">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
+        <state vertical-scroll-proportion="0.46245733">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="e#6#93#0#PHP" expanded="true" />
+            <marker date="1471597301180" expanded="true" signature="241:372" placeholder="SELECT * FRO... program_usage" />
+            <marker date="1471597301180" expanded="true" signature="241:424" placeholder="SELECT p.`pr... p_i_maps" />
+          </folding>
         </state>
       </provider>
     </entry>

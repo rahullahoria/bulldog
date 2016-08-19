@@ -23,6 +23,8 @@ function getInstance($profession,$type){
 
         $stmt->bindParam("type", $type);
         $stmt->bindParam("profession_id", $profession);
+        $stmt->debugDumpParams();
+        die();
 
         $stmt->execute();
         $instances = $stmt->fetchAll(PDO::FETCH_OBJ);
