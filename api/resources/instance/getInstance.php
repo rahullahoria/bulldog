@@ -15,7 +15,7 @@ function getInstance($profession,$type){
               FROM p_i as pi inner join `p_i_maps`as p
                 WHERE p.`pro_inst_id` = pi.id and p.type='".$type."' and p.profession_id='".$profession."';";
 
-    $sql = "SELECT  mysql_real_escape_string(pix.`name`)
+    $sql = "SELECT p.`pro_inst_id`, pix.`name`
 FROM `p_i_maps` as p JOIN p_i as pix
   WHERE p.`pro_inst_id` = pix.id and p.type='".$type."' and p.profession_id='".$profession."' ";
 
@@ -32,7 +32,7 @@ FROM `p_i_maps` as p JOIN p_i as pix
         //die(var_dump($stmt));
 
         $stmt->execute();
-        $instances = $stmt->fetchAll(PDO::FETCH_OBJ);
+        $instances = $stmt->fetchAll(/*PDO::FETCH_OBJ*/);
 
         echo '{"instances": ' . json_encode($instances) . '}';
 
