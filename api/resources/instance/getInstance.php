@@ -15,7 +15,7 @@ function getInstance($profession,$type){
               FROM `p_i_maps`as p inner join p_i as pi
                 WHERE p.`pro_inst_id` = pi.id and p.type=:type and p.profession_id=:profession_id;";
 
-    die($profession. " " . $type);
+    //die($profession. " " . $type);
 
     try {
         $db = getDB();
@@ -25,9 +25,9 @@ function getInstance($profession,$type){
         $stmt->bindParam("profession_id", $profession);
 
         $stmt->execute();
-        $employees = $stmt->fetchAll(PDO::FETCH_OBJ);
+        $instances = $stmt->fetchAll(PDO::FETCH_OBJ);
 
-        echo '{"instances": ' . json_encode($employees) . '}';
+        echo '{"instances": ' . json_encode($instances) . '}';
 
         $db = null;
 
