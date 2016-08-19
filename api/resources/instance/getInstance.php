@@ -12,13 +12,10 @@ function getInstance($profession,$type){
     if ($type == "employee") $type = "black";
 
     $sql = "SELECT p.`pro_inst_id`, pi.name
-              FROM `p_i_maps`as p inner join p_i as pi
+              FROM p_i as pi inner join `p_i_maps`as p
                 WHERE p.`pro_inst_id` = pi.id and p.type='".$type."' and p.profession_id='".$profession."';";
 
-    $sql = "SELECT `user_id` ,u.name, u.md5_id, sum( time ) AS time
-            FROM `program_usage` as p inner join users as u
-            WHERE p.`user_id` = u.id
-            GROUP BY `user_id` ";
+
     //die($sql);
 
     try {
