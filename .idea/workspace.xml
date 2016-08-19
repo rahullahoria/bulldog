@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="344364a9-2d53-495e-8ca0-bd89e14a9f1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/resources/instance/getInstance.php" afterPath="$PROJECT_DIR$/api/resources/instance/getInstance.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
     </list>
     <ignored path="bulldog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,8 +93,8 @@
       <file leaf-file-name="getInstance.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2320819">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.4880546">
+              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding>
                 <element signature="e#6#93#0#PHP" expanded="true" />
                 <marker date="1471577022437" expanded="true" signature="241:372" placeholder="SELECT * FRO... program_usage" />
@@ -596,12 +593,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00020" summary="usage bug 1">
-      <created>1470978894159</created>
-      <option name="number" value="00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1470978894159</updated>
-    </task>
     <task id="LOCAL-00021" summary="usage bug 1">
       <created>1470979537267</created>
       <option name="number" value="00021" />
@@ -890,7 +881,13 @@
       <option name="project" value="LOCAL" />
       <updated>1471576092313</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="making it by angular">
+      <created>1471577041195</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1471577041195</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1313,8 +1310,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2320819">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.4880546">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding>
             <element signature="e#6#93#0#PHP" expanded="true" />
             <marker date="1471577022437" expanded="true" signature="241:372" placeholder="SELECT * FRO... program_usage" />
