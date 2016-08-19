@@ -106,19 +106,19 @@
       <file leaf-file-name="getInstance.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4880546">
-              <caret line="36" column="82" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.1552901">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="3" selection-end-line="19" selection-end-column="98" />
               <folding>
                 <element signature="e#6#93#0#PHP" expanded="true" />
-                <marker date="1471618604420" expanded="true" signature="241:373" placeholder="SELECT * FRO... program_usage" />
-                <marker date="1471618604420" expanded="true" signature="241:385" placeholder="SELECT p.`pr... p_i_maps" />
-                <marker date="1471618604420" expanded="true" signature="241:417" placeholder="SELECT p.`pr... p_i_maps" />
-                <marker date="1471618604420" expanded="true" signature="241:418" placeholder="SELECT p.`pr... p_i_maps" />
-                <marker date="1471618604420" expanded="true" signature="241:434" placeholder="SELECT p.`pr... p_i_maps" />
-                <marker date="1471618604420" expanded="true" signature="451:631" placeholder="SELECT p.`pr... p_i_maps" />
-                <marker date="1471618604420" expanded="true" signature="500:545" placeholder="SELECT p.`pr... p_i_maps" />
-                <marker date="1471618604420" expanded="true" signature="500:593" placeholder="SELECT p.`pr... p_i_maps" />
-                <marker date="1471618604420" expanded="true" signature="500:631" placeholder="SELECT p.`pr... p_i_maps" />
+                <marker date="1471618753564" expanded="true" signature="241:373" placeholder="SELECT * FRO... program_usage" />
+                <marker date="1471618753564" expanded="true" signature="241:385" placeholder="SELECT p.`pr... p_i_maps" />
+                <marker date="1471618753564" expanded="true" signature="241:417" placeholder="SELECT p.`pr... p_i_maps" />
+                <marker date="1471618753564" expanded="true" signature="241:418" placeholder="SELECT p.`pr... p_i_maps" />
+                <marker date="1471618753564" expanded="true" signature="241:434" placeholder="SELECT p.`pr... p_i_maps" />
+                <marker date="1471618753564" expanded="true" signature="453:633" placeholder="SELECT p.`pr... p_i_maps" />
+                <marker date="1471618753564" expanded="true" signature="502:547" placeholder="SELECT p.`pr... p_i_maps" />
+                <marker date="1471618753564" expanded="true" signature="502:595" placeholder="SELECT p.`pr... p_i_maps" />
+                <marker date="1471618753564" expanded="true" signature="502:633" placeholder="SELECT p.`pr... p_i_maps" />
               </folding>
             </state>
           </provider>
@@ -601,12 +601,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00055" summary="making it by angular">
-      <created>1471365316301</created>
-      <option name="number" value="00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1471365316301</updated>
-    </task>
     <task id="LOCAL-00056" summary="making it by angular">
       <created>1471365681487</created>
       <option name="number" value="00056" />
@@ -895,7 +889,13 @@
       <option name="project" value="LOCAL" />
       <updated>1471603398891</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="making it by angular">
+      <created>1471618621703</created>
+      <option name="number" value="00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1471618621703</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1319,19 +1319,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4880546">
-          <caret line="36" column="82" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.1552901">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="3" selection-end-line="19" selection-end-column="98" />
           <folding>
             <element signature="e#6#93#0#PHP" expanded="true" />
-            <marker date="1471618604420" expanded="true" signature="241:373" placeholder="SELECT * FRO... program_usage" />
-            <marker date="1471618604420" expanded="true" signature="241:385" placeholder="SELECT p.`pr... p_i_maps" />
-            <marker date="1471618604420" expanded="true" signature="241:417" placeholder="SELECT p.`pr... p_i_maps" />
-            <marker date="1471618604420" expanded="true" signature="241:418" placeholder="SELECT p.`pr... p_i_maps" />
-            <marker date="1471618604420" expanded="true" signature="241:434" placeholder="SELECT p.`pr... p_i_maps" />
-            <marker date="1471618604420" expanded="true" signature="451:631" placeholder="SELECT p.`pr... p_i_maps" />
-            <marker date="1471618604420" expanded="true" signature="500:545" placeholder="SELECT p.`pr... p_i_maps" />
-            <marker date="1471618604420" expanded="true" signature="500:593" placeholder="SELECT p.`pr... p_i_maps" />
-            <marker date="1471618604420" expanded="true" signature="500:631" placeholder="SELECT p.`pr... p_i_maps" />
+            <marker date="1471618753564" expanded="true" signature="241:373" placeholder="SELECT * FRO... program_usage" />
+            <marker date="1471618753564" expanded="true" signature="241:385" placeholder="SELECT p.`pr... p_i_maps" />
+            <marker date="1471618753564" expanded="true" signature="241:417" placeholder="SELECT p.`pr... p_i_maps" />
+            <marker date="1471618753564" expanded="true" signature="241:418" placeholder="SELECT p.`pr... p_i_maps" />
+            <marker date="1471618753564" expanded="true" signature="241:434" placeholder="SELECT p.`pr... p_i_maps" />
+            <marker date="1471618753564" expanded="true" signature="453:633" placeholder="SELECT p.`pr... p_i_maps" />
+            <marker date="1471618753564" expanded="true" signature="502:547" placeholder="SELECT p.`pr... p_i_maps" />
+            <marker date="1471618753564" expanded="true" signature="502:595" placeholder="SELECT p.`pr... p_i_maps" />
+            <marker date="1471618753564" expanded="true" signature="502:633" placeholder="SELECT p.`pr... p_i_maps" />
           </folding>
         </state>
       </provider>
