@@ -15,7 +15,7 @@ function getInstance($profession,$type){
               FROM p_i as pi inner join `p_i_maps`as p
                 WHERE p.`pro_inst_id` = pi.id and p.type='".$type."' and p.profession_id='".$profession."';";
 
-    $sql = "SELECT urldecode(pix.`name`)
+    $sql = "SELECT  mysql_real_escape_string(pix.`name`)
 FROM `p_i_maps` as p JOIN p_i as pix
   WHERE p.`pro_inst_id` = pix.id and p.type='".$type."' and p.profession_id='".$profession."' ";
 
