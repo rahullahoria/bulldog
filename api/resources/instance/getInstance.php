@@ -15,7 +15,7 @@ function getInstance($profession,$type){
               FROM p_i as pi inner join `p_i_maps`as p
                 WHERE p.`pro_inst_id` = pi.id and p.type='".$type."' and p.profession_id='".$profession."';";
 
-    $sql = "SELECT p.`pro_inst_id`
+    $sql = "SELECT p.`pro_inst_id`, pi.name
 FROM `p_i_maps` as p INNER JOIN p_i as pi
   WHERE p.`pro_inst_id` = pi.id and p.type='".$type."' and p.profession_id='".$profession."' ";
 
