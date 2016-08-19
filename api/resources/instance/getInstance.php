@@ -13,7 +13,7 @@ function getInstance($profession,$type){
 
     $sql = "SELECT p.`pro_inst_id`,pi.name
               FROM `p_i_maps`as p inner join p_i as pi
-                WHERE p.`pro_inst_id` = pi.id and p.type=:type and p.profession_id=:profession_id;";
+                WHERE p.`pro_inst_id` = pi.id and p.type=:type1 and p.profession_id=:profession_id;";
 
     //die($profession. " " . $type);
 
@@ -21,10 +21,10 @@ function getInstance($profession,$type){
         $db = getDB();
         $stmt = $db->prepare($sql);
 
-        $stmt->bindParam("type", $type);
+        $stmt->bindParam("type1", $type);
         $stmt->bindParam("profession_id", $profession);
         //$stmt->debugDumpParams();
-        die(var_dump($stmt));
+        //die(var_dump($stmt));
 
         $stmt->execute();
         $instances = $stmt->fetchAll(PDO::FETCH_OBJ);
