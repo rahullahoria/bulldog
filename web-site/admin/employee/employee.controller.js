@@ -120,6 +120,9 @@
             vm.inUser = null;
             $location.path('#/login');
         };
+        vm.decodeURIComponent = function(str){
+            return decodeURIComponent(str);
+        }
         vm.who = "";
         function drawGraph(){
 
