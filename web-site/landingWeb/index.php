@@ -8,7 +8,7 @@
 <head>
     
     <!-- Your Basic Site Informations -->
-    <title>Let Increase Performance with NCY and Bulldog</title>
+    <title>Let's increase performance with NCY and Bulldog</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
@@ -97,14 +97,15 @@
                     
                     <!-- .container -->
                     <div class="container">
+
                         
                         <!-- .row -->
                         <div class="row">
                             
                             <div class="col-sm-6 col-md-7 col-lg-6">
                                 <div class="header-txt">
-                                    <h1>A organization is like a big machine, Do you know how much optimali its running…</h1>
-                                    <h4>Ncy gives you capability to know how much you are utilizing the company resources.</h4>
+                                    <h1>An organization is like a big machine, Do you know how much optimally it is running…</h1>
+                                    <h4>NCY gives you ability to know how much you are utilizing the company's resources.</h4>
                                     <div class="header-txt-btn">
                                         <a href="https://www.youtube.com/embed/4ZawV1mXlS8?autoplay=1" class="btn-play fancybox-media" title="Play Video"><i class="fa fa-play"></i></a>
                                     </div>
@@ -117,11 +118,11 @@
                                     <ul class="header-form-heading">
                                         <li>
                                             <i class="fa fa-send-o"></i>
-                                            <p>Lets fix a meeting for live demo, so we can understand how much we can save for your organization.</p>
+                                            <p>Lets fix a meeting for live demo, so we can make you understand how much we can save for your organization.</p>
                                         </li>
                                         <li>
                                             <i class="fa fa-heart-o"></i>
-                                            <p>We make organization to do there best, hope we can repeat same for your!</p>
+                                            <p>We make organizations to do their best, hope we can repeat the same for yours too!</p>
                                         </li>
                                     </ul>
                                     <form method="post" action="#" class="affa-form-signup">
@@ -159,7 +160,7 @@
                 <div class="container">
                     
                     <div class="post-heading-center">
-                        <h2>Get More Paying Employees</h2>
+                        <h2>Get More efficient employees</h2>
                         <p>Take control over your organization.</p>
                     </div>
                     
@@ -170,7 +171,7 @@
                             <div class="affa-feature-img">
                                 <img src="images/content/feature/1.jpg" alt="Image">
                                 <h4>Customers Support</h4>
-                                <p>If your organization facing any problem, we are here 24x7 to help you out.</p>
+                                <p>If your organization is facing any problem, we are here 24x7 to help you out.</p>
                             </div>
                         </div>
                         
@@ -178,7 +179,7 @@
                             <div class="affa-feature-img">
                                 <img src="images/content/feature/2.jpg" alt="Image">
                                 <h4>Elegant Design</h4>
-                                <p>Make the life of manager and employees easy, they can easily monitor their and employees report in user friendly UI.</p>
+                                <p>Make the life of manager and employees easy.Mangers can easily monitor the activities of their employees and an employee can easily analyse his performance to make improvments using reports in user friendly UI.</p>
                             </div>
                         </div>
                         
@@ -186,7 +187,7 @@
                             <div class="affa-feature-img">
                                 <img src="images/content/feature/3.jpg" alt="Image">
                                 <h4>Fully Customizable</h4>
-                                <p>You can decide on your own which tasks you want to treat as work or fun. Managers can change some take from work to fun and Employees can make some task from fun to work. <br/>>
+                                <p>You can decide on your own which tasks you want to treat as work or fun. Managers can change some task from work to fun and employees can make some task from fun to work. <br/>>
                                     All at your hand control!</p>
                             </div>
                         </div>
@@ -210,16 +211,16 @@
                                 
                                 <div class="post-heading-left post-heading-top-desc margin-bottom20">
                                     <p>See this action in the real page</p>
-                                    <h2>How does this <strong>Ncy with BullDog</strong> work</h2>
+                                    <h2>How does this <strong>NCY with BullDog</strong> work</h2>
                                 </div>
                                 
-                                <p>BullDog sits in users pc, laptop or mobile and keep looking the user about its usages. Bulldog updates
-                                    Ncy time to time. BullDog became friend of user and help him to perform well. As dogs are our best friends.<br/>
+                                <p>BullDog sits in user's PC, laptop or mobile and keep looking the user about its usages. Bulldog updates
+                                    Ncy time to time. BullDog becomes friend of user and help him to perform well just like dogs are our best friends.<br/>
 
                                     Ncy receives data from BullDog and perform analytics over it and creates report for users ( Individual, Managers or Employees).
-                                    Any time users can come to dashboard and can see there own or teams reports and can do better next hours. <br/>
+                                    Any time users can come to dashboard and can see their own or team's reports and can do better for next hours. <br/>
 
-                                    In Nuts and Bolts Ncy wants to help everyone to perform better and Individual, Managers, Employees and Companies can grow more fasters
+                                    In Nuts and Bolts Ncy wants to help everyone to perform better so that an Individual, Managers, Employees and Companies can grow more fasters
                                 </p>
                                 
                                 <div class="list-icon">
@@ -245,7 +246,7 @@
                                 
                                 <div class="post-heading-left text-center-sm">
                                     <h2><strong>Unbeatable features</strong> We'll Boost you!</h2>
-                                    <p>With the boost of Ncy you will have total control over you hours</p>
+                                    <p>With the boost of Ncy you will have total control over you work efficiency</p>
                                 </div>
                                 
                                 <p class="margin-bottom20 text-center-sm">Ncy with BullDog tracks users’ activities during their work time and gives users a nudge when excessive amounts of time on Youtube, Facebook, or other personal web browsing are detected.</p>
@@ -254,7 +255,7 @@
                                     <div class="col-sm-6">
                                         <div class="affa-col-txt">
                                             <h4>Project Time Calculation</h4>
-                                            <p>Automatically binds your working time to the projects judging by the keywords in application titles.</p>
+                                            <p>Automatically binds your working time to the projects by judging the keywords in application titles.</p>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
@@ -269,7 +270,7 @@
                                     <div class="col-sm-6">
                                         <div class="affa-col-txt">
                                             <h4>Set goals and achieve them</h4>
-                                            <p>Designed to analyze and improve your personal productivity. Offers some productivity metrics and allows to set goals and achieve them. Has nothing to do with hourly rates.</p>
+                                            <p>Designed to analyze and improve your personal productivity. Offers some productivity metrics and allows you to set goals and achieve them. Has nothing to do with hourly rates.</p>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
@@ -326,7 +327,7 @@
                         <div class="container">
                             <div class="affa-testimonial">
                                 <div class="testimonial-txt">
-                                    <p>"We always thought that we are working hard everyday. Everyone give there 1000%. But after seeing NCY efficiency reports that we felt that “we can give more”."</p>
+                                    <p>"We always thought that we are working hard everyday. Everyone give their 100%. But after seeing Ncy efficiency reports, we felt that “we can give more”."</p>
                                 </div>
                                 <div class="testimonial-name">
                                     <img src="images/user.jpeg" alt="Avatar">
@@ -356,7 +357,7 @@
                         <div class="container">
                             <div class="affa-testimonial">
                                 <div class="testimonial-txt">
-                                    <p>"I always used to think, my team is overload that why are not able to fulfill their targets. After using NCY with BullDog, now I know which resources are not utilized much. It have saved lot for our company."</p>
+                                    <p>"I always used to think, my team is overloaded, that's why they are not able to fulfill their targets. After using Ncy & BullDog, now I know which resource is not utilized much. It has saved lot for our company."</p>
                                 </div>
                                 <div class="testimonial-name">
                                     <img src="images/user.jpeg" alt="Avatar">
@@ -458,7 +459,7 @@
                                     </div>
                                     <ul class="tbl-prc-list">
                                         <li>0-50 Employees</li>
-                                        <li>5% off on Paying for Quoter</li>
+                                        <li>5% off on Paying for Quarter</li>
                                         <li>20% off on Annual package</li>
                                         <li>Check daily, weekly and monthly Reports</li>
                                         <li>All Features available</li>
@@ -483,7 +484,7 @@
                                     </div>
                                     <ul class="tbl-prc-list">
                                         <li>51-100 Employees</li>
-                                        <li>5% off on Paying for Quoter</li>
+                                        <li>5% off on Paying for Quarter</li>
                                         <li>20% off on Annual package</li>
                                         <li>Check daily, weekly and monthly Reports</li>
                                         <li>All Features available</li>
@@ -507,7 +508,7 @@
                                     </div>
                                     <ul class="tbl-prc-list">
                                         <li>100+ Employees</li>
-                                        <li>5% off on Paying for Quoter</li>
+                                        <li>5% off on Paying for Quarter</li>
                                         <li>20% off on Annual package</li>
                                         <li>Check daily, weekly and monthly Reports</li>
                                         <li>All Features available</li>
@@ -546,7 +547,7 @@
                                 <h4>Are the prices monthly or annual?
 
                                     </h4>
-                                <p> Monthly. If you decide to take an annual package, however, we’ll give you two months for free - just drop a line to help@shatkonlabs.com.
+                                <p> Monthly. If you decide to take an annual package, however, we’ll give you two months free trial- just drop a line to help@shatkonlabs.com.
                                 </p>
                             </div>
                         </div>
@@ -554,7 +555,7 @@
                         <div class="col-sm-6"> <!-- 2 -->
                             <div class="affa-faq">
                                 <h4>Will I get an invoice at the end of the month?</h4>
-                                <p>The invoice is generated and sent to your email immediately after the charge has been booked in out system.</p>
+                                <p>The invoice is generated and sent to your email immediately after the charge has been booked in our system.</p>
                             </div>
                         </div>
                         
@@ -567,7 +568,7 @@
                         <div class="col-sm-6"> <!-- 3 -->
                             <div class="affa-faq">
                                 <h4>Why should I choose Ncy with Bulldog? </h4>
-                                <p>Ncy with Bulldog is an easy-to-use and setup application. With 100% intuitive and user-friendly interfaces your colleagues won't need any training to start using Ncy with Bulldog.</p>
+                                <p>Ncy with Bulldog is an easy-to-use and setup application. With 100% intuitive and user-friendly interfaces.Your colleagues won't need any training to start using Ncy with Bulldog.</p>
                             </div>
                         </div>
                         
