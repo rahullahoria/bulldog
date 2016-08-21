@@ -176,7 +176,7 @@
             <div class="col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <i class="fa fa-bar-chart-o fa-fw"></i> {{ vm.who }} Performance Graph ({{ vm.performance | number : 2}}%)
+                        <i class="fa fa-bar-chart-o fa-fw"></i> For {{ vm.who }} following countered as Work
                         <div class="pull-right">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
@@ -211,10 +211,10 @@
                                 </thead>
                                 <tbody>
 
-                                <tr ng-repeat="employeeInstance in vm.employeeInstance" ng-show="vm.{{ vm.getColor( toCallCandidate.time) }}Filter" class="{{ vm.getColor( toCallCandidate.time) }}">
+                                <tr ng-repeat="employeeInstance in vm.employeeInstances" >
 
-                                    <td>{{ employeeInstance.name }}</td>
-                                    <td>Make it Fun</td>
+                                    <td>{{ vm.decodeURIComponent(employeeInstance.name) }}</td>
+                                    <td><button type="button" class="btn btn-primary btn-xs " ng-click="vm.updateInstance({{ employeeInstance.id }})">Mark As Fun</button></td>
 
 
 
