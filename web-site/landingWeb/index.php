@@ -127,9 +127,9 @@
                                     </ul>
                                     <form method="post" action="#" class="affa-form-signup">
                                         <input type="text" name="name" id="header_form_name" placeholder="Full Name">
-                                        <input type="text" name="email" id="header_form_email" placeholder="Email Address *">
-                                        <input type="text" name="Mobile" id="header_form_mobile" placeholder="Mobile No. *">
-                                        <input type="submit" name="submit" value="Sign-up Now!" class="btn-medium">
+                                        <input type="text" name="email" id="header_form_email" onkeyup="nospaces(this)" placeholder="Email Address *">
+                                        <input type="text" name="Mobile" id="header_form_mobile" onkeyup="nospaces(this)"placeholder="Mobile No. *">
+                                        <input type="submit" id="signup_form_submit" onclick="signup()" name="submit" value="Sign-up Now!" class="btn-medium">
                                     </form>
                                     <p class="txt-desc">We don’t share your personal info with anyone. Check out our <a href="#">Privacy Policy</a> for more information.</p>
                                 </div>
@@ -649,8 +649,8 @@
                         </div>
                         
                         <form method="post" action="#" class="affa-form-subscribe">
-                            <input type="text" name="email" placeholder="Email address....">
-                            <input type="submit" name="submit" value="Subscribe Now">
+                            <input type="text" name="email" id="email_subscribe" onkeyup="nospaces(this)" placeholder="Email address....">
+                            <input type="submit" name="submit" onclick="subscribe()" id="subscribe_submit" value="Subscribe Now">
                         </form>
                         
                         <p class="txt-desc">* We don’t share your personal info with anyone. Check out our <a href="#">Privacy Policy</a> for more information.</p>
@@ -725,7 +725,7 @@
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDE7s3AMgMt8XkGB3xZemuH4MU_HKNSpFw"></script>
 	<script type="text/javascript" src="js/gmaps.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
-    
+    <script type="text/javascript" src="js/validation.js"></script>
     <script type="text/javascript">
 	var map;
 	
@@ -748,6 +748,6 @@
 		}
 	});
     </script>
-    
+
 </body>
 </html>
