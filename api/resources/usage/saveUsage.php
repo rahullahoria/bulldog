@@ -130,11 +130,12 @@ function saveUsageV1($username){
 
                 $stmt->bindParam("instanceId", $instanceId);
                 $stmt->bindParam("time", $ti);
+                $stmt->bindParam("user_id", $username);
 
                 $stmt->bindParam("pcUsername", $usage->pc_username);
 
                 $stmt->bindParam("ip", $ip);
-                $stmt->bindParam("user_id", $username);
+
 
 
 
