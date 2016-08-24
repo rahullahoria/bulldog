@@ -108,7 +108,7 @@ function saveUsageV1($username){
 
     $request = \Slim\Slim::getInstance()->request();
     $usage = json_decode($request->getBody());
-    if(!isset($usage->pc_username)) $usage->pc_username = "";
+    if(!isset($usage->pc_username)) $usage->pc_username = "unknown";
     $ip = $_SERVER['REMOTE_ADDR'];
 
 
