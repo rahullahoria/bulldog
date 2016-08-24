@@ -111,7 +111,7 @@ function saveUsageV1($username){
     if(!isset($usage->pc_username)) $usage->pc_username = "unknown";
     $ip = $_SERVER['REMOTE_ADDR'];
 
-
+    $username = intval($username);
     $insertUsageSql = "INSERT INTO `usages`(`instance_id`, `time`, `user_id`, `pc_username`, `ip`)
                           VALUES (:instanceId,:time,:userId,:pcUsername,:ip)";
 
@@ -125,12 +125,12 @@ function saveUsageV1($username){
         foreach ($usage as $k => $u){
             if (isset($u->program)) {
                 $stmt = $db->prepare($insertUsageSql);
-                $instanceId = getInstanceId($k,getProgramId($u->program));
-                $ti = $u->time;
+                $instanceId = intval(getInstanceId($k,getProgramId($u->program)));
+                $ti = intval($u->time);
 
-                $stmt->bindParam("instanceId", intval($instanceId));
-                $stmt->bindParam("time", intval($ti));
-                $stmt->bindParam("user_id", intval($username));
+                $stmt->bindParam("instanceId", $instanceId);
+                $stmt->bindParam("time", $ti);
+                $stmt->bindParam("user_id", $username);
                 $stmt->bindParam("pcUsername", $usage->pc_username);
                 $stmt->bindParam("ip", $ip);
                 var_dump($instanceId,$ti,$username, $usage->pc_username,$ip);
