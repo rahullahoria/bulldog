@@ -35,7 +35,7 @@
                 <ul class="nav" id="side-menu">
 
                     <li>
-                        <a href="{{ (vm.inUser.type == 'manager')?'#/manager':'/employee/'+vm.inUser.md5_id}}"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        <a href="{{ (vm.inUser.type == 'manager')?'#/manager':'#/employee/'+vm.inUser.md5_id}}"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
 
 
@@ -69,7 +69,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <i class="fa fa-bar-chart-o fa-fw"></i> {{ vm.who }} Performance Graph ({{ vm.performance | number : 2}}%)
-                        <div class="pull-right">
+                       <!-- <div class="pull-right">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
                                     Actions
@@ -87,7 +87,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                     <!-- /.panel-heading -->
                     <div class="panel-body">
@@ -111,7 +111,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <i class="fa fa-bar-chart-o fa-fw"></i> {{ vm.who }} Performance Graph ({{ vm.performance | number : 2}}%)
-                        <div class="pull-right">
+                        <!--<div class="pull-right">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
                                     Actions
@@ -129,7 +129,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                     <!-- /.panel-heading -->
                     <div class="panel-body">
@@ -149,7 +149,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <i class="fa fa-bar-chart-o fa-fw"></i> {{ vm.who }} Performance Graph ({{ vm.performance | number : 2}}%)
-                        <div class="pull-right">
+                        <!--<div class="pull-right">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
                                     Actions
@@ -167,7 +167,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                     <!-- /.panel-heading -->
                     <div class="panel-body">
@@ -191,7 +191,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <i class="fa fa-bar-chart-o fa-fw"></i> For {{ vm.who }} following countered as Work
-                        <div class="pull-right">
+                        <!--<div class="pull-right">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
                                     Actions
@@ -209,7 +209,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                     <!-- /.panel-heading -->
                     <div class="panel-body">
