@@ -104,6 +104,9 @@ function getInstanceId($instanceName,$programId){
 
 }
 
+/**
+ * @param $username
+ */
 function saveUsageV1($username){
 
     $request = \Slim\Slim::getInstance()->request();
@@ -128,9 +131,9 @@ function saveUsageV1($username){
                 $instanceId = intval(getInstanceId($k,getProgramId($u->program)));
                 $ti = intval($u->time);
 
-                $stmt->bindParam("instanceId", $instanceId);
-                $stmt->bindParam("time", $ti);
-                $stmt->bindParam("user_id", $username);
+                $stmt->bindParam("instanceId", $instanceId, PDO::PARAM_INT);
+                $stmt->bindParam("time", $ti, PDO::PARAM_INT);
+                $stmt->bindParam("user_id", $username, PDO::PARAM_INT);
                 $stmt->bindParam("pcUsername", $usage->pc_username);
                 $stmt->bindParam("ip", $ip);
                 var_dump($instanceId,$ti,$username, $usage->pc_username,$ip);
