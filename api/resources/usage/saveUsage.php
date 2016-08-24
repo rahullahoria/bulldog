@@ -167,7 +167,7 @@ function saveUsageV1($username){
 }
 
 function saveUsage($username){
-    saveUsage($username);
+    saveUsageV1($username);
 
     $request = \Slim\Slim::getInstance()->request();
     $usage = json_decode($request->getBody());

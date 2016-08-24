@@ -44,7 +44,13 @@
 
                     CandidateService.GetUserInstance(vm.employee[0].profession,vm.inUser.type)
                         .then(function (response) {
+
                             vm.employeeInstances = response.instances;
+                            /*for(var i=0;i<vm.employeeInstances.length;i++){
+                                if(vm.decodeURIComponent(vm.employeeInstances.name)== ""){
+                                    vm.employeeInstances.slice(i,1);
+                                }
+                            }*/
                             console.log(vm.employeeInstances);
 
                         });
