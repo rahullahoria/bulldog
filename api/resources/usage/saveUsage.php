@@ -131,13 +131,8 @@ function saveUsageV1($username){
                 $stmt->bindParam("instanceId", $instanceId);
                 $stmt->bindParam("time", $ti);
                 $stmt->bindParam("user_id", $username);
-
                 $stmt->bindParam("pcUsername", $usage->pc_username);
-
                 $stmt->bindParam("ip", $ip);
-
-
-
 
                 $stmt->execute();
                 $id = $db->lastInsertId();
@@ -165,6 +160,7 @@ function saveUsageV1($username){
     } catch (PDOException $e) {
         //error_log($e->getMessage(), 3, '/var/tmp/php.log');
         //echo '{"error":{"text":"' . $e->getMessage() . '"}}';
+        die ($e->getMessage() );
     }
 }
 
