@@ -58,7 +58,8 @@ function getInstanceId($instanceName,$programId){
                 FROM `instances`
                 WHERE program_id =:programId and instance=:instance;";
 
-    $insertProgramSql = "Insert into  `instances`( `instance`,``program_id`) VALUES (:instance,:programId)";
+    $insertProgramSql = "INSERT INTO `instances`( `program_id`, `instance`)
+                            VALUES (:programId,:instance)";
 
     try {
         $db = getDB();
