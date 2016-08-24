@@ -7,29 +7,11 @@
  */
 
 function getProgramId($programName){
-    $getProgramIdSql = "SELECT id
-                FROM `programs`
-                WHERE program =:program;";
-    $insertProgramSql = "Insert into  `programs`( `program`) VALUES (:program)";
+
+    $insertProgramSql = "Insert into  `programs`( `program`) VALUES (:program) ON DUPLICATE KEY UPDATE id=LAST_INSERT_ID(id)";
 
     try {
-        $db = getDB();
-        $stmt = $db->prepare($getProgramIdSql);
 
-        $stmt->bindParam("program",base64_encode($programName));
-
-
-        $stmt->execute();
-        $user = $stmt->fetchAll(PDO::FETCH_OBJ);
-
-
-
-
-        if(count($user) == 1){
-            $db = null;
-            return $user[0]->id;
-        }
-        else{
 
             $db = getDB();
             $stmt = $db->prepare($insertProgramSql);
@@ -41,7 +23,7 @@ function getProgramId($programName){
             $id = $db->lastInsertId();
             $db = null;
             return $id;
-        }
+
 
 
 
@@ -54,32 +36,13 @@ function getProgramId($programName){
 }
 
 function getInstanceId($instanceName,$programId){
-    $getProgramIdSql = "SELECT id
-                FROM `instances`
-                WHERE program_id =:programId and instance=:instance;";
+
 
     $insertProgramSql = "INSERT INTO `instances`( `program_id`, `instance`)
-                            VALUES (:programId,:instance)";
+                            VALUES (:programId,:instance) ON DUPLICATE KEY UPDATE id=LAST_INSERT_ID(id)";
 
     try {
-        $db = getDB();
-        $stmt = $db->prepare($getProgramIdSql);
 
-        $stmt->bindParam("programId",$programId);
-        $stmt->bindParam("instance",base64_encode($instanceName));
-
-
-        $stmt->execute();
-        $user = $stmt->fetchAll(PDO::FETCH_OBJ);
-
-
-
-
-        if(count($user) == 1){
-            $db = null;
-            return $user[0]->id;
-        }
-        else{
 
             $db = getDB();
             $stmt = $db->prepare($insertProgramSql);
@@ -92,7 +55,7 @@ function getInstanceId($instanceName,$programId){
             $id = $db->lastInsertId();
             $db = null;
             return $id;
-        }
+
 
 
 
