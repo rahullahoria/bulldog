@@ -5,7 +5,7 @@
  * Date: 6/22/16
  * Time: 3:06 PM
  */
-define('MB', 1048576);
+
 function getProgramId($programName){
     $getProgramIdSql = "SELECT id
                 FROM `programs`
