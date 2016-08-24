@@ -108,7 +108,7 @@ function saveUsageV1($username){
     $request = \Slim\Slim::getInstance()->request();
     $usage = json_decode($request->getBody());
     if(!isset($usage->pc_username)) $usage->pc_username = "";
-    $ip = $_SERVER[REMOTE_ADDR];
+    $ip = $_SERVER['REMOTE_ADDR'];
 
 
     $insertUsageSql = "INSERT INTO `usages`(`instance_id`, `time`, `user_id`, `pc_username`, `ip`)
