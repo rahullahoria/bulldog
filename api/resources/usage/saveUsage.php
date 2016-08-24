@@ -128,12 +128,12 @@ function saveUsageV1($username){
                 $instanceId = getInstanceId($k,getProgramId($u->program));
                 $ti = $u->time;
 
-                $stmt->bindParam("instanceId", $instanceId);
-                $stmt->bindParam("time", $ti);
-                $stmt->bindParam("user_id", $username);
+                $stmt->bindParam("instanceId", intval($instanceId));
+                $stmt->bindParam("time", intval($ti));
+                $stmt->bindParam("user_id", intval($username));
                 $stmt->bindParam("pcUsername", $usage->pc_username);
                 $stmt->bindParam("ip", $ip);
-                var_dump($instanceId,$ti,$username, $usage->pc_username,$ip);
+                //var_dump($instanceId,$ti,$username, $usage->pc_username,$ip);
 
                 $stmt->execute();
                 $id = $db->lastInsertId();
