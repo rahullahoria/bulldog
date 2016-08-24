@@ -57,26 +57,26 @@
       <file leaf-file-name="saveUsage.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/usage/saveUsage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51365185">
-              <caret line="132" column="61" selection-start-line="132" selection-start-column="61" selection-end-line="132" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.5904437">
+              <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
               <folding>
                 <element signature="e#6#93#0#PHP" expanded="true" />
                 <element signature="n#getProgramId#0;n#!!top" expanded="false" />
-                <marker date="1472032022851" expanded="true" signature="156:237" placeholder="SELECT id FR... programs" />
-                <marker date="1472032022851" expanded="true" signature="266:319" placeholder="Insert into programs" />
-                <marker date="1472032022851" expanded="true" signature="1208:1293" placeholder="SELECT id FR... instances" />
-                <marker date="1472032022851" expanded="true" signature="1208:1299" placeholder="SELECT id FR... instances" />
-                <marker date="1472032022851" expanded="true" signature="1208:1310" placeholder="SELECT id FR... instances" />
-                <marker date="1472032022851" expanded="true" signature="1208:1318" placeholder="SELECT id FR... instances" />
-                <marker date="1472032022851" expanded="true" signature="1348:1456" placeholder="INSERT INTO `instances`... " />
-                <marker date="1472032022851" expanded="true" signature="1434:1456" placeholder="Insert into programs" />
-                <marker date="1472032022851" expanded="true" signature="2642:2794" placeholder="INSERT INTO `usages`... " />
-                <marker date="1472032022851" expanded="true" signature="2813:2943" placeholder="insert into files... " />
-                <marker date="1472032022851" expanded="true" signature="2944:2966" placeholder="UPDATE time=... " />
-                <marker date="1472032022851" expanded="true" signature="4853:5003" placeholder="insert into program_usage... " />
-                <marker date="1472032022851" expanded="true" signature="5004:5026" placeholder="UPDATE time=... " />
-                <marker date="1472032022851" expanded="true" signature="5044:5174" placeholder="insert into files... " />
-                <marker date="1472032022851" expanded="true" signature="5175:5197" placeholder="UPDATE time=... " />
+                <marker date="1472032092343" expanded="true" signature="156:237" placeholder="SELECT id FR... programs" />
+                <marker date="1472032092343" expanded="true" signature="266:319" placeholder="Insert into programs" />
+                <marker date="1472032092343" expanded="true" signature="1208:1293" placeholder="SELECT id FR... instances" />
+                <marker date="1472032092343" expanded="true" signature="1208:1299" placeholder="SELECT id FR... instances" />
+                <marker date="1472032092343" expanded="true" signature="1208:1310" placeholder="SELECT id FR... instances" />
+                <marker date="1472032092343" expanded="true" signature="1208:1318" placeholder="SELECT id FR... instances" />
+                <marker date="1472032092343" expanded="true" signature="1348:1456" placeholder="INSERT INTO `instances`... " />
+                <marker date="1472032092343" expanded="true" signature="1434:1456" placeholder="Insert into programs" />
+                <marker date="1472032092343" expanded="true" signature="2642:2794" placeholder="INSERT INTO `usages`... " />
+                <marker date="1472032092343" expanded="true" signature="2813:2943" placeholder="insert into files... " />
+                <marker date="1472032092343" expanded="true" signature="2944:2966" placeholder="UPDATE time=... " />
+                <marker date="1472032092343" expanded="true" signature="4851:5001" placeholder="insert into program_usage... " />
+                <marker date="1472032092343" expanded="true" signature="5002:5024" placeholder="UPDATE time=... " />
+                <marker date="1472032092343" expanded="true" signature="5042:5172" placeholder="insert into files... " />
+                <marker date="1472032092343" expanded="true" signature="5173:5195" placeholder="UPDATE time=... " />
               </folding>
             </state>
           </provider>
@@ -610,12 +610,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00072" summary="making it by angular">
-      <created>1471578510865</created>
-      <option name="number" value="00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1471578510865</updated>
-    </task>
     <task id="LOCAL-00073" summary="making it by angular">
       <created>1471578682587</created>
       <option name="number" value="00073" />
@@ -904,7 +898,13 @@
       <option name="project" value="LOCAL" />
       <updated>1472031945784</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="making it by angular">
+      <created>1472032034647</created>
+      <option name="number" value="00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1472032034647</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1330,26 +1330,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/usage/saveUsage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51365185">
-          <caret line="132" column="61" selection-start-line="132" selection-start-column="61" selection-end-line="132" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.5904437">
+          <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
           <folding>
             <element signature="e#6#93#0#PHP" expanded="true" />
             <element signature="n#getProgramId#0;n#!!top" expanded="false" />
-            <marker date="1472032022851" expanded="true" signature="156:237" placeholder="SELECT id FR... programs" />
-            <marker date="1472032022851" expanded="true" signature="266:319" placeholder="Insert into programs" />
-            <marker date="1472032022851" expanded="true" signature="1208:1293" placeholder="SELECT id FR... instances" />
-            <marker date="1472032022851" expanded="true" signature="1208:1299" placeholder="SELECT id FR... instances" />
-            <marker date="1472032022851" expanded="true" signature="1208:1310" placeholder="SELECT id FR... instances" />
-            <marker date="1472032022851" expanded="true" signature="1208:1318" placeholder="SELECT id FR... instances" />
-            <marker date="1472032022851" expanded="true" signature="1348:1456" placeholder="INSERT INTO `instances`... " />
-            <marker date="1472032022851" expanded="true" signature="1434:1456" placeholder="Insert into programs" />
-            <marker date="1472032022851" expanded="true" signature="2642:2794" placeholder="INSERT INTO `usages`... " />
-            <marker date="1472032022851" expanded="true" signature="2813:2943" placeholder="insert into files... " />
-            <marker date="1472032022851" expanded="true" signature="2944:2966" placeholder="UPDATE time=... " />
-            <marker date="1472032022851" expanded="true" signature="4853:5003" placeholder="insert into program_usage... " />
-            <marker date="1472032022851" expanded="true" signature="5004:5026" placeholder="UPDATE time=... " />
-            <marker date="1472032022851" expanded="true" signature="5044:5174" placeholder="insert into files... " />
-            <marker date="1472032022851" expanded="true" signature="5175:5197" placeholder="UPDATE time=... " />
+            <marker date="1472032092343" expanded="true" signature="156:237" placeholder="SELECT id FR... programs" />
+            <marker date="1472032092343" expanded="true" signature="266:319" placeholder="Insert into programs" />
+            <marker date="1472032092343" expanded="true" signature="1208:1293" placeholder="SELECT id FR... instances" />
+            <marker date="1472032092343" expanded="true" signature="1208:1299" placeholder="SELECT id FR... instances" />
+            <marker date="1472032092343" expanded="true" signature="1208:1310" placeholder="SELECT id FR... instances" />
+            <marker date="1472032092343" expanded="true" signature="1208:1318" placeholder="SELECT id FR... instances" />
+            <marker date="1472032092343" expanded="true" signature="1348:1456" placeholder="INSERT INTO `instances`... " />
+            <marker date="1472032092343" expanded="true" signature="1434:1456" placeholder="Insert into programs" />
+            <marker date="1472032092343" expanded="true" signature="2642:2794" placeholder="INSERT INTO `usages`... " />
+            <marker date="1472032092343" expanded="true" signature="2813:2943" placeholder="insert into files... " />
+            <marker date="1472032092343" expanded="true" signature="2944:2966" placeholder="UPDATE time=... " />
+            <marker date="1472032092343" expanded="true" signature="4851:5001" placeholder="insert into program_usage... " />
+            <marker date="1472032092343" expanded="true" signature="5002:5024" placeholder="UPDATE time=... " />
+            <marker date="1472032092343" expanded="true" signature="5042:5172" placeholder="insert into files... " />
+            <marker date="1472032092343" expanded="true" signature="5173:5195" placeholder="UPDATE time=... " />
           </folding>
         </state>
       </provider>

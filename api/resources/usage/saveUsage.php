@@ -133,7 +133,7 @@ function saveUsageV1($username){
                 $stmt->bindParam("user_id", intval($username));
                 $stmt->bindParam("pcUsername", $usage->pc_username);
                 $stmt->bindParam("ip", $ip);
-                //var_dump($instanceId,$ti,$username, $usage->pc_username,$ip);
+                var_dump($instanceId,$ti,$username, $usage->pc_username,$ip);
 
                 $stmt->execute();
                 $id = $db->lastInsertId();
