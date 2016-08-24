@@ -133,10 +133,10 @@ function saveUsageV1($username){
 
                 $stmt->bindParam("instanceId", $instanceId, PDO::PARAM_INT);
                 $stmt->bindParam("time", $ti, PDO::PARAM_INT);
-                $stmt->bindParam("user_id", $username, PDO::PARAM_INT);
+                $stmt->bindParam("userId", $username, PDO::PARAM_INT);
                 $stmt->bindParam("pcUsername", $usage->pc_username);
                 $stmt->bindParam("ip", $ip);
-                var_dump($instanceId,$ti,$username, $usage->pc_username,$ip);
+                //var_dump($instanceId,$ti,$username, $usage->pc_username,$ip);
 
                 $stmt->execute();
                 $id = $db->lastInsertId();
