@@ -13,6 +13,19 @@
             <a class="navbar-brand" href="index.html">Ncy with BullDog</a>
         </div>
         <!-- /.navbar-header -->
+        <ul class="nav navbar-top-links navbar-right">
+
+            <li><a href="#/employee/{{ vm.inUser.md5_id }}"><i class="fa fa-user fa-fw"></i> {{ vm.inUser.name}}</a>
+            </li>
+            <!--<li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings </a>
+            </li>-->
+            <li class="divider"></li>
+            <li><a ng-click="vm.logout()"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+            </li>
+
+
+
+        </ul>
 
 
 
@@ -25,12 +38,12 @@
                     </li>
 
                     <li>
-                        <a href="#"><i class="fa fa-table fa-fw"></i> My Performance</a>
+                        <a href="#/employee/{{ vm.inUser.md5_id }}"><i class="fa fa-table fa-fw"></i> My Performance</a>
                     </li>
 
-                    <li>
+                    <!--<li>
                         <a href="#"><i class="glyphicon glyphicon-cog fa-fw"></i> Settings</a>
-                    </li>
+                    </li>-->
                     <li>
                         <a ng-click="vm.logout()"><i class="glyphicon glyphicon-off fa-fw"></i> Logout</a>
                     </li>

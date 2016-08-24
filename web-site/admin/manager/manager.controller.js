@@ -31,18 +31,21 @@
           //  loadCurrentUser();
            // loadAllUsers();
 
-            //loadUser();
+            loadUser();
             loadToCallCandidates();
 
         }
 
         vm.logout = function(){
             vm.inUser = null;
+            UserService.DeleteInUser();
             $location.path('#/login');
         };
 
         function loadUser(){
             vm.inUser = UserService.GetInUser();
+            if(!vm.inUser.name)
+                $location.path('/login');
             console.log("in user",vm.inUser);
 
 

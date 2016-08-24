@@ -13,14 +13,29 @@
         vm.user = {};
         vm.user.username = "";
         vm.user.password = "";
+        vm.inUser = null;
 
-        (function initController() {
+            (function initController() {
             // reset login status
+            //vm.inUser = UserService.GetInUser();
+            if(vm.inUser){
+                if(vm.inUser.type == 'manager' )
+                    $location.path('/manager');
+                else if(vm.inUser.type == 'employee' )
+                    $location.path('/employee/'+vm.inUser.md5_id);
+            }else
+
             AuthenticationService.ClearCredentials();
         })();
 
-        vm.demo = function(){
-            vm.user.username = "admin"; vm.user.password = "password";
+        vm.managerDemo = function(){
+            vm.user.company = "shatkonlabs";vm.user.email = "rahul@blueteam.in"; vm.user.password = "rahul";
+            login();
+        }
+
+
+        vm.employeeDemo = function(){
+            vm.user.company = "shatkonlabs";vm.user.email = "anil@blueteam.in"; vm.user.password = "anil";
             login();
         }
 

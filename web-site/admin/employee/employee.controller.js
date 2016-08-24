@@ -5,8 +5,8 @@
         .module('app')
         .controller('EmployeeController', EmployeeController);
 
-    EmployeeController.$inject = ['UserService',  'CandidateService', '$rootScope','$routeParams', 'FlashService'];
-    function EmployeeController(UserService, CandidateService,  $rootScope, $routeParams, FlashService) {
+    EmployeeController.$inject = ['UserService',  'CandidateService', '$location','$routeParams', 'FlashService'];
+    function EmployeeController(UserService, CandidateService,  $location, $routeParams, FlashService) {
         var vm = this;
 
         console.log($routeParams.emp);
@@ -32,6 +32,8 @@
         function loadUser(emp){
 
             vm.inUser = UserService.GetInUser();
+            if(!vm.inUser.name)
+                $location.path('/login');
 
 
             CandidateService.GetByManagerEmployeeId(emp)
@@ -118,6 +120,7 @@
 
         vm.logout = function(){
             vm.inUser = null;
+            UserService.DeleteInUser();
             $location.path('#/login');
         };
         vm.decodeURIComponent = function(str){

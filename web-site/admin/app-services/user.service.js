@@ -20,6 +20,11 @@
             return JSON.parse($cookieStore.get('inUser'));
 
         }
+        service.DeleteInUser = function(){
+
+            $cookieStore.put('inUser', '{}');
+
+        }
 
         function Auth(user) {
 
