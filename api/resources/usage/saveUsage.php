@@ -181,6 +181,7 @@ function saveUsage($username){
             }
         }
         $id = $db->lastInsertId();
+        $usage->id = $id;
 
 
         $db = null;
