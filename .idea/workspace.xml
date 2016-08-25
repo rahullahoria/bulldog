@@ -41,20 +41,20 @@
         <entry file="file://$PROJECT_DIR$/web-site/oldHome/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.28156996">
-              <caret line="94" column="35" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
+              <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1472112244924" expanded="true" signature="340:371" placeholder="select * fro... users" />
-                <marker date="1472112244924" expanded="true" signature="647:744" placeholder="select * fro... p_i_map" />
-                <marker date="1472112244924" expanded="true" signature="931:1277" placeholder="..." />
-                <marker date="1472112244924" expanded="true" signature="1678:1812" placeholder="SELECT `user... " />
-                <marker date="1472112244924" expanded="true" signature="2573:2668" placeholder="SELECT * fro... programs" />
-                <marker date="1472112244924" expanded="true" signature="2853:2875" placeholder="..." />
-                <marker date="1472112244924" expanded="true" signature="2853:2877" placeholder="..." />
-                <marker date="1472112244924" expanded="true" signature="2853:3071" placeholder="..." />
-                <marker date="1472112244924" expanded="true" signature="3129:3155" placeholder="..." />
-                <marker date="1472112244924" expanded="true" signature="3136:3155" placeholder="..." />
-                <marker date="1472112244924" expanded="true" signature="7512:7557" placeholder="..." />
+                <marker date="1472112274456" expanded="true" signature="340:371" placeholder="select * fro... users" />
+                <marker date="1472112274456" expanded="true" signature="647:744" placeholder="select * fro... p_i_map" />
+                <marker date="1472112274456" expanded="true" signature="931:1277" placeholder="..." />
+                <marker date="1472112274456" expanded="true" signature="1678:1812" placeholder="SELECT `user... " />
+                <marker date="1472112274456" expanded="true" signature="2573:2677" placeholder="SELECT * fro... programs" />
+                <marker date="1472112274456" expanded="true" signature="2862:2884" placeholder="..." />
+                <marker date="1472112274456" expanded="true" signature="2862:2886" placeholder="..." />
+                <marker date="1472112274456" expanded="true" signature="2862:3080" placeholder="..." />
+                <marker date="1472112274456" expanded="true" signature="3138:3164" placeholder="..." />
+                <marker date="1472112274456" expanded="true" signature="3145:3164" placeholder="..." />
+                <marker date="1472112274456" expanded="true" signature="7521:7566" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -512,12 +512,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00079" summary="making it by angular">
-      <created>1471597983756</created>
-      <option name="number" value="00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1471597983756</updated>
-    </task>
     <task id="LOCAL-00080" summary="making it by angular">
       <created>1471598275722</created>
       <option name="number" value="00080" />
@@ -806,7 +800,13 @@
       <option name="project" value="LOCAL" />
       <updated>1472111783445</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="making it by angular">
+      <created>1472112254439</created>
+      <option name="number" value="00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1472112254440</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1248,20 +1248,20 @@
     <entry file="file://$PROJECT_DIR$/web-site/oldHome/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28156996">
-          <caret line="94" column="35" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
+          <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1472112244924" expanded="true" signature="340:371" placeholder="select * fro... users" />
-            <marker date="1472112244924" expanded="true" signature="647:744" placeholder="select * fro... p_i_map" />
-            <marker date="1472112244924" expanded="true" signature="931:1277" placeholder="..." />
-            <marker date="1472112244924" expanded="true" signature="1678:1812" placeholder="SELECT `user... " />
-            <marker date="1472112244924" expanded="true" signature="2573:2668" placeholder="SELECT * fro... programs" />
-            <marker date="1472112244924" expanded="true" signature="2853:2875" placeholder="..." />
-            <marker date="1472112244924" expanded="true" signature="2853:2877" placeholder="..." />
-            <marker date="1472112244924" expanded="true" signature="2853:3071" placeholder="..." />
-            <marker date="1472112244924" expanded="true" signature="3129:3155" placeholder="..." />
-            <marker date="1472112244924" expanded="true" signature="3136:3155" placeholder="..." />
-            <marker date="1472112244924" expanded="true" signature="7512:7557" placeholder="..." />
+            <marker date="1472112274456" expanded="true" signature="340:371" placeholder="select * fro... users" />
+            <marker date="1472112274456" expanded="true" signature="647:744" placeholder="select * fro... p_i_map" />
+            <marker date="1472112274456" expanded="true" signature="931:1277" placeholder="..." />
+            <marker date="1472112274456" expanded="true" signature="1678:1812" placeholder="SELECT `user... " />
+            <marker date="1472112274456" expanded="true" signature="2573:2677" placeholder="SELECT * fro... programs" />
+            <marker date="1472112274456" expanded="true" signature="2862:2884" placeholder="..." />
+            <marker date="1472112274456" expanded="true" signature="2862:2886" placeholder="..." />
+            <marker date="1472112274456" expanded="true" signature="2862:3080" placeholder="..." />
+            <marker date="1472112274456" expanded="true" signature="3138:3164" placeholder="..." />
+            <marker date="1472112274456" expanded="true" signature="3145:3164" placeholder="..." />
+            <marker date="1472112274456" expanded="true" signature="7521:7566" placeholder="..." />
           </folding>
         </state>
       </provider>

@@ -92,7 +92,7 @@ if (isset($userId)) {
     $fun = rtrim($fun, ",");
 }
 
-$sql = "SELECT p.program,i.instance from programs as p join instances as i on p.id=i.program_id where 1";
+$sql = "SELECT DISTINCT p.program,i.instance from programs as p join instances as i on p.id=i.program_id where 1";
 
 $result = mysqli_query($db_handle, $sql);
 
