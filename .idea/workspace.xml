@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="344364a9-2d53-495e-8ca0-bd89e14a9f1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/oldHome/index.php" afterPath="$PROJECT_DIR$/web-site/oldHome/index.php" />
     </list>
     <ignored path="bulldog.iws" />
@@ -42,21 +40,21 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-site/oldHome/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43515357">
-              <caret line="103" column="52" selection-start-line="103" selection-start-column="52" selection-end-line="103" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.28156996">
+              <caret line="94" column="35" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1472111767136" expanded="true" signature="340:371" placeholder="select * fro... users" />
-                <marker date="1472111767136" expanded="true" signature="647:744" placeholder="select * fro... p_i_map" />
-                <marker date="1472111767136" expanded="true" signature="931:1277" placeholder="..." />
-                <marker date="1472111767136" expanded="true" signature="1678:1812" placeholder="SELECT `user... " />
-                <marker date="1472111767136" expanded="true" signature="2573:2603" placeholder="SELECT * fro... programs" />
-                <marker date="1472111767136" expanded="true" signature="2788:2810" placeholder="..." />
-                <marker date="1472111767136" expanded="true" signature="2788:2812" placeholder="..." />
-                <marker date="1472111767136" expanded="true" signature="2788:2971" placeholder="..." />
-                <marker date="1472111767136" expanded="true" signature="3029:3055" placeholder="..." />
-                <marker date="1472111767136" expanded="true" signature="3036:3055" placeholder="..." />
-                <marker date="1472111767136" expanded="true" signature="7412:7457" placeholder="..." />
+                <marker date="1472112244924" expanded="true" signature="340:371" placeholder="select * fro... users" />
+                <marker date="1472112244924" expanded="true" signature="647:744" placeholder="select * fro... p_i_map" />
+                <marker date="1472112244924" expanded="true" signature="931:1277" placeholder="..." />
+                <marker date="1472112244924" expanded="true" signature="1678:1812" placeholder="SELECT `user... " />
+                <marker date="1472112244924" expanded="true" signature="2573:2668" placeholder="SELECT * fro... programs" />
+                <marker date="1472112244924" expanded="true" signature="2853:2875" placeholder="..." />
+                <marker date="1472112244924" expanded="true" signature="2853:2877" placeholder="..." />
+                <marker date="1472112244924" expanded="true" signature="2853:3071" placeholder="..." />
+                <marker date="1472112244924" expanded="true" signature="3129:3155" placeholder="..." />
+                <marker date="1472112244924" expanded="true" signature="3136:3155" placeholder="..." />
+                <marker date="1472112244924" expanded="true" signature="7512:7557" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -514,12 +512,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00078" summary="making it by angular">
-      <created>1471597840299</created>
-      <option name="number" value="00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1471597840299</updated>
-    </task>
     <task id="LOCAL-00079" summary="making it by angular">
       <created>1471597983756</created>
       <option name="number" value="00079" />
@@ -808,7 +800,13 @@
       <option name="project" value="LOCAL" />
       <updated>1472033565363</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="making it by angular">
+      <created>1472111783445</created>
+      <option name="number" value="00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1472111783445</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1249,21 +1247,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-site/oldHome/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43515357">
-          <caret line="103" column="52" selection-start-line="103" selection-start-column="52" selection-end-line="103" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.28156996">
+          <caret line="94" column="35" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1472111767136" expanded="true" signature="340:371" placeholder="select * fro... users" />
-            <marker date="1472111767136" expanded="true" signature="647:744" placeholder="select * fro... p_i_map" />
-            <marker date="1472111767136" expanded="true" signature="931:1277" placeholder="..." />
-            <marker date="1472111767136" expanded="true" signature="1678:1812" placeholder="SELECT `user... " />
-            <marker date="1472111767136" expanded="true" signature="2573:2603" placeholder="SELECT * fro... programs" />
-            <marker date="1472111767136" expanded="true" signature="2788:2810" placeholder="..." />
-            <marker date="1472111767136" expanded="true" signature="2788:2812" placeholder="..." />
-            <marker date="1472111767136" expanded="true" signature="2788:2971" placeholder="..." />
-            <marker date="1472111767136" expanded="true" signature="3029:3055" placeholder="..." />
-            <marker date="1472111767136" expanded="true" signature="3036:3055" placeholder="..." />
-            <marker date="1472111767136" expanded="true" signature="7412:7457" placeholder="..." />
+            <marker date="1472112244924" expanded="true" signature="340:371" placeholder="select * fro... users" />
+            <marker date="1472112244924" expanded="true" signature="647:744" placeholder="select * fro... p_i_map" />
+            <marker date="1472112244924" expanded="true" signature="931:1277" placeholder="..." />
+            <marker date="1472112244924" expanded="true" signature="1678:1812" placeholder="SELECT `user... " />
+            <marker date="1472112244924" expanded="true" signature="2573:2668" placeholder="SELECT * fro... programs" />
+            <marker date="1472112244924" expanded="true" signature="2853:2875" placeholder="..." />
+            <marker date="1472112244924" expanded="true" signature="2853:2877" placeholder="..." />
+            <marker date="1472112244924" expanded="true" signature="2853:3071" placeholder="..." />
+            <marker date="1472112244924" expanded="true" signature="3129:3155" placeholder="..." />
+            <marker date="1472112244924" expanded="true" signature="3136:3155" placeholder="..." />
+            <marker date="1472112244924" expanded="true" signature="7512:7557" placeholder="..." />
           </folding>
         </state>
       </provider>

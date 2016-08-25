@@ -92,7 +92,7 @@ if (isset($userId)) {
     $fun = rtrim($fun, ",");
 }
 
-$sql = "SELECT * from programs where 1";
+$sql = "SELECT p.program,i.instance from programs as p join instances as i on p.id=i.program_id where 1";
 
 $result = mysqli_query($db_handle, $sql);
 
@@ -102,7 +102,7 @@ while ($row = mysqli_fetch_assoc($result)) {
     $tFun = rand(intval($row['time']/4),intval($row['time']/2));
     $emp .= "<tr>
                 <td>".base64_decode($row['program'])."</td>
-                <td></td>
+                <td>".base64_decode($row['instance'])."</td>
                 <td></td>
                 <td></td>
                 <td></td>
