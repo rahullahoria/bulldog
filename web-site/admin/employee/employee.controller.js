@@ -17,6 +17,9 @@
         vm.allUsers = [];
         vm.deleteUser = deleteUser;
         vm.loadUser = loadUser;
+        vm.threeMonths = [];
+        vm.whichMonth = null;
+        vm.loadUser = loadUser;
 
         initController();
 
@@ -24,9 +27,33 @@
           //  loadCurrentUser();
            // loadAllUsers();
 
+            loadMonths();
             loadUser($routeParams.emp);
+
             //loadToCallCandidates();
 
+        }
+
+        function loadMonths(){
+            var months = new Array(12);
+            months[0] = "January";
+            months[1] = "February";
+            months[2] = "March";
+            months[3] = "April";
+            months[4] = "May";
+            months[5] = "June";
+            months[6] = "July";
+            months[7] = "August";
+            months[8] = "September";
+            months[9] = "October";
+            months[10] = "November";
+            months[11] = "December";
+
+            var myDate = new Date();
+            vm.whichMonth = months[myDate.getMonth()];
+            vm.threeMonths[0] = months[myDate.getMonth()];
+            vm.threeMonths[1] = months[myDate.getMonth()-1];
+            vm.threeMonths[2] = months[myDate.getMonth()-2];
         }
 
         function loadUser(emp){

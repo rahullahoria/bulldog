@@ -92,10 +92,7 @@ if (isset($userId)) {
     $fun = rtrim($fun, ",");
 }
 
-$sql = "SELECT `user_id` ,u.name, sum( time ) AS time
-            FROM `program_usage` as p inner join users as u
-            WHERE p.`user_id` = u.id
-            GROUP BY `user_id` ";
+$sql = "SELECT * from programs where 1";
 
 $result = mysqli_query($db_handle, $sql);
 
@@ -104,11 +101,11 @@ while ($row = mysqli_fetch_assoc($result)) {
 
     $tFun = rand(intval($row['time']/4),intval($row['time']/2));
     $emp .= "<tr>
-                <td><a href='?user_id=".$row['user_id']."'> ".$row['name']."</a></td>
-                <td>". intval($row['time']/60/60)."</td>
-                <td>".intval($tFun/60/60) ."</td>
-                <td>".intval(date("d")*6.85)."</td>
-                <td>".intval((($row['time']/60/60)/(date("d")*6.85))*100)."%</td>
+                <td>".base64_decode($row['program'])."</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
              </tr>";
 
 }
