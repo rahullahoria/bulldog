@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="344364a9-2d53-495e-8ca0-bd89e14a9f1c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/randomData.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/resources/usage/saveUsage.php" afterPath="$PROJECT_DIR$/api/resources/usage/saveUsage.php" />
     </list>
     <ignored path="bulldog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="employee.view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.541667">
+            <state vertical-scroll-proportion="0.0">
               <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -40,10 +40,9 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-site/oldHome/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
+            <state vertical-scroll-proportion="0.0">
               <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1472112274456" expanded="true" signature="340:371" placeholder="select * fro... users" />
                 <marker date="1472112274456" expanded="true" signature="647:744" placeholder="select * fro... p_i_map" />
                 <marker date="1472112274456" expanded="true" signature="931:1277" placeholder="..." />
@@ -52,9 +51,6 @@
                 <marker date="1472112274456" expanded="true" signature="2862:2884" placeholder="..." />
                 <marker date="1472112274456" expanded="true" signature="2862:2886" placeholder="..." />
                 <marker date="1472112274456" expanded="true" signature="2862:3080" placeholder="..." />
-                <marker date="1472112274456" expanded="true" signature="3138:3164" placeholder="..." />
-                <marker date="1472112274456" expanded="true" signature="3145:3164" placeholder="..." />
-                <marker date="1472112274456" expanded="true" signature="7521:7566" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -63,7 +59,7 @@
       <file leaf-file-name="getInstance.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0416665">
+            <state vertical-scroll-proportion="0.0">
               <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding>
                 <marker date="1471620288916" expanded="true" signature="241:433" placeholder="SELECT p.`pr... p_i_maps" />
@@ -89,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="saveUsage.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="saveUsage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/resources/usage/saveUsage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43686005">
+            <state vertical-scroll-proportion="-10.666667">
               <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
               <folding>
                 <element signature="e#6#93#0#PHP" expanded="true" />
@@ -113,24 +109,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authUser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/resources/auth/authUser.php">
+      <file leaf-file-name="randomData.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/randomData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4166665">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+            <state vertical-scroll-proportion="-0.12627986">
+              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding>
-                <marker date="1471514079336" expanded="true" signature="231:505" placeholder="SELECT u.nam... users" />
+                <element signature="e#6#93#0#PHP" expanded="true" />
+                <marker date="1472213744412" expanded="true" signature="1175:1330" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472213744412" expanded="true" signature="1175:1345" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472213744412" expanded="true" signature="1175:1346" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472213744412" expanded="true" signature="1175:1360" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472213744412" expanded="true" signature="1175:1371" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472213744412" expanded="true" signature="1175:1374" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472213744412" expanded="true" signature="1175:1405" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472213744412" expanded="true" signature="1175:1419" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472213744412" expanded="true" signature="1175:1442" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472213744412" expanded="true" signature="1175:1722" placeholder="INSERT INTO `bulldog`.`usages`... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manager.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-site/admin/manager/manager.controller.js">
+      <file leaf-file-name="authUser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/resources/auth/authUser.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="39" />
-              <folding />
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+              <folding>
+                <marker date="1471514079336" expanded="true" signature="231:505" placeholder="SELECT u.nam... users" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -200,6 +208,7 @@
         <option value="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
         <option value="$PROJECT_DIR$/web-site/oldHome/index.php" />
         <option value="$PROJECT_DIR$/api/resources/usage/saveUsage.php" />
+        <option value="$PROJECT_DIR$/scripts/randomData.php" />
       </list>
     </option>
   </component>
@@ -262,6 +271,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,14 +289,6 @@
               <option name="myItemId" value="bulldog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oldHome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -298,172 +300,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oldHome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulldog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulldog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulldog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulldog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulldog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulldog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulldog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulldog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulldog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulldog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="companies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="managers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulldog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulldog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="companies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="managers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employees" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulldog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulldog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -511,12 +354,6 @@
       <created>1469687094111</created>
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
-    </task>
-    <task id="LOCAL-00081" summary="making it by angular">
-      <created>1471598451521</created>
-      <option name="number" value="00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1471598451521</updated>
     </task>
     <task id="LOCAL-00082" summary="making it by angular">
       <created>1471598522807</created>
@@ -806,7 +643,13 @@
       <option name="project" value="LOCAL" />
       <updated>1472112278281</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="making it by angular">
+      <created>1472114753659</created>
+      <option name="number" value="00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1472114753659</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -815,7 +658,6 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -823,6 +665,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -858,13 +701,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1122,11 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="204" column="33" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
-          <folding>
-            <marker date="1472029125835" expanded="true" signature="36163:36630" placeholder="..." />
-            <marker date="1472029125835" expanded="true" signature="36199:36615" placeholder="..." />
-            <marker date="1472029125835" expanded="true" signature="36231:36596" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1134,7 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,7 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="163" column="28" selection-start-line="163" selection-start-column="24" selection-end-line="181" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1180,7 +1009,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0416665">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
             <marker date="1471620288916" expanded="true" signature="241:433" placeholder="SELECT p.`pr... p_i_maps" />
@@ -1190,7 +1019,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/auth/authUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4166665">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
           <folding>
             <marker date="1471514079336" expanded="true" signature="231:505" placeholder="SELECT u.nam... users" />
@@ -1215,7 +1044,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.541667">
+        <state vertical-scroll-proportion="0.0">
           <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -1225,10 +1054,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-site/oldHome/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
+        <state vertical-scroll-proportion="0.0">
           <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1472112274456" expanded="true" signature="340:371" placeholder="select * fro... users" />
             <marker date="1472112274456" expanded="true" signature="647:744" placeholder="select * fro... p_i_map" />
             <marker date="1472112274456" expanded="true" signature="931:1277" placeholder="..." />
@@ -1237,16 +1065,13 @@
             <marker date="1472112274456" expanded="true" signature="2862:2884" placeholder="..." />
             <marker date="1472112274456" expanded="true" signature="2862:2886" placeholder="..." />
             <marker date="1472112274456" expanded="true" signature="2862:3080" placeholder="..." />
-            <marker date="1472112274456" expanded="true" signature="3138:3164" placeholder="..." />
-            <marker date="1472112274456" expanded="true" signature="3145:3164" placeholder="..." />
-            <marker date="1472112274456" expanded="true" signature="7521:7566" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/usage/saveUsage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43686005">
+        <state vertical-scroll-proportion="-10.666667">
           <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
           <folding>
             <element signature="e#6#93#0#PHP" expanded="true" />
@@ -1262,6 +1087,26 @@
             <marker date="1472114749452" expanded="true" signature="4224:4246" placeholder="UPDATE time=... " />
             <marker date="1472114749452" expanded="true" signature="4264:4394" placeholder="insert into files... " />
             <marker date="1472114749452" expanded="true" signature="4395:4417" placeholder="UPDATE time=... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/randomData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.12627986">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <element signature="e#6#93#0#PHP" expanded="true" />
+            <marker date="1472213744412" expanded="true" signature="1175:1330" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472213744412" expanded="true" signature="1175:1345" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472213744412" expanded="true" signature="1175:1346" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472213744412" expanded="true" signature="1175:1360" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472213744412" expanded="true" signature="1175:1371" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472213744412" expanded="true" signature="1175:1374" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472213744412" expanded="true" signature="1175:1405" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472213744412" expanded="true" signature="1175:1419" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472213744412" expanded="true" signature="1175:1442" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472213744412" expanded="true" signature="1175:1722" placeholder="INSERT INTO `bulldog`.`usages`... " />
           </folding>
         </state>
       </provider>
