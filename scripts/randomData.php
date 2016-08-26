@@ -48,7 +48,7 @@ while (strtotime($endDate) > strtotime($startDate."")){
     $endDayDate = strtotime($startDate." +12 hour");
 
     echo "Start Date: ". $startDate." endDate:". $endDate." end Day:".$endDayDate."\n";
-    while (strtotime($endDayDate) > strtotime($startDate."")){
+    while ($endDayDate > strtotime($startDate."")){
         $userId = rand(1,7);
         $instance = rand(1,101);
         $time = rand(1,4)*60;

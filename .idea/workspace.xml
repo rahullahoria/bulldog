@@ -112,20 +112,20 @@
       <file leaf-file-name="randomData.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/randomData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7696246">
-              <caret line="71" column="70" selection-start-line="71" selection-start-column="70" selection-end-line="71" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.2320819">
+              <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
               <folding>
                 <element signature="e#6#93#0#PHP" expanded="true" />
-                <marker date="1472214373364" expanded="true" signature="1255:1410" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472214373364" expanded="true" signature="1255:1425" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472214373364" expanded="true" signature="1255:1426" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472214373364" expanded="true" signature="1255:1440" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472214373364" expanded="true" signature="1255:1451" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472214373364" expanded="true" signature="1255:1454" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472214373364" expanded="true" signature="1255:1485" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472214373364" expanded="true" signature="1255:1499" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472214373364" expanded="true" signature="1255:1522" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472214373364" expanded="true" signature="1255:1868" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472214464720" expanded="true" signature="1244:1399" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472214464720" expanded="true" signature="1244:1414" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472214464720" expanded="true" signature="1244:1415" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472214464720" expanded="true" signature="1244:1429" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472214464720" expanded="true" signature="1244:1440" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472214464720" expanded="true" signature="1244:1443" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472214464720" expanded="true" signature="1244:1474" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472214464720" expanded="true" signature="1244:1488" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472214464720" expanded="true" signature="1244:1511" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <marker date="1472214464720" expanded="true" signature="1244:1857" placeholder="INSERT INTO `bulldog`.`usages`... " />
               </folding>
             </state>
           </provider>
@@ -354,12 +354,6 @@
       <created>1469687094111</created>
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
-    </task>
-    <task id="LOCAL-00085" summary="making it by angular">
-      <created>1471599604633</created>
-      <option name="number" value="00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1471599604634</updated>
     </task>
     <task id="LOCAL-00086" summary="making it by angular">
       <created>1471599703892</created>
@@ -649,7 +643,13 @@
       <option name="project" value="LOCAL" />
       <updated>1472214158523</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="making it by angular">
+      <created>1472214383675</created>
+      <option name="number" value="00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1472214383676</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1093,20 +1093,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/randomData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7696246">
-          <caret line="71" column="70" selection-start-line="71" selection-start-column="70" selection-end-line="71" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.2320819">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
           <folding>
             <element signature="e#6#93#0#PHP" expanded="true" />
-            <marker date="1472214373364" expanded="true" signature="1255:1410" placeholder="INSERT INTO `bulldog`.`usages`... " />
-            <marker date="1472214373364" expanded="true" signature="1255:1425" placeholder="INSERT INTO `bulldog`.`usages`... " />
-            <marker date="1472214373364" expanded="true" signature="1255:1426" placeholder="INSERT INTO `bulldog`.`usages`... " />
-            <marker date="1472214373364" expanded="true" signature="1255:1440" placeholder="INSERT INTO `bulldog`.`usages`... " />
-            <marker date="1472214373364" expanded="true" signature="1255:1451" placeholder="INSERT INTO `bulldog`.`usages`... " />
-            <marker date="1472214373364" expanded="true" signature="1255:1454" placeholder="INSERT INTO `bulldog`.`usages`... " />
-            <marker date="1472214373364" expanded="true" signature="1255:1485" placeholder="INSERT INTO `bulldog`.`usages`... " />
-            <marker date="1472214373364" expanded="true" signature="1255:1499" placeholder="INSERT INTO `bulldog`.`usages`... " />
-            <marker date="1472214373364" expanded="true" signature="1255:1522" placeholder="INSERT INTO `bulldog`.`usages`... " />
-            <marker date="1472214373364" expanded="true" signature="1255:1868" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472214464720" expanded="true" signature="1244:1399" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472214464720" expanded="true" signature="1244:1414" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472214464720" expanded="true" signature="1244:1415" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472214464720" expanded="true" signature="1244:1429" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472214464720" expanded="true" signature="1244:1440" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472214464720" expanded="true" signature="1244:1443" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472214464720" expanded="true" signature="1244:1474" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472214464720" expanded="true" signature="1244:1488" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472214464720" expanded="true" signature="1244:1511" placeholder="INSERT INTO `bulldog`.`usages`... " />
+            <marker date="1472214464720" expanded="true" signature="1244:1857" placeholder="INSERT INTO `bulldog`.`usages`... " />
           </folding>
         </state>
       </provider>
