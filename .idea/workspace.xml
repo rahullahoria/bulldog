@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="344364a9-2d53-495e-8ca0-bd89e14a9f1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php" afterPath="$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/randomData.php" afterPath="$PROJECT_DIR$/scripts/randomData.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js" afterPath="$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
     </list>
@@ -32,11 +29,9 @@
       <file leaf-file-name="employee.view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.041667">
-              <caret line="144" column="114" selection-start-line="144" selection-start-column="114" selection-end-line="144" selection-end-column="114" />
-              <folding>
-                <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-4.245283">
+              <caret line="75" column="47" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="61" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,18 +68,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="employee.controller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="employee.controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.14802065">
+              <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
               <folding>
-                <element signature="e#5602#9736#0" expanded="false" />
-                <element signature="e#7098#9432#0" expanded="false" />
-                <element signature="e#9836#10105#0" expanded="false" />
-                <element signature="e#10115#10332#0" expanded="false" />
-                <element signature="e#10366#10512#0" expanded="false" />
-                <marker date="1472224349716" expanded="true" signature="9293:9338" placeholder="..." />
+                <element signature="e#6007#10141#0" expanded="false" />
+                <element signature="e#7503#9837#0" expanded="false" />
+                <element signature="e#10241#10510#0" expanded="false" />
+                <element signature="e#10520#10737#0" expanded="false" />
+                <element signature="e#10771#10917#0" expanded="false" />
+                <marker date="1472229060892" expanded="true" signature="9698:9743" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -112,16 +107,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manager.view.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-site/admin/manager/manager.view.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.5">
-              <caret line="178" column="30" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="getManagerEmployees.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/getManagerEmployees.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,10 +117,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getEmployee.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-site/admin/login/login.view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.916667">
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="46" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getEmployee.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17918089">
+            <state vertical-scroll-proportion="-3.1666667">
               <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding>
                 <marker date="1472224732404" expanded="true" signature="228:507" placeholder="SELECT date(... " />
@@ -186,10 +181,10 @@
         <option value="$PROJECT_DIR$/api/resources/usage/saveUsage.php" />
         <option value="$PROJECT_DIR$/web-site/admin/manager/manager.view.html" />
         <option value="$PROJECT_DIR$/scripts/randomData.php" />
-        <option value="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
-        <option value="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
         <option value="$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js" />
         <option value="$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php" />
+        <option value="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
+        <option value="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
       </list>
     </option>
   </component>
@@ -312,6 +307,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bulldog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bulldog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bulldog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bulldog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -533,12 +572,6 @@
       <created>1469687094111</created>
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
-    </task>
-    <task id="LOCAL-00090" summary="making it by angular">
-      <created>1471600044389</created>
-      <option name="number" value="00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1471600044389</updated>
     </task>
     <task id="LOCAL-00091" summary="making it by angular">
       <created>1471600126875</created>
@@ -828,7 +861,13 @@
       <option name="project" value="LOCAL" />
       <updated>1472219669532</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="making it by angular">
+      <created>1472224767966</created>
+      <option name="number" value="00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1472224767966</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1120,14 +1159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/admin/login/login.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="59" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/app-services/authentication.service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1221,39 +1252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <element signature="e#5602#9736#0" expanded="false" />
-            <element signature="e#7098#9432#0" expanded="false" />
-            <element signature="e#9836#10105#0" expanded="false" />
-            <element signature="e#10115#10332#0" expanded="false" />
-            <element signature="e#10366#10512#0" expanded="false" />
-            <marker date="1472224349716" expanded="true" signature="9293:9338" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.041667">
-          <caret line="144" column="114" selection-start-line="144" selection-start-column="114" selection-end-line="144" selection-end-column="114" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="155" selection-start-line="68" selection-start-column="155" selection-end-line="68" selection-end-column="155" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/getManagerEmployees.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75">
@@ -1290,10 +1288,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17918089">
+        <state vertical-scroll-proportion="-3.1666667">
           <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
           <folding>
             <marker date="1472224732404" expanded="true" signature="228:507" placeholder="SELECT date(... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="155" selection-start-line="68" selection-start-column="155" selection-end-line="68" selection-end-column="155" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/admin/login/login.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.916667">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.245283">
+          <caret line="75" column="47" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14802065">
+          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+          <folding>
+            <element signature="e#6007#10141#0" expanded="false" />
+            <element signature="e#7503#9837#0" expanded="false" />
+            <element signature="e#10241#10510#0" expanded="false" />
+            <element signature="e#10520#10737#0" expanded="false" />
+            <element signature="e#10771#10917#0" expanded="false" />
+            <marker date="1472229060892" expanded="true" signature="9698:9743" placeholder="..." />
           </folding>
         </state>
       </provider>

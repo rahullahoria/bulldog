@@ -14,12 +14,14 @@
         vm.user = null;
         vm.inUser = null;
         vm.employeeInstance = [];
+        vm.dataLoading = false;
         vm.allUsers = [];
         vm.deleteUser = deleteUser;
         vm.loadUser = loadUser;
         vm.threeMonths = [];
-        vm.whichMonth = null;
+        vm.whichMonth = {};
         vm.loadUser = loadUser;
+        vm.currentMonthIndex = 0;
 
         initController();
 
@@ -34,8 +36,11 @@
 
         }
         vm.setCurrentMon = function(num,name){
-            vm.whichMonth.name = name;
-            vm.whichMonth.num = num;
+            //console.log("i am in setCurrentMonth",vm.currentMonthIndex);
+
+            vm.whichMonth.name = vm.threeMonths[vm.currentMonthIndex].name;
+            vm.whichMonth.num = vm.threeMonths[vm.currentMonthIndex].num;
+            console.log("i am in setCurrentMonth",vm.whichMonth);
             loadUser();
 
         }
@@ -58,12 +63,14 @@
             var myDate = new Date();
             vm.whichMonth.name = months[myDate.getMonth()];
             vm.whichMonth.num = myDate.getMonth();
-            vm.threeMonths[0] = {"name":months[myDate.getMonth()],"num":myDate.getMonth()};
+           vm.threeMonths[0] = {"name":months[myDate.getMonth()],"num":myDate.getMonth()};
             vm.threeMonths[1] = {"name":months[myDate.getMonth()-1], "num":myDate.getMonth()-1};
             vm.threeMonths[2] = {"name":months[myDate.getMonth()-2],"num":myDate.getMonth()-2};
+            console.log(vm.threeMonths);
         }
 
         function loadUser(){
+            vm.dataLoading = true;
             var emp = $routeParams.emp;
             vm.inUser = UserService.GetInUser();
             if(!vm.inUser.name)
@@ -75,19 +82,20 @@
                     vm.employee = response.employee;
                     console.log(vm.employee);
                     drawGraph();
+                    vm.dataLoading = false;
 
-                    CandidateService.GetUserInstance(vm.employee[0].profession,vm.inUser.type)
+                    /*CandidateService.GetUserInstance(vm.employee[0].profession,vm.inUser.type)
                         .then(function (response) {
 
                             vm.employeeInstances = response.instances;
-                            /*for(var i=0;i<vm.employeeInstances.length;i++){
+                            /!*for(var i=0;i<vm.employeeInstances.length;i++){
                                 if(vm.decodeURIComponent(vm.employeeInstances.name)== ""){
                                     vm.employeeInstances.slice(i,1);
                                 }
-                            }*/
+                            }*!/
                             console.log(vm.employeeInstances);
 
-                        });
+                        });*/
 
                 });
 
