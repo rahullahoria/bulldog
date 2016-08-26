@@ -36,13 +36,13 @@ $config['database'] = "bulldog";
 
 $db_handle = mysqli_connect($config['host'], $config['user'], $config['password'], $config['database']);
 
-$startDate = strtotime('2016-06-01 08:50:27');
+$startDate = '2016-06-01 08:50:27';
 $endDate = '2016-08-24 20:50:27';
 
 /*$created_date = date("Y-m-d H:i:s");
 $newTime = date("Y-m-d H:i:s",strtotime(date("Y-m-d H:i:s")." +2 minutes"));*/
 
-if(strtotime($date1) < strtotime($date2));
+//if(strtotime($date1) < strtotime($date2));
 
 while (strtotime($endDate) > strtotime($startDate."")){
     $endDayDate = strtotime($startDate." +12 hour");
@@ -67,9 +67,9 @@ while (strtotime($endDate) > strtotime($startDate."")){
         if($id == 0) die("someThing wrong happed \n".$sql);
 
 
-        $startDate = strtotime($startDate." +".$step." minutes");
+        $startDate = date("Y-m-d H:i:s",strtotime($startDate." +".$step." minutes"));
     }
-    $startDate = strtotime($startDate." +12 hour");
+    $startDate = date("Y-m-d H:i:s",strtotime($startDate." +12 hour"));
 
 }
 
