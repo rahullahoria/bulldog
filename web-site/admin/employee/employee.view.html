@@ -76,7 +76,7 @@
                                    <span class="caret"></span>
                                </button>
                                <ul class="dropdown-menu pull-right" role="menu">
-                                   <li ng-repeat="month in vm.threeMonths" ><a href="loadUser(emp)">{{ month }}</a>
+                                   <li ng-repeat="month in vm.threeMonths" ><a href="vm.setCurrentMon({{ month.num }},{{ month.name }})">{{ month.name }}</a>
                                    </li>
 
                                    <li class="divider"></li>
@@ -111,15 +111,15 @@
                         <div class="pull-right">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                                    {{ vm.whichMonth }}
+                                    {{ vm.whichMonth.name }}
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu pull-right" role="menu">
-                                    <li ng-repeat="month in vm.threeMonths" ><a href="loadUser(emp)">{{ month }}</a>
+                                    <li ng-repeat="month in vm.threeMonths" ><a href="vm.setCurrentMon({{ month.num }},{{ month.name }})">{{ month.name }}</a>
                                     </li>
 
                                     <li class="divider"></li>
-                                    <li><a href="">Currently for {{ vm.whichMonth }}</a>
+                                    <li><a href="">Currently for {{ vm.whichMonth.name }}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -146,11 +146,11 @@
                         <div class="pull-right">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                                    {{ vm.whichMonth }}
+                                    {{ vm.whichMonth.name }}
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu pull-right" role="menu">
-                                    <li ng-repeat="month in vm.threeMonths" ><a href="loadUser(emp)">{{ month }}</a>
+                                    <li ng-repeat="month in vm.threeMonths" ><a href="vm.setCurrentMon({{ month.num }},{{ month.name }})">{{ month.name }}</a>
                                     </li>
 
                                     <li class="divider"></li>

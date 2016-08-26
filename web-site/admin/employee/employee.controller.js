@@ -28,9 +28,15 @@
            // loadAllUsers();
 
             loadMonths();
-            loadUser($routeParams.emp);
+            loadUser();
 
             //loadToCallCandidates();
+
+        }
+        vm.setCurrentMon = function(num,name){
+            vm.whichMonth.name = name;
+            vm.whichMonth.num = num;
+            loadUser();
 
         }
 
@@ -50,20 +56,21 @@
             months[11] = "December";
 
             var myDate = new Date();
-            vm.whichMonth = months[myDate.getMonth()];
-            vm.threeMonths[0] = months[myDate.getMonth()];
-            vm.threeMonths[1] = months[myDate.getMonth()-1];
-            vm.threeMonths[2] = months[myDate.getMonth()-2];
+            vm.whichMonth.name = months[myDate.getMonth()];
+            vm.whichMonth.num = myDate.getMonth();
+            vm.threeMonths[0] = {"name":months[myDate.getMonth()],"num":myDate.getMonth()};
+            vm.threeMonths[1] = {"name":months[myDate.getMonth()-1], "num":myDate.getMonth()-1};
+            vm.threeMonths[2] = {"name":months[myDate.getMonth()-2],"num":myDate.getMonth()-2};
         }
 
-        function loadUser(emp){
-
+        function loadUser(){
+            var emp = $routeParams.emp;
             vm.inUser = UserService.GetInUser();
             if(!vm.inUser.name)
                 $location.path('/login');
 
 
-            CandidateService.GetByManagerEmployeeId(emp)
+            CandidateService.GetByManagerEmployeeId(emp,vm.whichMonth.num)
                 .then(function (response) {
                     vm.employee = response.employee;
                     console.log(vm.employee);

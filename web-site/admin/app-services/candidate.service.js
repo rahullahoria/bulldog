@@ -65,8 +65,8 @@
             return $http.get('/api/users/' + id).then(handleSuccess, handleError('Error getting user by id'));
         }
 
-        function GetByManagerEmployeeId(id) {
-            return $http.get('http://api.bulldog.shatkonlabs.com/companies/:company_id/managers/:manager_id/employees/' + id).then(handleSuccess, handleError('Error getting user by id'));
+        function GetByManagerEmployeeId(id,month) {
+            return $http.get('http://api.bulldog.shatkonlabs.com/companies/:company_id/managers/:manager_id/employees/' + id+ "?month=" +month).then(handleSuccess, handleError('Error getting user by id'));
         }
 
         function GetByUsername(username) {

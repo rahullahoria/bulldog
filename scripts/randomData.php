@@ -50,7 +50,7 @@ while (strtotime($endDate) > strtotime($startDate."")){
     echo "Start Date: ". $startDate." endDate:". $endDate." end Day:".$endDayDate."\n";
     while ($endDayDate > strtotime($startDate."")){
         $userId = rand(1,7);
-        $instance = rand(1,101);
+        $instance = rand(1,134);
         $time = rand(1,4)*60;
         $step = rand(1,3);
 

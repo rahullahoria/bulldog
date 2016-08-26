@@ -8,17 +8,21 @@
 
 function getEmployee($companyId, $managerId, $employee){
 
+    global $app;
+
+    $month = $app->request()->get('month');
+
     $sql = "SELECT date(pu.creation) as date,sum(pu.time) as time, u.name,u.profession
                 FROM `usages` as pu INNER JOIN users as u
-                WHERE pu.user_id=u.id and u.md5_id=:employee  and MONTH(pu.creation) = MONTH(CURDATE())
+                WHERE pu.user_id=u.id and u.md5_id=:employee  and MONTH(pu.creation) = :month
                 group by `user_id`,date(pu.creation);";
 
     try {
         $db = getDB();
         $stmt = $db->prepare($sql);
 
-        $stmt->bindParam("employee", $employee);/*
-        $stmt->bindParam("username", $username)*/;
+        $stmt->bindParam("employee", $employee);
+        $stmt->bindParam("month", $month);
 
         $stmt->execute();
         $employees = $stmt->fetchAll(PDO::FETCH_OBJ);
