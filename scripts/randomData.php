@@ -57,6 +57,7 @@ while (strtotime($endDate) > strtotime($startDate."")){
                        '".$instance."', '".$time."', '".$userId."', 'unknown', '122.176.246.115', '".$startDate."'
                     );";
 
+        echo $sql."\n\n";
         mysqli_query($db_handle, $sql);
 
 
