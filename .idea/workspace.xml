@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="344364a9-2d53-495e-8ca0-bd89e14a9f1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/resources/companies/managers/getManagerEmployees.php" afterPath="$PROJECT_DIR$/api/resources/companies/managers/getManagerEmployees.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js" afterPath="$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/manager/manager.controller.js" afterPath="$PROJECT_DIR$/web-site/admin/manager/manager.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/manager/manager.view.html" afterPath="$PROJECT_DIR$/web-site/admin/manager/manager.view.html" />
     </list>
     <ignored path="bulldog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +32,8 @@
       <file leaf-file-name="employee.view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.245283">
-              <caret line="75" column="47" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="61" />
+            <state vertical-scroll-proportion="-23.166666">
+              <caret line="254" column="18" selection-start-line="254" selection-start-column="18" selection-end-line="254" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -40,20 +43,8 @@
         <entry file="file://$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="155" selection-start-line="68" selection-start-column="155" selection-end-line="68" selection-end-column="155" />
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="45" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getInstance.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0416665">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-              <folding>
-                <marker date="1471620288916" expanded="true" signature="241:433" placeholder="SELECT p.`pr... p_i_maps" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -61,18 +52,18 @@
       <file leaf-file-name="updateInstanceType.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/resources/instance/updateInstanceType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875">
+            <state vertical-scroll-proportion="0.0">
               <caret line="8" column="23" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="employee.controller.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="employee.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14802065">
-              <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="43" />
               <folding>
                 <element signature="e#6007#10141#0" expanded="false" />
                 <element signature="e#7503#9837#0" expanded="false" />
@@ -85,23 +76,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="randomData.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/randomData.php">
+      <file leaf-file-name="manager.view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-site/admin/manager/manager.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.666667">
-              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            <state vertical-scroll-proportion="-5.6666665">
+              <caret line="181" column="30" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manager.controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-site/admin/manager/manager.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.58196723">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding>
-                <element signature="e#6#93#0#PHP" expanded="true" />
-                <marker date="1472220198660" expanded="true" signature="1244:1399" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472220198660" expanded="true" signature="1244:1414" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472220198660" expanded="true" signature="1244:1415" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472220198660" expanded="true" signature="1244:1429" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472220198660" expanded="true" signature="1244:1440" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472220198660" expanded="true" signature="1244:1443" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472220198660" expanded="true" signature="1244:1474" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472220198660" expanded="true" signature="1244:1488" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472220198660" expanded="true" signature="1244:1511" placeholder="INSERT INTO `bulldog`.`usages`... " />
-                <marker date="1472220198660" expanded="true" signature="1244:1857" placeholder="INSERT INTO `bulldog`.`usages`... " />
+                <element signature="e#2643#2825#0" expanded="false" />
+                <element signature="e#2865#4096#0" expanded="false" />
+                <element signature="e#4359#4755#0" expanded="false" />
+                <element signature="e#5665#5882#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -110,9 +104,11 @@
       <file leaf-file-name="getManagerEmployees.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/getManagerEmployees.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="14" selection-end-column="31" />
-              <folding />
+            <state vertical-scroll-proportion="-13.75">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <marker date="1472289149023" expanded="true" signature="226:452" placeholder="SELECT `user... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,7 +116,7 @@
       <file leaf-file-name="login.view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-site/admin/login/login.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.916667">
+            <state vertical-scroll-proportion="-28.125">
               <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
@@ -130,8 +126,8 @@
       <file leaf-file-name="getEmployee.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1666667">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state vertical-scroll-proportion="-10.666667">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="42" />
               <folding>
                 <marker date="1472224732404" expanded="true" signature="228:507" placeholder="SELECT date(... " />
               </folding>
@@ -142,7 +138,7 @@
       <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375">
+            <state vertical-scroll-proportion="0.0">
               <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
               <folding />
             </state>
@@ -167,24 +163,24 @@
         <option value="$PROJECT_DIR$/web-site/admin/bower_components/datatables/media/css/jquery.dataTables.css" />
         <option value="$PROJECT_DIR$/web-site/admin/app.js" />
         <option value="$PROJECT_DIR$/api/resources/auth/authUser.php" />
-        <option value="$PROJECT_DIR$/api/resources/companies/managers/getManagerEmployees.php" />
         <option value="$PROJECT_DIR$/api/resources/instance/updateInstanceType.php" />
         <option value="$PROJECT_DIR$/api/app.php" />
         <option value="$PROJECT_DIR$/api/index.php" />
         <option value="$PROJECT_DIR$/api/resources/instance/getInstance.php" />
-        <option value="$PROJECT_DIR$/web-site/admin/manager/manager.controller.js" />
         <option value="$PROJECT_DIR$/web-site/admin/app-services/user.service.js" />
         <option value="$PROJECT_DIR$/web-site/admin/app-services/authentication.service.js" />
         <option value="$PROJECT_DIR$/web-site/admin/login/login.controller.js" />
         <option value="$PROJECT_DIR$/web-site/admin/login/login.view.html" />
         <option value="$PROJECT_DIR$/web-site/oldHome/index.php" />
         <option value="$PROJECT_DIR$/api/resources/usage/saveUsage.php" />
-        <option value="$PROJECT_DIR$/web-site/admin/manager/manager.view.html" />
         <option value="$PROJECT_DIR$/scripts/randomData.php" />
-        <option value="$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js" />
         <option value="$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php" />
-        <option value="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
         <option value="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
+        <option value="$PROJECT_DIR$/api/resources/companies/managers/getManagerEmployees.php" />
+        <option value="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
+        <option value="$PROJECT_DIR$/web-site/admin/manager/manager.view.html" />
+        <option value="$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js" />
+        <option value="$PROJECT_DIR$/web-site/admin/manager/manager.controller.js" />
       </list>
     </option>
   </component>
@@ -247,7 +243,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -524,7 +520,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -572,12 +568,6 @@
       <created>1469687094111</created>
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
-    </task>
-    <task id="LOCAL-00091" summary="making it by angular">
-      <created>1471600126875</created>
-      <option name="number" value="00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1471600126875</updated>
     </task>
     <task id="LOCAL-00092" summary="making it by angular">
       <created>1471601039301</created>
@@ -867,7 +857,13 @@
       <option name="project" value="LOCAL" />
       <updated>1472224767966</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="making it by angular">
+      <created>1472229172095</created>
+      <option name="number" value="00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1472229172096</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -876,7 +872,6 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -884,6 +879,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1155,7 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1163,7 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,9 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <marker date="1471514079336" expanded="true" signature="231:505" placeholder="SELECT u.nam... users" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,16 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
-          <folding>
-            <marker date="1472112274456" expanded="true" signature="340:371" placeholder="select * fro... users" />
-            <marker date="1472112274456" expanded="true" signature="647:744" placeholder="select * fro... p_i_map" />
-            <marker date="1472112274456" expanded="true" signature="931:1277" placeholder="..." />
-            <marker date="1472112274456" expanded="true" signature="1678:1812" placeholder="SELECT `user... " />
-            <marker date="1472112274456" expanded="true" signature="2573:2677" placeholder="SELECT * fro... programs" />
-            <marker date="1472112274456" expanded="true" signature="2862:2884" placeholder="..." />
-            <marker date="1472112274456" expanded="true" signature="2862:2886" placeholder="..." />
-            <marker date="1472112274456" expanded="true" signature="2862:3080" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1198,43 +1179,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.666667">
           <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
-          <folding>
-            <element signature="e#6#93#0#PHP" expanded="true" />
-            <marker date="1472114749452" expanded="true" signature="158:211" placeholder="Insert into programs" />
-            <marker date="1472114749452" expanded="true" signature="158:257" placeholder="Insert into programs" />
-            <marker date="1472114749452" expanded="true" signature="811:919" placeholder="INSERT INTO `instances`... " />
-            <marker date="1472114749452" expanded="true" signature="811:965" placeholder="INSERT INTO `instances`... " />
-            <marker date="1472114749452" expanded="true" signature="897:919" placeholder="Insert into programs" />
-            <marker date="1472114749452" expanded="true" signature="1823:1975" placeholder="INSERT INTO `usages`... " />
-            <marker date="1472114749452" expanded="true" signature="1994:2124" placeholder="insert into files... " />
-            <marker date="1472114749452" expanded="true" signature="2125:2147" placeholder="UPDATE time=... " />
-            <marker date="1472114749452" expanded="true" signature="4073:4223" placeholder="insert into program_usage... " />
-            <marker date="1472114749452" expanded="true" signature="4224:4246" placeholder="UPDATE time=... " />
-            <marker date="1472114749452" expanded="true" signature="4264:4394" placeholder="insert into files... " />
-            <marker date="1472114749452" expanded="true" signature="4395:4417" placeholder="UPDATE time=... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/admin/manager/manager.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/admin/manager/manager.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.5">
-          <caret line="178" column="30" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/randomData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667">
+        <state vertical-scroll-proportion="0.0">
           <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
           <folding>
             <element signature="e#6#93#0#PHP" expanded="true" />
@@ -1247,22 +1197,13 @@
             <marker date="1472220198660" expanded="true" signature="1244:1474" placeholder="INSERT INTO `bulldog`.`usages`... " />
             <marker date="1472220198660" expanded="true" signature="1244:1488" placeholder="INSERT INTO `bulldog`.`usages`... " />
             <marker date="1472220198660" expanded="true" signature="1244:1511" placeholder="INSERT INTO `bulldog`.`usages`... " />
-            <marker date="1472220198660" expanded="true" signature="1244:1857" placeholder="INSERT INTO `bulldog`.`usages`... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/getManagerEmployees.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="14" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0416665">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
             <marker date="1471620288916" expanded="true" signature="241:433" placeholder="SELECT p.`pr... p_i_maps" />
@@ -1272,7 +1213,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/instance/updateInstanceType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
+        <state vertical-scroll-proportion="0.0">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="23" />
           <folding />
         </state>
@@ -1280,7 +1221,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375">
+        <state vertical-scroll-proportion="0.0">
           <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
           <folding />
         </state>
@@ -1288,42 +1229,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1666667">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state vertical-scroll-proportion="-10.666667">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="42" />
           <folding>
             <marker date="1472224732404" expanded="true" signature="228:507" placeholder="SELECT date(... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js">
+    <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/getManagerEmployees.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="155" selection-start-line="68" selection-start-column="155" selection-end-line="68" selection-end-column="155" />
-          <folding />
+        <state vertical-scroll-proportion="-13.75">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1472289149023" expanded="true" signature="226:452" placeholder="SELECT `user... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/login/login.view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.916667">
+        <state vertical-scroll-proportion="-28.125">
           <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/admin/manager/manager.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6666665">
+          <caret line="181" column="30" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.245283">
-          <caret line="75" column="47" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="61" />
+        <state vertical-scroll-proportion="-23.166666">
+          <caret line="254" column="18" selection-start-line="254" selection-start-column="18" selection-end-line="254" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14802065">
-          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="43" />
           <folding>
             <element signature="e#6007#10141#0" expanded="false" />
             <element signature="e#7503#9837#0" expanded="false" />
@@ -1331,6 +1290,19 @@
             <element signature="e#10520#10737#0" expanded="false" />
             <element signature="e#10771#10917#0" expanded="false" />
             <marker date="1472229060892" expanded="true" signature="9698:9743" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/admin/manager/manager.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58196723">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#2643#2825#0" expanded="false" />
+            <element signature="e#2865#4096#0" expanded="false" />
+            <element signature="e#4359#4755#0" expanded="false" />
+            <element signature="e#5665#5882#0" expanded="false" />
           </folding>
         </state>
       </provider>

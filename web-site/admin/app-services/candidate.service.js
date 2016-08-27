@@ -26,9 +26,9 @@
 
         return service;
 
-        function GetAll(society_id) {
+        function GetAll(company,manager,month) {
             return $http
-                        .get('http://api.bulldog.shatkonlabs.com/companies/:company_id/managers/:manager_id/employees')
+                        .get('http://api.bulldog.shatkonlabs.com/companies/'+company+'/managers/'+manager+'/employees'+ "?month=" +month)
                         .then(handleSuccess, handleError('Error getting all users'));
         }
 

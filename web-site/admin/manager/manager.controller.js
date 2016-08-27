@@ -25,15 +25,56 @@
         vm.warningFilter = true;
         vm.primaryFilter = true;
 
+        vm.threeMonths = [];
+        vm.whichMonth = {};
+        vm.loadUser = loadUser;
+        vm.currentMonthIndex = 0;
+        vm.dataLoading = false;
+
         initController();
 
         function initController() {
           //  loadCurrentUser();
            // loadAllUsers();
 
+            loadMonths();
             loadUser();
             loadToCallCandidates();
 
+        }
+
+        vm.setCurrentMon = function(){
+            //console.log("i am in setCurrentMonth",vm.currentMonthIndex);
+
+            vm.whichMonth.name = vm.threeMonths[vm.currentMonthIndex].name;
+            vm.whichMonth.num = vm.threeMonths[vm.currentMonthIndex].num;
+            console.log("i am in setCurrentMonth",vm.whichMonth);
+            loadToCallCandidates();
+
+        }
+
+        function loadMonths(){
+            var months = new Array(12);
+            months[0] = "January";
+            months[1] = "February";
+            months[2] = "March";
+            months[3] = "April";
+            months[4] = "May";
+            months[5] = "June";
+            months[6] = "July";
+            months[7] = "August";
+            months[8] = "September";
+            months[9] = "October";
+            months[10] = "November";
+            months[11] = "December";
+
+            var myDate = new Date();
+            vm.whichMonth.name = months[myDate.getMonth()];
+            vm.whichMonth.num = myDate.getMonth();
+            vm.threeMonths[0] = {"name":months[myDate.getMonth()],"num":myDate.getMonth()};
+            vm.threeMonths[1] = {"name":months[myDate.getMonth()-1], "num":myDate.getMonth()-1};
+            vm.threeMonths[2] = {"name":months[myDate.getMonth()-2],"num":myDate.getMonth()-2};
+            console.log(vm.threeMonths);
         }
 
         vm.logout = function(){
@@ -131,8 +172,9 @@
         };
 
         function loadToCallCandidates(){
-            vm.search = false;
-            CandidateService.GetAll()
+            vm.dataLoading = true;
+
+            CandidateService.GetAll(vm.inUser.company_name,vm.inUser.md5_id,vm.whichMonth.num)
                 .then(function (response) {
                     vm.toCallCandidates = response.employees;
 
@@ -143,6 +185,7 @@
                         vm.improve += (vm.getColor(vm.toCallCandidates[i].time) == "warning")?1:0;
                         vm.bad += (vm.getColor(vm.toCallCandidates[i].time) == "danger")?1:0;
                     }
+                    vm.dataLoading = false;
 
                     console.log(vm.toCallCandidates[1].name);
                 });

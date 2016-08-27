@@ -9,10 +9,14 @@
 
 function getManagerEmployees($companyId, $managerId){
 
+    global $app;
+
+    $month = $app->request()->get('month');
+
     $sql = "SELECT `user_id` ,u.name, u.md5_id, sum( time ) AS time
-            FROM `program_usage` as p inner join users as u
-            WHERE p.`user_id` = u.id
-            GROUP BY `user_id` ";
+            FROM `usages` as p inner join users as u
+            WHERE p.`user_id` = u.id and MONTH(pu.creation) = :month
+            GROUP BY `user_id`,date(pu.creation); ";
 
     try {
         $db = getDB();
@@ -20,6 +24,7 @@ function getManagerEmployees($companyId, $managerId){
 
         /*$stmt->bindParam("id", $fileId);
         $stmt->bindParam("username", $username)*/;
+        $stmt->bindParam("month", $month);
 
         $stmt->execute();
         $employees = $stmt->fetchAll(PDO::FETCH_OBJ);
