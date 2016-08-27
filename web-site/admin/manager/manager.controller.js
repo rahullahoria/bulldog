@@ -174,7 +174,7 @@
         function loadToCallCandidates(){
             vm.dataLoading = true;
 
-            CandidateService.GetAll(vm.inUser.company_name,vm.inUser.md5_id,vm.whichMonth.num)
+            CandidateService.GetAll(vm.inUser.company_name,vm.inUser.md5_id,(vm.whichMonth.num+1))
                 .then(function (response) {
                     vm.toCallCandidates = response.employees;
 

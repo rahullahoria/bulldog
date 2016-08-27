@@ -77,7 +77,7 @@
                 $location.path('/login');
 
 
-            CandidateService.GetByManagerEmployeeId(emp,vm.whichMonth.num)
+            CandidateService.GetByManagerEmployeeId(emp,(vm.whichMonth.num+1))
                 .then(function (response) {
                     vm.employee = response.employee;
                     console.log(vm.employee);
