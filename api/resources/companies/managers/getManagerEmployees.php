@@ -15,8 +15,8 @@ function getManagerEmployees($companyId, $managerId){
 
     $sql = "SELECT `user_id` ,u.name, u.md5_id, sum( time ) AS time
             FROM `usages` as p inner join users as u
-            WHERE p.`user_id` = u.id and MONTH(pu.creation) = :month
-            GROUP BY `user_id`,date(pu.creation); ";
+            WHERE p.`user_id` = u.id and MONTH(p.creation) = :month
+            GROUP BY `user_id`,date(p.creation); ";
 
     try {
         $db = getDB();
