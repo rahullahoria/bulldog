@@ -100,10 +100,10 @@
       <file leaf-file-name="getManagerEmployees.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/getManagerEmployees.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30716723">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.3327645">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
-                <marker date="1472289893019" expanded="true" signature="226:450" placeholder="SELECT `user... " />
+                <marker date="1472290028499" expanded="true" signature="226:433" placeholder="SELECT `user... " />
               </folding>
             </state>
           </provider>
@@ -122,8 +122,8 @@
       <file leaf-file-name="getEmployee.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.666667">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="42" />
+            <state vertical-scroll-proportion="-4.4166665">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="45" />
               <folding>
                 <marker date="1472224732404" expanded="true" signature="228:507" placeholder="SELECT date(... " />
               </folding>
@@ -565,12 +565,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00093" summary="making it by angular">
-      <created>1471601343351</created>
-      <option name="number" value="00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1471601343351</updated>
-    </task>
     <task id="LOCAL-00094" summary="making it by angular">
       <created>1471602455553</created>
       <option name="number" value="00094" />
@@ -859,7 +853,13 @@
       <option name="project" value="LOCAL" />
       <updated>1472289780288</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="making it by angular">
+      <created>1472289897681</created>
+      <option name="number" value="00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1472289897681</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1223,16 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="42" />
-          <folding>
-            <marker date="1472224732404" expanded="true" signature="228:507" placeholder="SELECT date(... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/login/login.view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-28.125">
@@ -1293,12 +1283,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4166665">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <marker date="1472224732404" expanded="true" signature="228:507" placeholder="SELECT date(... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/getManagerEmployees.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30716723">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.3327645">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
-            <marker date="1472289893019" expanded="true" signature="226:450" placeholder="SELECT `user... " />
+            <marker date="1472290028499" expanded="true" signature="226:433" placeholder="SELECT `user... " />
           </folding>
         </state>
       </provider>
