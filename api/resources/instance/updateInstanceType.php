@@ -12,7 +12,7 @@ function updateInstance(){
     $instance = json_decode($request->getBody());
 
     $sql = "INSERT INTO `bulldog`.`p_i_maps`
-                (`profession_id`, `instance_id`, `type`) VALUES ( :profession_id, :instance_id, :type);";
+                (`profession_id`, `instance_id`, `type`) VALUES ( :profession_id, :instance_id, :type1);";
 
     try {
         $db = getDB();
@@ -20,12 +20,13 @@ function updateInstance(){
 
         $stmt->bindParam("profession_id", $instance->profession_id);
         $stmt->bindParam("instance_id", $instance->instance_id);
-        $stmt->bindParam("type", $instance->type);
+        $stmt->bindParam("type1", $instance->type);
 
         $stmt->execute();
-        $employees = $stmt->fetchAll(PDO::FETCH_OBJ);
+        //$employees = $stmt->fetchAll(PDO::FETCH_OBJ);
+        $id = $db->lastInsertId();
 
-        echo '{"instances": ' . json_encode($employees) . '}';
+        echo '{"instance": ' . $id  . '}';
 
         $db = null;
 
