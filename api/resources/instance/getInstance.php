@@ -31,6 +31,11 @@ function getInstance($md4Id,$type){
         $stmt->execute();
         $instances = $stmt->fetchAll(PDO::FETCH_OBJ);
 
+        foreach ( $instances as $instance) {
+            $instance->instance =  base64_decode($instance->instance);
+
+        }
+
         echo '{"instances": ' . json_encode($instances) . '}';
 
         $db = null;

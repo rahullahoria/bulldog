@@ -4,6 +4,7 @@
     <list default="true" id="344364a9-2d53-495e-8ca0-bd89e14a9f1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/resources/instance/getInstance.php" afterPath="$PROJECT_DIR$/api/resources/instance/getInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
     </list>
     <ignored path="bulldog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +42,8 @@
       <file leaf-file-name="employee.view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.791666">
-              <caret line="239" column="26" selection-start-line="239" selection-start-column="26" selection-end-line="239" selection-end-column="26" />
+            <state vertical-scroll-proportion="-12.541667">
+              <caret line="229" column="68" selection-start-line="229" selection-start-column="68" selection-end-line="229" selection-end-column="68" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -53,8 +54,8 @@
       <file leaf-file-name="saveUsage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/resources/usage/saveUsage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="10" column="124" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="124" />
+            <state vertical-scroll-proportion="-8.125">
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="52" />
               <folding>
                 <marker date="1472114749452" expanded="true" signature="158:257" placeholder="Insert into programs" />
                 <marker date="1472114749452" expanded="true" signature="811:965" placeholder="INSERT INTO `instances`... " />
@@ -133,12 +134,12 @@
       <file leaf-file-name="getInstance.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30716723">
-              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.5904437">
+              <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
               <folding>
-                <marker date="1473067762377" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
-                <marker date="1473067762377" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
-                <marker date="1473067762377" expanded="true" signature="387:429" placeholder="select id fr... users" />
+                <marker date="1473067956457" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
+                <marker date="1473067956457" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
+                <marker date="1473067956457" expanded="true" signature="387:429" placeholder="select id fr... users" />
               </folding>
             </state>
           </provider>
@@ -530,12 +531,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00100" summary="making it by angular">
-      <created>1471602850074</created>
-      <option name="number" value="00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1471602850074</updated>
-    </task>
     <task id="LOCAL-00101" summary="making it by angular">
       <created>1471602977713</created>
       <option name="number" value="00101" />
@@ -824,7 +819,13 @@
       <option name="project" value="LOCAL" />
       <updated>1473067647583</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="making it by angular">
+      <created>1473067771080</created>
+      <option name="number" value="00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1473067771080</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1188,22 +1189,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/resources/usage/saveUsage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="10" column="124" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="124" />
-          <folding>
-            <marker date="1472114749452" expanded="true" signature="158:257" placeholder="Insert into programs" />
-            <marker date="1472114749452" expanded="true" signature="811:965" placeholder="INSERT INTO `instances`... " />
-            <marker date="1472114749452" expanded="true" signature="1823:1975" placeholder="INSERT INTO `usages`... " />
-            <marker date="1472114749452" expanded="true" signature="4073:4223" placeholder="insert into program_usage... " />
-            <marker date="1472114749452" expanded="true" signature="4224:4246" placeholder="UPDATE time=... " />
-            <marker date="1472114749452" expanded="true" signature="4264:4394" placeholder="insert into files... " />
-            <marker date="1472114749452" expanded="true" signature="4395:4417" placeholder="UPDATE time=... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/manager/manager.view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.625">
@@ -1225,16 +1210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.166667">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <marker date="1472224732404" expanded="true" signature="228:507" placeholder="SELECT date(... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1248,22 +1223,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.791666">
-          <caret line="239" column="26" selection-start-line="239" selection-start-column="26" selection-end-line="239" selection-end-column="26" />
+        <state vertical-scroll-proportion="-12.541667">
+          <caret line="229" column="68" selection-start-line="229" selection-start-column="68" selection-end-line="229" selection-end-column="68" />
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.166667">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <marker date="1472224732404" expanded="true" signature="228:507" placeholder="SELECT date(... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/resources/usage/saveUsage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="52" />
+          <folding>
+            <marker date="1472114749452" expanded="true" signature="158:257" placeholder="Insert into programs" />
+            <marker date="1472114749452" expanded="true" signature="811:965" placeholder="INSERT INTO `instances`... " />
+            <marker date="1472114749452" expanded="true" signature="1823:1975" placeholder="INSERT INTO `usages`... " />
+            <marker date="1472114749452" expanded="true" signature="4073:4223" placeholder="insert into program_usage... " />
+            <marker date="1472114749452" expanded="true" signature="4224:4246" placeholder="UPDATE time=... " />
+            <marker date="1472114749452" expanded="true" signature="4264:4394" placeholder="insert into files... " />
+            <marker date="1472114749452" expanded="true" signature="4395:4417" placeholder="UPDATE time=... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30716723">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.5904437">
+          <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
           <folding>
-            <marker date="1473067762377" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
-            <marker date="1473067762377" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
-            <marker date="1473067762377" expanded="true" signature="387:429" placeholder="select id fr... users" />
+            <marker date="1473067956457" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
+            <marker date="1473067956457" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
+            <marker date="1473067956457" expanded="true" signature="387:429" placeholder="select id fr... users" />
           </folding>
         </state>
       </provider>
