@@ -133,12 +133,12 @@
       <file leaf-file-name="getInstance.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5904437">
-              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.7440273">
+              <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
               <folding>
-                <marker date="1473068121749" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
-                <marker date="1473068121749" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
-                <marker date="1473068121749" expanded="true" signature="387:429" placeholder="select id fr... users" />
+                <marker date="1473068390561" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
+                <marker date="1473068390561" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
+                <marker date="1473068390561" expanded="true" signature="387:429" placeholder="select id fr... users" />
               </folding>
             </state>
           </provider>
@@ -530,12 +530,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00102" summary="making it by angular">
-      <created>1471603301696</created>
-      <option name="number" value="00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1471603301696</updated>
-    </task>
     <task id="LOCAL-00103" summary="making it by angular">
       <created>1471603398891</created>
       <option name="number" value="00103" />
@@ -824,7 +818,13 @@
       <option name="project" value="LOCAL" />
       <updated>1473067966200</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="making it by angular">
+      <created>1473068131404</created>
+      <option name="number" value="00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1473068131404</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1258,12 +1258,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5904437">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.7440273">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
           <folding>
-            <marker date="1473068121749" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
-            <marker date="1473068121749" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
-            <marker date="1473068121749" expanded="true" signature="387:429" placeholder="select id fr... users" />
+            <marker date="1473068390561" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
+            <marker date="1473068390561" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
+            <marker date="1473068390561" expanded="true" signature="387:429" placeholder="select id fr... users" />
           </folding>
         </state>
       </provider>
