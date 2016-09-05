@@ -15,7 +15,7 @@ function getInstance($md4Id,$type){
                 FROM `instances` as i
                   inner join usages as u
 
-                WHERE u.user_id = (select id from users where md4_id = :md4Id) ";
+                WHERE u.user_id = (select id from users where md5_id = :md4Id) ";
 
     //die($profession. " " . $type);
 
