@@ -6,14 +6,16 @@
  * Time: 5:23 PM
  */
 
-function getInstance($profession,$type){
+function getInstance($md4Id,$type){
 
     if ($type == "manager") $type = "white";
     if ($type == "employee") $type = "black";
 
-    $sql = "SELECT p.`pro_inst_id`,pi.name
-              FROM `p_i_maps`as p inner join p_i as pi
-                WHERE p.`pro_inst_id` = pi.id and p.type='".$type."' and p.profession_id='".$profession."';";
+    $sql = "SELECT distinct i.`id`,i.`instance`
+                FROM `instances` as i
+                  inner join usages as u
+
+                WHERE u.user_id = (select id from users where md4_id = :md4Id) ";
 
     //die($profession. " " . $type);
 
@@ -21,7 +23,7 @@ function getInstance($profession,$type){
         $db = getDB();
         $stmt = $db->prepare($sql);
 
-        //$stmt->bindParam("type1", $type);
+        $stmt->bindParam("md4Id", $md4Id);
         //$stmt->bindParam("profession_id", $profession);
         //$stmt->debugDumpParams();
         //die(var_dump($stmt));
