@@ -24,6 +24,8 @@
         vm.currentMonthIndex = 0;
         vm.employeeInstances = [];
 
+        vm.markIid = 0;
+
         initController();
 
         function initController() {
@@ -92,6 +94,7 @@
 
                            for(var i = 0; i< vm.employeeInstances.length;i++){
                                 vm.employeeInstances[i].instance = $base64.decode(vm.employeeInstances[i].instance);
+                               vm.employeeInstances[i].program = $base64.decode(vm.employeeInstances[i].program);
                             }
 
                             console.log(vm.employeeInstances);
@@ -300,6 +303,22 @@
 
         vm.loadToCallCandidates = loadToCallCandidates;
 
+        vm.updateInstance = function(){
+            console.log(vm.markIid);
+
+            var instance = {'profession_id':1,'instance_id':vm.markIid,'type':'black'};
+
+            CandidateService.UpdateInstance(instance)
+                .then(function (response) {
+
+                });
+
+
+
+
+
+        }
+
 
 
         function loadToCallCandidates(){
@@ -312,12 +331,7 @@
 
         }
 
-        /*function loadCurrentUser() {
-            UserService.GetByUsername($rootScope.globals.currentUser.username)
-                .then(function (user) {
-                    vm.user = user;
-                });
-        }*/
+
 
         function loadAllUsers() {
             UserService.GetAll()

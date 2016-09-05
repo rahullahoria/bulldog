@@ -23,6 +23,7 @@
         service.Search = Search;
         service.GetAllProfession = GetAllProfession;
         service.GetUserInstance = GetUserInstance;
+        service.UpdateInstance = UpdateInstance;
 
         return service;
 
@@ -81,6 +82,10 @@
 
         function Update(user) {
             return $http.put('http://api.shatkonjobs.com/candidates/' + user.id, user).then(handleSuccess, handleError('Error updating user'));
+        }
+
+        function UpdateInstance(instance) {
+            return $http.post('http://api.bulldog.shatkonlabs.com/instance', instance).then(handleSuccess, handleError('Error updating user'));
         }
 
         function Delete(id) {

@@ -134,7 +134,7 @@ function saveUsageV1($username){
 function saveUsage($username){
     saveUsageV1($username);
 
-    $request = \Slim\Slim::getInstance()->request();
+/*    $request = \Slim\Slim::getInstance()->request();
     $usage = json_decode($request->getBody());
 
     //$file = json_decode("{'file_name':'','size':''}");
@@ -192,7 +192,7 @@ function saveUsage($username){
     } catch (PDOException $e) {
         //error_log($e->getMessage(), 3, '/var/tmp/php.log');
         echo '{"error":{"text":"' . $e->getMessage() . '"}}';
-    }
+    }*/
 }
 
 

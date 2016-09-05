@@ -11,16 +11,16 @@ function updateInstance(){
     $request = \Slim\Slim::getInstance()->request();
     $instance = json_decode($request->getBody());
 
-    $sql = "UPDATE `p_i_maps` SET `type`=:type
-              WHERE `profession_id`=:profession_id AND `pro_inst_id`=:pro_inst_id;";
+    $sql = "INSERT INTO `bulldog`.`p_i_maps`
+                (`profession_id`, `instance_id`, `type`) VALUES ( :profession_id, :instance_id, :type);";
 
     try {
         $db = getDB();
         $stmt = $db->prepare($sql);
 
-        $stmt->bindParam("type", $instance->type);
         $stmt->bindParam("profession_id", $instance->profession_id);
-        $stmt->bindParam("pro_inst_id", $instance->pro_inst_id);
+        $stmt->bindParam("instance_id", $instance->instance_id);
+        $stmt->bindParam("type", $instance->type);
 
         $stmt->execute();
         $employees = $stmt->fetchAll(PDO::FETCH_OBJ);
