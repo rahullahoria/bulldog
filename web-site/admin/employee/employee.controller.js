@@ -22,6 +22,7 @@
         vm.whichMonth = {};
         vm.loadUser = loadUser;
         vm.currentMonthIndex = 0;
+        vm.employeeInstances = [];
 
         initController();
 
@@ -89,7 +90,7 @@
 
                             vm.employeeInstances = response.instances;
 
-                            for(var i = 0; i< vm.employeeInstances.length;i++){
+                           for(var i = 0; i< vm.employeeInstances.length;i++){
                                 vm.employeeInstances[i].instance = $base64.decode(vm.employeeInstances[i].instance);
                             }
 

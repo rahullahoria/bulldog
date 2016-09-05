@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app', ['ngRoute', 'ngCookies', 'datatables'])
+        .module('app', ['ngRoute', 'ngCookies', 'datatables','base64'])
         .config(config)
         .run(run);
 

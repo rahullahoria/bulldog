@@ -11,11 +11,12 @@ function getInstance($md4Id,$type){
     if ($type == "manager") $type = "white";
     if ($type == "employee") $type = "black";
 
-    $sql = "SELECT distinct i.`id`,i.`instance`
+    $sql = "SELECT distinct i.`id`,i.`instance`, p.program
                 FROM `instances` as i
                   inner join usages as u
+                  INNER JOIN programs as p
 
-                WHERE u.user_id = (select id from users where md5_id = :md4Id) ";
+                WHERE p.id = i.program_id and u.user_id = (select id from users where md5_id = :md4Id) ";
 
     //die($profession. " " . $type);
 
