@@ -5,8 +5,8 @@
         .module('app')
         .controller('EmployeeController', EmployeeController);
 
-    EmployeeController.$inject = ['UserService',  'CandidateService', '$location','$routeParams', 'FlashService'];
-    function EmployeeController(UserService, CandidateService,  $location, $routeParams, FlashService) {
+    EmployeeController.$inject = ['UserService',  'CandidateService', '$location','$routeParams', 'FlashService','$base64'];
+    function EmployeeController(UserService, CandidateService,  $location, $routeParams, FlashService,$base64) {
         var vm = this;
 
         console.log($routeParams.emp);
@@ -88,6 +88,10 @@
                         .then(function (response) {
 
                             vm.employeeInstances = response.instances;
+
+                            for(var i = 0; i< vm.employeeInstances.length;i++){
+                                vm.employeeInstances[i].instance = $base64.decode(vm.employeeInstances[i].instance);
+                            }
 
                             console.log(vm.employeeInstances);
 

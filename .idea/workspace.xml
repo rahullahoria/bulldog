@@ -2,8 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="344364a9-2d53-495e-8ca0-bd89e14a9f1c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/ajax/parseJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/css/defaultDisplay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/css/swap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/css/var/isHidden.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/data/accepts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/data/var/data_priv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/data/var/data_user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/intro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/outro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/sizzle/dist/sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/sizzle/dist/sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/sizzle/dist/sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/var/strundefined.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/resources/instance/getInstance.php" afterPath="$PROJECT_DIR$/api/resources/instance/getInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/.bower.json" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/bower.json" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/dist/core.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/dist/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/dist/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/dist/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/dist/jquery.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/dist/jquery.slim.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/dist/jquery.slim.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/dist/jquery.slim.min.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/dist/jquery.slim.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/dist/jquery.slim.min.map" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/dist/jquery.slim.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/attributes/val.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/core.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/core/ready.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/css/adjustCSS.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/css/adjustCSS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/data/var/acceptData.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/data/var/acceptData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/deferred.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/effects.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/effects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/exports/global.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/manipulation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/selector.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/selector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/web-site/admin/bower_components/jquery/src/traversing/findFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/index.html" afterPath="$PROJECT_DIR$/web-site/admin/index.html" />
     </list>
     <ignored path="bulldog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,10 +67,10 @@
         <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="86" column="56" selection-start-line="86" selection-start-column="56" selection-end-line="86" selection-end-column="56" />
+              <caret line="92" column="116" selection-start-line="92" selection-start-column="116" selection-end-line="92" selection-end-column="116" />
               <folding>
-                <element signature="e#10444#10590#0" expanded="false" />
-                <marker date="1473067580377" expanded="true" signature="9371:9416" placeholder="..." />
+                <element signature="e#10690#10836#0" expanded="false" />
+                <marker date="1473068861253" expanded="true" signature="9617:9662" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -78,21 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manager.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-site/admin/manager/manager.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="176" column="97" selection-start-line="176" selection-start-column="97" selection-end-line="176" selection-end-column="97" />
-              <folding>
-                <element signature="e#2643#2825#0" expanded="false" />
-                <element signature="e#2865#4096#0" expanded="false" />
-                <element signature="e#4359#4755#0" expanded="false" />
-                <element signature="e#5669#5886#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="getManagerEmployees.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/getManagerEmployees.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,13 +156,23 @@
       <file leaf-file-name="getInstance.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7440273">
-              <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.51365185">
+              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
               <folding>
-                <marker date="1473068390561" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
-                <marker date="1473068390561" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
-                <marker date="1473068390561" expanded="true" signature="387:429" placeholder="select id fr... users" />
+                <marker date="1473068881397" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
+                <marker date="1473068881397" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
+                <marker date="1473068881397" expanded="true" signature="387:429" placeholder="select id fr... users" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-site/admin/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.666667">
+              <caret line="96" column="81" selection-start-line="96" selection-start-column="81" selection-end-line="96" selection-end-column="81" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -167,7 +200,6 @@
         <option value="$PROJECT_DIR$/web-site/landingWeb/template/js/script.js" />
         <option value="$PROJECT_DIR$/web-site/landingWeb/js/script.js" />
         <option value="$PROJECT_DIR$/web-site/landingWeb/index.html" />
-        <option value="$PROJECT_DIR$/web-site/admin/index.html" />
         <option value="$PROJECT_DIR$/web-site/landingWeb/index.php" />
         <option value="$PROJECT_DIR$/web-site/admin/bower_components/datatables/media/css/jquery.dataTables.css" />
         <option value="$PROJECT_DIR$/web-site/admin/app.js" />
@@ -187,8 +219,9 @@
         <option value="$PROJECT_DIR$/web-site/admin/manager/manager.controller.js" />
         <option value="$PROJECT_DIR$/api/resources/companies/managers/getManagerEmployees.php" />
         <option value="$PROJECT_DIR$/web-site/admin/manager/manager.view.html" />
-        <option value="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
         <option value="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
+        <option value="$PROJECT_DIR$/web-site/admin/index.html" />
+        <option value="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
         <option value="$PROJECT_DIR$/api/resources/instance/getInstance.php" />
       </list>
     </option>
@@ -530,12 +563,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00103" summary="making it by angular">
-      <created>1471603398891</created>
-      <option name="number" value="00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1471603398891</updated>
-    </task>
     <task id="LOCAL-00104" summary="making it by angular">
       <created>1471618621703</created>
       <option name="number" value="00104" />
@@ -824,7 +851,13 @@
       <option name="project" value="LOCAL" />
       <updated>1473068131404</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="making it by angular">
+      <created>1473068399933</created>
+      <option name="number" value="00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1473068399934</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1059,13 +1092,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1209,17 +1235,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="56" selection-start-line="86" selection-start-column="56" selection-end-line="86" selection-end-column="56" />
-          <folding>
-            <element signature="e#10444#10590#0" expanded="false" />
-            <marker date="1473067580377" expanded="true" signature="9371:9416" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.541667">
@@ -1256,14 +1271,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.666667">
+          <caret line="96" column="81" selection-start-line="96" selection-start-column="81" selection-end-line="96" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="92" column="116" selection-start-line="92" selection-start-column="116" selection-end-line="92" selection-end-column="116" />
+          <folding>
+            <element signature="e#10690#10836#0" expanded="false" />
+            <marker date="1473068861253" expanded="true" signature="9617:9662" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7440273">
-          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.51365185">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
           <folding>
-            <marker date="1473068390561" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
-            <marker date="1473068390561" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
-            <marker date="1473068390561" expanded="true" signature="387:429" placeholder="select id fr... users" />
+            <marker date="1473068881397" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
+            <marker date="1473068881397" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
+            <marker date="1473068881397" expanded="true" signature="387:429" placeholder="select id fr... users" />
           </folding>
         </state>
       </provider>
