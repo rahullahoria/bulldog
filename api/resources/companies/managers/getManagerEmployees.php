@@ -22,18 +22,50 @@ function getManagerEmployees($companyId, $managerId){
               and p.`user_id` in (select `user_employee_id` from manager_employee_mappings where user_manager_id = (select id from users where md5_id = :managerId))
             GROUP BY p.`user_id`";
 
+    $getActiveUsersSql = "SELECT DISTINCT user_id
+                FROM `usages`
+                WHERE `creation`
+                BETWEEN DATE_SUB( NOW( ) , INTERVAL 10
+                MINUTE )
+                AND NOW( )
+                and user_id in
+                    (select `user_employee_id`
+                        from manager_employee_mappings
+                        where user_manager_id =
+                                (select id
+                                from users
+                                  where md5_id = :managerId))";
+
+
+
     try {
         $db = getDB();
         $stmt = $db->prepare($sql);
 
-        /*$stmt->bindParam("id", $fileId);
-        $stmt->bindParam("username", $username)*/;
         $stmt->bindParam("month", $month);
         $stmt->bindParam("managerId", $managerId);
         $stmt->bindParam("companyId", $companyId);
 
         $stmt->execute();
         $employees = $stmt->fetchAll(PDO::FETCH_OBJ);
+
+        //geting active users
+        $stmt = $db->prepare($getActiveUsersSql);
+
+
+        $stmt->bindParam("managerId", $managerId);
+
+        $stmt->execute();
+        $activeUsers = $stmt->fetchAll(PDO::FETCH_OBJ);
+
+        foreach($activeUsers as $user){
+            foreach($employees as $employee) {
+                if ($user->user_id == $employee->user_id) {
+                    $employee->status = "active";
+
+                }
+            }
+        }
 
         echo '{"employees": ' . json_encode($employees) . '}';
 
