@@ -4,7 +4,6 @@
     <list default="true" id="344364a9-2d53-495e-8ca0-bd89e14a9f1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/resources/instance/getInstance.php" afterPath="$PROJECT_DIR$/api/resources/instance/getInstance.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
     </list>
     <ignored path="bulldog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -135,11 +134,11 @@
         <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5904437">
-              <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
+              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
               <folding>
-                <marker date="1473067956457" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
-                <marker date="1473067956457" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
-                <marker date="1473067956457" expanded="true" signature="387:429" placeholder="select id fr... users" />
+                <marker date="1473068121749" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
+                <marker date="1473068121749" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
+                <marker date="1473068121749" expanded="true" signature="387:429" placeholder="select id fr... users" />
               </folding>
             </state>
           </provider>
@@ -531,12 +530,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00101" summary="making it by angular">
-      <created>1471602977713</created>
-      <option name="number" value="00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1471602977713</updated>
-    </task>
     <task id="LOCAL-00102" summary="making it by angular">
       <created>1471603301696</created>
       <option name="number" value="00102" />
@@ -825,7 +818,13 @@
       <option name="project" value="LOCAL" />
       <updated>1473067771080</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="making it by angular">
+      <created>1473067966199</created>
+      <option name="number" value="00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1473067966200</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1260,11 +1259,11 @@
     <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5904437">
-          <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
           <folding>
-            <marker date="1473067956457" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
-            <marker date="1473067956457" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
-            <marker date="1473067956457" expanded="true" signature="387:429" placeholder="select id fr... users" />
+            <marker date="1473068121749" expanded="true" signature="236:243" placeholder="SELECT p.`pr... p_i_maps" />
+            <marker date="1473068121749" expanded="true" signature="236:430" placeholder="SELECT disti... instances" />
+            <marker date="1473068121749" expanded="true" signature="387:429" placeholder="select id fr... users" />
           </folding>
         </state>
       </provider>
