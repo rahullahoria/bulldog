@@ -58,10 +58,10 @@
       <file leaf-file-name="updateInstanceType.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/instance/updateInstanceType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38395905">
-              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.46075085">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
-                <marker date="1473079219133" expanded="true" signature="239:375" placeholder="INSERT INTO `bulldog`.`p_i_maps`... " />
+                <marker date="1473079379593" expanded="true" signature="239:411" placeholder="INSERT INTO `bulldog`.`p_i_maps`... " />
               </folding>
             </state>
           </provider>
@@ -82,8 +82,8 @@
       <file leaf-file-name="saveUsage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/resources/usage/saveUsage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75">
-              <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="42" />
+            <state vertical-scroll-proportion="-15.625">
+              <caret line="145" column="12" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="41" />
               <folding>
                 <marker date="1473078061417" expanded="true" signature="158:257" placeholder="Insert into programs" />
                 <marker date="1473078061417" expanded="true" signature="811:965" placeholder="INSERT INTO `instances`... " />
@@ -551,12 +551,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00107" summary="making it by angular">
-      <created>1471620301454</created>
-      <option name="number" value="00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1471620301454</updated>
-    </task>
     <task id="LOCAL-00108" summary="making it by angular">
       <created>1471687859730</created>
       <option name="number" value="00108" />
@@ -845,7 +839,13 @@
       <option name="project" value="LOCAL" />
       <updated>1473078829884</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="making it by angular">
+      <created>1473079253299</created>
+      <option name="number" value="00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1473079253299</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1276,8 +1276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/usage/saveUsage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75">
-          <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="42" />
+        <state vertical-scroll-proportion="-15.625">
+          <caret line="145" column="12" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="41" />
           <folding>
             <marker date="1473078061417" expanded="true" signature="158:257" placeholder="Insert into programs" />
             <marker date="1473078061417" expanded="true" signature="811:965" placeholder="INSERT INTO `instances`... " />
@@ -1292,10 +1292,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/instance/updateInstanceType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38395905">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.46075085">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
-            <marker date="1473079219133" expanded="true" signature="239:375" placeholder="INSERT INTO `bulldog`.`p_i_maps`... " />
+            <marker date="1473079379593" expanded="true" signature="239:411" placeholder="INSERT INTO `bulldog`.`p_i_maps`... " />
           </folding>
         </state>
       </provider>

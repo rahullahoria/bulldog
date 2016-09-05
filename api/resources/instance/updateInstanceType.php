@@ -12,7 +12,7 @@ function updateInstance(){
     $instance = json_decode($request->getBody());
 
     $sql = "INSERT INTO `bulldog`.`p_i_maps`
-                (`profession_id`, `instance_id`, `type`) VALUES ( :profession_id, :instance_id, :type1);";
+                (`profession_id`, `instance_id`, `type`) VALUES ( :profession_id, :instance_id, :type1) ON DUPLICATE KEY UPDATE type=:type2;";
 
     try {
         $db = getDB();
@@ -21,6 +21,7 @@ function updateInstance(){
         $stmt->bindParam("profession_id", $instance->profession_id);
         $stmt->bindParam("instance_id", $instance->instance_id);
         $stmt->bindParam("type1", $instance->type);
+        $stmt->bindParam("type2", $instance->type);
 
         $stmt->execute();
         //$employees = $stmt->fetchAll(PDO::FETCH_OBJ);
