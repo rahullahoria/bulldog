@@ -563,12 +563,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00104" summary="making it by angular">
-      <created>1471618621703</created>
-      <option name="number" value="00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1471618621703</updated>
-    </task>
     <task id="LOCAL-00105" summary="making it by angular">
       <created>1471618763786</created>
       <option name="number" value="00105" />
@@ -857,7 +851,13 @@
       <option name="project" value="LOCAL" />
       <updated>1473068399934</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="making it by angular">
+      <created>1473068932739</created>
+      <option name="number" value="00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1473068932740</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="ToolWindowManager">
