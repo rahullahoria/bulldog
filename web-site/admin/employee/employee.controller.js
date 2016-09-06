@@ -26,6 +26,7 @@
 
         vm.markIid = 0;
         vm.toDelindex=0;
+        vm.hours =0;
 
         vm.totalExpactedWorkingHr = 0;
 
@@ -84,6 +85,31 @@
 
             CandidateService.GetTodayUsage(emp)
                 .then(function (response) {
+                    var t = response.employee;
+                    //vm.hours =
+                    //file the blanks
+
+                    var label = [];
+                    var data = [];
+                    for(var i=9; i< 21; i++){
+                        if(i>12 )
+                            label.push((i-12) + 'PM');
+                        else
+                            label.push(i + 'AM');
+                        var obj = t.filter(function ( obj ) {
+                            return obj.hour === i+'';
+                        })[0];
+                        //console.log(obj);
+
+                        if(obj){
+                            data.push(obj.mins);
+
+                        } else {
+                            data.push(0);
+                        }
+                    }
+                    console.log(label,data);
+                    drawTodayPerformanceBarChart(label,data);
 
                 });
 
@@ -155,19 +181,19 @@
             });
         }
 
-        function drawTodayPerformanceBarChart(){
+        function drawTodayPerformanceBarChart(label,data){
 
             var ctx = document.getElementById("todayPerformance").getContext("2d");
             var myChart = new Chart(ctx, {
                 type: 'bar',
                 data: {
-                    labels: ["9am", "10am", "11am", "12am", "1pm", "2pm", "3pm","4pm","5pm","6pm","7pm","8pm","9pm"],
+                    labels: label,
                     datasets: [
                         {
                             label: "Working Min in Hour",
 
                             borderWidth: 1,
-                            data: [10,56,45,60,43,34,23,45,12,35,39,49,49],
+                            data: data,
                         }
                     ]
                 },
@@ -349,7 +375,7 @@
 
             drawBarChart(vm.totalExpactedWorkingHr,totalWork, totalFun);
             drawPolarAreaChart(vm.totalExpactedWorkingHr,totalWork, totalFun);
-            drawTodayPerformanceBarChart();
+
 
         }
 
