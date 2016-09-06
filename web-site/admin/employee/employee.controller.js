@@ -88,7 +88,7 @@
                     drawGraph();
                     vm.dataLoading = false;
 
-                    CandidateService.GetUserInstance(emp,vm.inUser.type)
+                    CandidateService.GetUserInstance(emp,vm.inUser.type,(vm.whichMonth.num+1))
                         .then(function (response) {
 
                             vm.employeeInstances = response.instances;

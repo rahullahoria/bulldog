@@ -11,12 +11,17 @@ function getInstance($md4Id,$type){
     if ($type == "manager") $type = "white";
     if ($type == "employee") $type = "black";
 
+    $month = $app->request()->get('month');
+
     $sql = "SELECT distinct i.`id`,i.`instance`, p.program
                 FROM `instances` as i
                   inner join usages as u
                   INNER JOIN programs as p
 
-                WHERE i.id not in (select instance_id FROM p_i_maps WHERE type='black') AND p.id = i.program_id and u.user_id = (select id from users where md5_id = :md4Id) ";
+                WHERE i.id not in (select instance_id FROM p_i_maps WHERE type='black')
+                    AND p.id = i.program_id
+                    and MONTH(i.creation) = :month
+                    and u.user_id = (select id from users where md5_id = :md4Id) ";
 
     //die($profession. " " . $type);
 
@@ -25,9 +30,8 @@ function getInstance($md4Id,$type){
         $stmt = $db->prepare($sql);
 
         $stmt->bindParam("md4Id", $md4Id);
-        //$stmt->bindParam("profession_id", $profession);
-        //$stmt->debugDumpParams();
-        //die(var_dump($stmt));
+        $stmt->bindParam("month", $month);
+
 
         $stmt->execute();
         $instances = $stmt->fetchAll(PDO::FETCH_OBJ);

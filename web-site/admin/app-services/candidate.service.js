@@ -33,9 +33,9 @@
                         .then(handleSuccess, handleError('Error getting all users'));
         }
 
-        function GetUserInstance(professionId,uType) {
+        function GetUserInstance(professionId,uType,month) {
             return $http
-                .get('http://api.bulldog.shatkonlabs.com/profession/'+professionId+'/type/'+uType)
+                .get('http://api.bulldog.shatkonlabs.com/profession/'+professionId+'/type/'+uType+"?month=" +month)
                 .then(handleSuccess, handleError('Error getting all users'));
         }
 
