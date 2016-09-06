@@ -35,7 +35,7 @@
 
         function GetUserInstance(professionId,uType,month) {
             return $http
-                .get('http://api.bulldog.shatkonlabs.com/profession/'+professionId+'/type/'+uType+"?month=" +month)
+                .get('http://api.bulldog.shatkonlabs.com/profession/'+professionId+'/type/'+uType+"/instance?month=" +month)
                 .then(handleSuccess, handleError('Error getting all users'));
         }
 
