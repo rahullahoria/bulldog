@@ -21,6 +21,7 @@ function getInstance($md4Id,$type){
 
                 WHERE i.id not in (select instance_id FROM p_i_maps WHERE type='black')
                     AND p.id = i.program_id
+                    AND u.instance_id = i.id
                     and MONTH(i.creation) = :month
                     and u.user_id = (select id from users where md5_id = :md4Id) ";
 

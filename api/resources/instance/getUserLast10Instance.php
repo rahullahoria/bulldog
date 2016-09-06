@@ -15,13 +15,12 @@ function getUserLast10Instance($md4Id,$type){
     //$month = $app->request()->get('month');
 
     $sql = "SELECT distinct i.`id`,i.`instance`, p.program
-                FROM `instances` as i
-                  inner join usages as u
+                FROM usages as u
+                  inner join `instances` as i
                   INNER JOIN programs as p
 
-                WHERE i.id not in (select instance_id FROM p_i_maps WHERE type='black')
-                    AND p.id = i.program_id
-
+                WHERE  p.id = i.program_id
+                    AND u.instance_id = i.id
                     and u.user_id = (select id from users where md5_id = :md4Id)
                 ORDER By u.creation DESC
                 LIMIT 0,10";
