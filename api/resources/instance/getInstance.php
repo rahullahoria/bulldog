@@ -11,6 +11,7 @@ function getInstance($md4Id,$type){
     if ($type == "manager") $type = "white";
     if ($type == "employee") $type = "black";
 
+    global $app;
     $month = $app->request()->get('month');
 
     $sql = "SELECT distinct i.`id`,i.`instance`, p.program
