@@ -179,6 +179,8 @@
                     vm.toCallCandidates = response.employees;
 
                     vm.date1 = new Date(2016, vm.whichMonth.num+1, 0).getDate();
+                    if(vm.currentMonthIndex == 0)
+                        vm.date1 = new Date().getDate();
 
 
 

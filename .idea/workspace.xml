@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="344364a9-2d53-495e-8ca0-bd89e14a9f1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/manager/manager.controller.js" afterPath="$PROJECT_DIR$/web-site/admin/manager/manager.controller.js" />
     </list>
     <ignored path="bulldog.iws" />
@@ -92,13 +91,13 @@
       <file leaf-file-name="manager.controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-site/admin/manager/manager.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48360655">
-              <caret line="180" column="65" selection-start-line="180" selection-start-column="65" selection-end-line="180" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.5081967">
+              <caret line="181" column="48" selection-start-line="181" selection-start-column="48" selection-end-line="181" selection-end-column="48" />
               <folding>
                 <element signature="e#2643#2825#0" expanded="false" />
                 <element signature="e#2865#4096#0" expanded="false" />
                 <element signature="e#4359#4755#0" expanded="false" />
-                <element signature="e#5753#5970#0" expanded="false" />
+                <element signature="e#5860#6077#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -555,12 +554,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00114" summary="making it by angular">
-      <created>1472029881020</created>
-      <option name="number" value="00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1472029881020</updated>
-    </task>
     <task id="LOCAL-00115" summary="making it by angular">
       <created>1472030215390</created>
       <option name="number" value="00115" />
@@ -849,7 +842,13 @@
       <option name="project" value="LOCAL" />
       <updated>1473138963547</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="making it by angular">
+      <created>1473145104822</created>
+      <option name="number" value="00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1473145104826</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1294,13 +1293,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/manager/manager.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48360655">
-          <caret line="180" column="65" selection-start-line="180" selection-start-column="65" selection-end-line="180" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.5081967">
+          <caret line="181" column="48" selection-start-line="181" selection-start-column="48" selection-end-line="181" selection-end-column="48" />
           <folding>
             <element signature="e#2643#2825#0" expanded="false" />
             <element signature="e#2865#4096#0" expanded="false" />
             <element signature="e#4359#4755#0" expanded="false" />
-            <element signature="e#5753#5970#0" expanded="false" />
+            <element signature="e#5860#6077#0" expanded="false" />
           </folding>
         </state>
       </provider>
