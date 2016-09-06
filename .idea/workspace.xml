@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="344364a9-2d53-495e-8ca0-bd89e14a9f1c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app.php" afterPath="$PROJECT_DIR$/api/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js" afterPath="$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/index.php" afterPath="$PROJECT_DIR$/api/index.php" />
     </list>
     <ignored path="bulldog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="58" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="58" />
+              <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
               <folding>
                 <element signature="e#1166#1494#0" expanded="false" />
                 <element signature="e#1525#2462#0" expanded="false" />
@@ -53,6 +49,16 @@
                 <element signature="e#12082#12228#0" expanded="false" />
                 <marker date="1473151652776" expanded="true" signature="10801:10846" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43515357">
+              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,18 +133,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getEmployee.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.166667">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="42" />
-              <folding>
-                <marker date="1473132629036" expanded="true" signature="228:666" placeholder="SELECT date(... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/app.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -149,10 +143,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getUserLast10Instance.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getUserLast10Instance.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35836178">
+            <state vertical-scroll-proportion="-8.75">
               <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding>
                 <element signature="e#6#92#0#PHP" expanded="true" />
@@ -180,7 +174,6 @@
         <option value="$PROJECT_DIR$/web-site/landingWeb/index.php" />
         <option value="$PROJECT_DIR$/web-site/admin/bower_components/datatables/media/css/jquery.dataTables.css" />
         <option value="$PROJECT_DIR$/api/resources/auth/authUser.php" />
-        <option value="$PROJECT_DIR$/api/index.php" />
         <option value="$PROJECT_DIR$/web-site/admin/app-services/user.service.js" />
         <option value="$PROJECT_DIR$/web-site/admin/app-services/authentication.service.js" />
         <option value="$PROJECT_DIR$/web-site/admin/login/login.controller.js" />
@@ -201,6 +194,7 @@
         <option value="$PROJECT_DIR$/api/app.php" />
         <option value="$PROJECT_DIR$/api/resources/instance/getInstance.php" />
         <option value="$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php" />
+        <option value="$PROJECT_DIR$/api/index.php" />
       </list>
     </option>
   </component>
@@ -563,12 +557,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00116" summary="making it by angular">
-      <created>1472030652149</created>
-      <option name="number" value="00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1472030652150</updated>
-    </task>
     <task id="LOCAL-00117" summary="making it by angular">
       <created>1472031508087</created>
       <option name="number" value="00117" />
@@ -857,7 +845,13 @@
       <option name="project" value="LOCAL" />
       <updated>1473145344157</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="making it by angular">
+      <created>1473151912050</created>
+      <option name="number" value="00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1473151912050</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1092,13 +1086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1261,22 +1248,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="58" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="58" />
-          <folding>
-            <element signature="e#1166#1494#0" expanded="false" />
-            <element signature="e#1525#2462#0" expanded="false" />
-            <element signature="e#4417#5274#0" expanded="false" />
-            <element signature="e#6588#6708#0" expanded="false" />
-            <element signature="e#11777#12046#0" expanded="false" />
-            <element signature="e#12082#12228#0" expanded="false" />
-            <marker date="1473151652776" expanded="true" signature="10801:10846" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1309,7 +1280,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35836178">
+        <state vertical-scroll-proportion="-8.75">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
@@ -1317,6 +1288,30 @@
             <marker date="1473151901436" expanded="true" signature="516:567" placeholder="select insta... p_i_maps" />
             <marker date="1473151901436" expanded="true" signature="651:693" placeholder="select id fr... users" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+          <folding>
+            <element signature="e#1166#1494#0" expanded="false" />
+            <element signature="e#1525#2462#0" expanded="false" />
+            <element signature="e#4417#5274#0" expanded="false" />
+            <element signature="e#6588#6708#0" expanded="false" />
+            <element signature="e#11777#12046#0" expanded="false" />
+            <element signature="e#12082#12228#0" expanded="false" />
+            <marker date="1473151652776" expanded="true" signature="10801:10846" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43515357">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -15,6 +15,7 @@ require_once "resources/auth/authUser.php";
 
 require_once "resources/instance/getInstance.php";
 require_once "resources/instance/updateInstanceType.php";
+require_once "resources/instance/getUserLast10Instance.php";
 
 
 //app
