@@ -4,6 +4,8 @@
     <list default="true" id="344364a9-2d53-495e-8ca0-bd89e14a9f1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php" afterPath="$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
     </list>
     <ignored path="bulldog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,15 +41,14 @@
         <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+              <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
               <folding>
                 <element signature="e#1166#1494#0" expanded="false" />
                 <element signature="e#1525#2462#0" expanded="false" />
-                <element signature="e#4417#5274#0" expanded="false" />
-                <element signature="e#6588#6708#0" expanded="false" />
-                <element signature="e#11777#12046#0" expanded="false" />
-                <element signature="e#12082#12228#0" expanded="false" />
-                <marker date="1473151652776" expanded="true" signature="10801:10846" placeholder="..." />
+                <element signature="e#7501#7621#0" expanded="false" />
+                <element signature="e#12734#13003#0" expanded="false" />
+                <element signature="e#13039#13185#0" expanded="false" />
+                <marker date="1473156045424" expanded="true" signature="11714:11759" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -66,10 +67,11 @@
       <file leaf-file-name="employee.view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5">
-              <caret line="106" column="67" selection-start-line="106" selection-start-column="67" selection-end-line="106" selection-end-column="93" />
+            <state vertical-scroll-proportion="-6.4583335">
+              <caret line="90" column="83" selection-start-line="90" selection-start-column="83" selection-end-line="90" selection-end-column="83" />
               <folding>
-                <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -146,12 +148,12 @@
       <file leaf-file-name="getUserLast10Instance.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6911263">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.48634812">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding>
                 <element signature="e#6#92#0#PHP" expanded="true" />
-                <marker date="1473152876600" expanded="true" signature="150:556" placeholder="SELECT disti... usages" />
-                <marker date="1473152876600" expanded="true" signature="445:487" placeholder="select id fr... users" />
+                <marker date="1473156180632" expanded="true" signature="150:555" placeholder="SELECT disti... usages" />
+                <marker date="1473156180632" expanded="true" signature="445:487" placeholder="select id fr... users" />
               </folding>
             </state>
           </provider>
@@ -187,12 +189,12 @@
         <option value="$PROJECT_DIR$/api/resources/companies/managers/getManagerEmployees.php" />
         <option value="$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php" />
         <option value="$PROJECT_DIR$/web-site/admin/manager/manager.controller.js" />
-        <option value="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
-        <option value="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
         <option value="$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js" />
         <option value="$PROJECT_DIR$/api/app.php" />
         <option value="$PROJECT_DIR$/api/index.php" />
         <option value="$PROJECT_DIR$/api/resources/instance/getInstance.php" />
+        <option value="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
+        <option value="$PROJECT_DIR$/web-site/admin/employee/employee.view.html" />
         <option value="$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php" />
       </list>
     </option>
@@ -556,12 +558,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00119" summary="making it by angular">
-      <created>1472031754840</created>
-      <option name="number" value="00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1472031754840</updated>
-    </task>
     <task id="LOCAL-00120" summary="making it by angular">
       <created>1472031945784</created>
       <option name="number" value="00120" />
@@ -850,7 +846,13 @@
       <option name="project" value="LOCAL" />
       <updated>1473152739484</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="making it by angular">
+      <created>1473152880780</created>
+      <option name="number" value="00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1473152880780</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1235,39 +1237,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5">
-          <caret line="106" column="67" selection-start-line="106" selection-start-column="67" selection-end-line="106" selection-end-column="93" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="38" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="38" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
-          <folding>
-            <element signature="e#1166#1494#0" expanded="false" />
-            <element signature="e#1525#2462#0" expanded="false" />
-            <element signature="e#4417#5274#0" expanded="false" />
-            <element signature="e#6588#6708#0" expanded="false" />
-            <element signature="e#11777#12046#0" expanded="false" />
-            <element signature="e#12082#12228#0" expanded="false" />
-            <marker date="1473151652776" expanded="true" signature="10801:10846" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1301,14 +1275,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding>
+            <element signature="e#1166#1494#0" expanded="false" />
+            <element signature="e#1525#2462#0" expanded="false" />
+            <element signature="e#7501#7621#0" expanded="false" />
+            <element signature="e#12734#13003#0" expanded="false" />
+            <element signature="e#13039#13185#0" expanded="false" />
+            <marker date="1473156045424" expanded="true" signature="11714:11759" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.4583335">
+          <caret line="90" column="83" selection-start-line="90" selection-start-column="83" selection-end-line="90" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6911263">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.48634812">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
-            <marker date="1473152876600" expanded="true" signature="150:556" placeholder="SELECT disti... usages" />
-            <marker date="1473152876600" expanded="true" signature="445:487" placeholder="select id fr... users" />
+            <marker date="1473156180632" expanded="true" signature="150:555" placeholder="SELECT disti... usages" />
+            <marker date="1473156180632" expanded="true" signature="445:487" placeholder="select id fr... users" />
           </folding>
         </state>
       </provider>

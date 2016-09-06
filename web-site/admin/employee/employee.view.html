@@ -64,11 +64,31 @@
 
         <!-- /.row -->
         <br/>
+
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-6">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <i class="fa fa-bar-chart-o fa-fw"></i> {{ vm.who }} Last 10 Works
+                        <i class="fa fa-bar-chart-o fa-fw"></i> {{ vm.who }}'s Today's Perfomance ({{ vm.performance | number : 2}}%)
+
+                    </div>
+                    <!-- /.panel-heading -->
+                    <div class="panel-body">
+                        <div class="table-responsive">
+
+                            <canvas id="todayPerformance"></canvas>
+                        </div>
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+                <!-- /.panel -->
+
+
+            </div>
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <i class="fa fa-bar-chart-o fa-fw"></i> {{ vm.who }} Last 5 Works
                         <!--<div class="pull-right">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
@@ -98,7 +118,7 @@
                                 <tr>
                                     <th>Instance Name</th>
                                     <th>Program Name</th>
-                                    <th>Change Type</th>
+
 
                                 </tr>
                                 </thead>
@@ -108,7 +128,6 @@
 
                                     <td>{{ employeeInstance.instance }}</td>
                                     <td>{{ employeeInstance.program }}</td>
-                                    <td><button type="button" class="btn btn-primary btn-xs " ng-click="vm.toDelindex=$index;vm.markIid = employeeInstance.id;vm.updateInstance()">Mark As Fun</button></td>
 
 
 
@@ -127,6 +146,8 @@
             <!-- /.col-lg-8 -->
 
         </div>
+
+
 
         <div class="row">
             <div class="col-lg-12">

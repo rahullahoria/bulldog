@@ -95,9 +95,9 @@
 
                             vm.employeeLast10Instances = response.instances;
 
-                            for(var i = 0; i< vm.employeeInstances.length;i++){
-                                vm.employeeInstances[i].instance = $base64.decode(vm.employeeInstances[i].instance);
-                                vm.employeeInstances[i].program = $base64.decode(vm.employeeInstances[i].program);
+                            for(var i = 0; i< vm.employeeLast10Instances.length;i++){
+                                vm.employeeLast10Instances[i].instance = $base64.decode(vm.employeeLast10Instances[i].instance);
+                                vm.employeeLast10Instances[i].program = $base64.decode(vm.employeeLast10Instances[i].program);
                             }
 
                             //console.log(vm.employeeInstances);
@@ -140,6 +140,32 @@
                             "#FF6384",
                         ]
                     }]
+                },
+                options: {
+                    elements: {
+                        arc: {
+                            borderColor: "#000000"
+                        }
+                    }
+                }
+            });
+        }
+
+        function drawTodayPerformanceBarChart(){
+
+            var ctx = document.getElementById("todayPerformance").getContext("2d");
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ["9am", "10am", "11am", "12am", "1pm", "2pm", "3pm","4pm","5pm","6pm","7pm","8pm","9pm"],
+                    datasets: [
+                        {
+                            label: "My First dataset",
+
+                            borderWidth: 1,
+                            data: [10,56,45,60,43,34,23,45,12,35,39,49,49],
+                        }
+                    ]
                 },
                 options: {
                     elements: {
@@ -319,6 +345,7 @@
 
             drawBarChart(vm.totalExpactedWorkingHr,totalWork, totalFun);
             drawPolarAreaChart(vm.totalExpactedWorkingHr,totalWork, totalFun);
+            drawTodayPerformanceBarChart();
 
         }
 

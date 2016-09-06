@@ -20,7 +20,7 @@ function getUserLast10Instance($md4Id){
                     AND u.instance_id = i.id
                     and u.user_id = (select id from users where md5_id = :md4Id)
                 ORDER By u.creation DESC
-                LIMIT 0,10";
+                LIMIT 0,5";
 
 
     try {
