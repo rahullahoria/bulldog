@@ -6,13 +6,10 @@
  * Time: 2:19 PM
  */
 
-function getUserLast10Instance($md4Id,$type){
+function getUserLast10Instance($md4Id){
 
-    if ($type == "manager") $type = "white";
-    if ($type == "employee") $type = "black";
 
-    //global $app;
-    //$month = $app->request()->get('month');
+
 
     $sql = "SELECT distinct i.`id`,i.`instance`, p.program
                 FROM usages as u
@@ -25,14 +22,12 @@ function getUserLast10Instance($md4Id,$type){
                 ORDER By u.creation DESC
                 LIMIT 0,10";
 
-    //die($profession. " " . $type);
 
     try {
         $db = getDB();
         $stmt = $db->prepare($sql);
 
         $stmt->bindParam("md4Id", $md4Id);
-        //$stmt->bindParam("month", $month);
 
 
         $stmt->execute();

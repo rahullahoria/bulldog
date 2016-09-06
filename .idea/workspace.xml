@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="344364a9-2d53-495e-8ca0-bd89e14a9f1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/index.php" afterPath="$PROJECT_DIR$/api/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php" afterPath="$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php" />
     </list>
     <ignored path="bulldog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43515357">
+            <state vertical-scroll-proportion="-10.625">
               <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
               <folding />
             </state>
@@ -120,14 +120,14 @@
       <file leaf-file-name="getInstance.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="20" />
+            <state vertical-scroll-proportion="-11.25">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="44" />
               <folding>
-                <marker date="1473138957404" expanded="true" signature="298:305" placeholder="SELECT p.`pr... p_i_maps" />
-                <marker date="1473138957404" expanded="true" signature="298:547" placeholder="SELECT disti... instances" />
-                <marker date="1473138957404" expanded="true" signature="298:731" placeholder="SELECT disti... instances" />
-                <marker date="1473138957404" expanded="true" signature="503:547" placeholder="select insta... p_i_maps" />
-                <marker date="1473138957404" expanded="true" signature="688:730" placeholder="select id fr... users" />
+                <marker date="1473152720456" expanded="true" signature="298:305" placeholder="SELECT p.`pr... p_i_maps" />
+                <marker date="1473152720456" expanded="true" signature="298:547" placeholder="SELECT disti... instances" />
+                <marker date="1473152720456" expanded="true" signature="298:776" placeholder="SELECT disti... instances" />
+                <marker date="1473152720456" expanded="true" signature="503:547" placeholder="select insta... p_i_maps" />
+                <marker date="1473152720456" expanded="true" signature="733:775" placeholder="select id fr... users" />
               </folding>
             </state>
           </provider>
@@ -143,16 +143,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getUserLast10Instance.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getUserLast10Instance.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.6911263">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#6#92#0#PHP" expanded="true" />
-                <marker date="1473151901436" expanded="true" signature="311:762" placeholder="SELECT disti... instances" />
-                <marker date="1473151901436" expanded="true" signature="516:567" placeholder="select insta... p_i_maps" />
-                <marker date="1473151901436" expanded="true" signature="651:693" placeholder="select id fr... users" />
+                <marker date="1473152876600" expanded="true" signature="150:556" placeholder="SELECT disti... usages" />
+                <marker date="1473152876600" expanded="true" signature="445:487" placeholder="select id fr... users" />
               </folding>
             </state>
           </provider>
@@ -192,9 +191,9 @@
         <option value="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
         <option value="$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js" />
         <option value="$PROJECT_DIR$/api/app.php" />
+        <option value="$PROJECT_DIR$/api/index.php" />
         <option value="$PROJECT_DIR$/api/resources/instance/getInstance.php" />
         <option value="$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php" />
-        <option value="$PROJECT_DIR$/api/index.php" />
       </list>
     </option>
   </component>
@@ -557,18 +556,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00117" summary="making it by angular">
-      <created>1472031508087</created>
-      <option name="number" value="00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1472031508088</updated>
-    </task>
-    <task id="LOCAL-00118" summary="making it by angular">
-      <created>1472031691918</created>
-      <option name="number" value="00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1472031691918</updated>
-    </task>
     <task id="LOCAL-00119" summary="making it by angular">
       <created>1472031754840</created>
       <option name="number" value="00119" />
@@ -851,7 +838,19 @@
       <option name="project" value="LOCAL" />
       <updated>1473151912050</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="making it by angular">
+      <created>1473152178446</created>
+      <option name="number" value="00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1473152178446</updated>
+    </task>
+    <task id="LOCAL-00167" summary="making it by angular">
+      <created>1473152739484</created>
+      <option name="number" value="00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1473152739484</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1256,41 +1255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <marker date="1473138957404" expanded="true" signature="298:305" placeholder="SELECT p.`pr... p_i_maps" />
-            <marker date="1473138957404" expanded="true" signature="298:547" placeholder="SELECT disti... instances" />
-            <marker date="1473138957404" expanded="true" signature="298:731" placeholder="SELECT disti... instances" />
-            <marker date="1473138957404" expanded="true" signature="503:547" placeholder="select insta... p_i_maps" />
-            <marker date="1473138957404" expanded="true" signature="688:730" placeholder="select id fr... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <element signature="e#6#92#0#PHP" expanded="true" />
-            <marker date="1473151901436" expanded="true" signature="311:762" placeholder="SELECT disti... instances" />
-            <marker date="1473151901436" expanded="true" signature="516:567" placeholder="select insta... p_i_maps" />
-            <marker date="1473151901436" expanded="true" signature="651:693" placeholder="select id fr... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1309,9 +1273,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43515357">
+        <state vertical-scroll-proportion="-10.625">
           <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/resources/instance/getInstance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <marker date="1473152720456" expanded="true" signature="298:305" placeholder="SELECT p.`pr... p_i_maps" />
+            <marker date="1473152720456" expanded="true" signature="298:547" placeholder="SELECT disti... instances" />
+            <marker date="1473152720456" expanded="true" signature="298:776" placeholder="SELECT disti... instances" />
+            <marker date="1473152720456" expanded="true" signature="503:547" placeholder="select insta... p_i_maps" />
+            <marker date="1473152720456" expanded="true" signature="733:775" placeholder="select id fr... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6911263">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#92#0#PHP" expanded="true" />
+            <marker date="1473152876600" expanded="true" signature="150:556" placeholder="SELECT disti... usages" />
+            <marker date="1473152876600" expanded="true" signature="445:487" placeholder="select id fr... users" />
+          </folding>
         </state>
       </provider>
     </entry>
