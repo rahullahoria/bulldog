@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="344364a9-2d53-495e-8ca0-bd89e14a9f1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" afterPath="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/resources/usage/saveUsage.php" afterPath="$PROJECT_DIR$/api/resources/usage/saveUsage.php" />
     </list>
     <ignored path="bulldog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="employee.controller.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="employee.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4819672">
+            <state vertical-scroll-proportion="0.0">
               <caret line="97" column="43" selection-start-line="97" selection-start-column="43" selection-end-line="97" selection-end-column="43" />
               <folding>
                 <element signature="e#976#1141#0" expanded="false" />
@@ -63,6 +63,24 @@
               <folding>
                 <element signature="e#6#92#0#PHP" expanded="true" />
                 <marker date="1473158145400" expanded="true" signature="293:521" placeholder="SELECT HOUR(... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="saveUsage.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/resources/usage/saveUsage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5904437">
+              <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+              <folding>
+                <marker date="1473162855328" expanded="true" signature="158:257" placeholder="Insert into programs" />
+                <marker date="1473162855328" expanded="true" signature="811:965" placeholder="INSERT INTO `instances`... " />
+                <marker date="1473162855328" expanded="true" signature="1861:2013" placeholder="INSERT INTO `usages`... " />
+                <marker date="1473162855328" expanded="true" signature="4088:4238" placeholder="insert into program_usage... " />
+                <marker date="1473162855328" expanded="true" signature="4239:4261" placeholder="UPDATE time=... " />
+                <marker date="1473162855328" expanded="true" signature="4279:4409" placeholder="insert into files... " />
+                <marker date="1473162855328" expanded="true" signature="4410:4432" placeholder="UPDATE time=... " />
               </folding>
             </state>
           </provider>
@@ -146,20 +164,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getUserLast10Instance.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/resources/instance/getUserLast10Instance.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-              <folding>
-                <element signature="e#6#92#0#PHP" expanded="true" />
-                <marker date="1473156180632" expanded="true" signature="150:555" placeholder="SELECT disti... usages" />
-                <marker date="1473156180632" expanded="true" signature="445:487" placeholder="select id fr... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -185,7 +189,6 @@
         <option value="$PROJECT_DIR$/web-site/admin/manager/manager.view.html" />
         <option value="$PROJECT_DIR$/web-site/admin/index.html" />
         <option value="$PROJECT_DIR$/web-site/admin/app.js" />
-        <option value="$PROJECT_DIR$/api/resources/usage/saveUsage.php" />
         <option value="$PROJECT_DIR$/api/resources/instance/updateInstanceType.php" />
         <option value="$PROJECT_DIR$/api/resources/companies/managers/getManagerEmployees.php" />
         <option value="$PROJECT_DIR$/api/resources/companies/managers/employees/getEmployee.php" />
@@ -198,6 +201,7 @@
         <option value="$PROJECT_DIR$/web-site/admin/app-services/candidate.service.js" />
         <option value="$PROJECT_DIR$/api/resources/usage/getTodayUsage.php" />
         <option value="$PROJECT_DIR$/web-site/admin/employee/employee.controller.js" />
+        <option value="$PROJECT_DIR$/api/resources/usage/saveUsage.php" />
       </list>
     </option>
   </component>
@@ -560,12 +564,6 @@
       <option name="number" value="Default" />
       <updated>1469687094111</updated>
     </task>
-    <task id="LOCAL-00123" summary="making it by angular">
-      <created>1472032380063</created>
-      <option name="number" value="00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1472032380063</updated>
-    </task>
     <task id="LOCAL-00124" summary="making it by angular">
       <created>1472032822057</created>
       <option name="number" value="00124" />
@@ -854,7 +852,13 @@
       <option name="project" value="LOCAL" />
       <updated>1473158160043</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="making it by angular">
+      <created>1473160198344</created>
+      <option name="number" value="00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1473160198344</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1148,22 +1152,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/resources/usage/saveUsage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625">
-          <caret line="145" column="12" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="41" />
-          <folding>
-            <marker date="1473078061417" expanded="true" signature="158:257" placeholder="Insert into programs" />
-            <marker date="1473078061417" expanded="true" signature="811:965" placeholder="INSERT INTO `instances`... " />
-            <marker date="1473078061417" expanded="true" signature="1823:1975" placeholder="INSERT INTO `usages`... " />
-            <marker date="1473078061417" expanded="true" signature="4075:4225" placeholder="insert into program_usage... " />
-            <marker date="1473078061417" expanded="true" signature="4226:4248" placeholder="UPDATE time=... " />
-            <marker date="1473078061417" expanded="true" signature="4266:4396" placeholder="insert into files... " />
-            <marker date="1473078061417" expanded="true" signature="4397:4419" placeholder="UPDATE time=... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/instance/updateInstanceType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.25">
@@ -1294,7 +1282,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-site/admin/employee/employee.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4819672">
+        <state vertical-scroll-proportion="0.0">
           <caret line="97" column="43" selection-start-line="97" selection-start-column="43" selection-end-line="97" selection-end-column="43" />
           <folding>
             <element signature="e#976#1141#0" expanded="false" />
@@ -1306,6 +1294,22 @@
             <element signature="e#13628#13897#0" expanded="false" />
             <element signature="e#13933#14079#0" expanded="false" />
             <marker date="1473160092784" expanded="true" signature="12651:12696" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/resources/usage/saveUsage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5904437">
+          <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+          <folding>
+            <marker date="1473162855328" expanded="true" signature="158:257" placeholder="Insert into programs" />
+            <marker date="1473162855328" expanded="true" signature="811:965" placeholder="INSERT INTO `instances`... " />
+            <marker date="1473162855328" expanded="true" signature="1861:2013" placeholder="INSERT INTO `usages`... " />
+            <marker date="1473162855328" expanded="true" signature="4088:4238" placeholder="insert into program_usage... " />
+            <marker date="1473162855328" expanded="true" signature="4239:4261" placeholder="UPDATE time=... " />
+            <marker date="1473162855328" expanded="true" signature="4279:4409" placeholder="insert into files... " />
+            <marker date="1473162855328" expanded="true" signature="4410:4432" placeholder="UPDATE time=... " />
           </folding>
         </state>
       </provider>

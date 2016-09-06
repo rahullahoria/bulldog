@@ -74,7 +74,8 @@ function saveUsageV1($username){
 
     $request = \Slim\Slim::getInstance()->request();
     $usage = json_decode($request->getBody());
-    if(!isset($usage->pc_username)) $usage->pc_username = "unknown";
+    if(!isset($usage->pc_username)) $pc_username = "unknown";
+    else $pc_username = $usage->pc_username;
     $ip = $_SERVER['REMOTE_ADDR'];
 
     $username = intval($username);
@@ -97,7 +98,7 @@ function saveUsageV1($username){
                 $stmt->bindParam("instanceId", $instanceId, PDO::PARAM_INT);
                 $stmt->bindParam("time", $ti, PDO::PARAM_INT);
                 $stmt->bindParam("userId", $username, PDO::PARAM_INT);
-                $stmt->bindParam("pcUsername", $usage->pc_username);
+                $stmt->bindParam("pcUsername", $pc_username);
                 $stmt->bindParam("ip", $ip);
                 //var_dump($instanceId,$ti,$username, $usage->pc_username,$ip);
 
@@ -121,7 +122,7 @@ function saveUsageV1($username){
 
         $db = null;
 
-        //echo '{"usage": '.json_encode($usage).'}';
+        echo '{"usage": '.$id.'}';
 
 
     } catch (PDOException $e) {
