@@ -12,13 +12,11 @@
 
 function getTodayUsage($employee){
 
-    global $app;
 
-    $month = $app->request()->get('month');
 
     $sql = "SELECT HOUR(`creation`) as hour,sum(time)/60 as mins
               FROM `usages`
-              WHERE user_id = = (select id from users where md5_id = :md5Id)
+              WHERE user_id = (select id from users where md5_id = :md5Id)
               and DATE(`creation`) = CURDATE() group by HOUR(`creation`);";
 
     try {
