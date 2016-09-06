@@ -14,7 +14,11 @@ function getEmployee($companyId, $managerId, $employee){
 
     $sql = "SELECT date(pu.creation) as date,sum(pu.time) as time, u.name,u.profession
                 FROM `usages` as pu INNER JOIN users as u
-                WHERE pu.user_id=u.id and u.md5_id=:employee  and MONTH(pu.creation) = :month
+                WHERE
+                    pu.instance_id not in (select instance_id FROM p_i_maps WHERE type='black')
+                    AND pu.user_id=u.id
+                    and u.md5_id=:employee
+                    and MONTH(pu.creation) = :month
                 group by `user_id`,date(pu.creation);";
 
     try {

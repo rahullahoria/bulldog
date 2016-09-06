@@ -25,6 +25,7 @@
         vm.employeeInstances = [];
 
         vm.markIid = 0;
+        vm.toDelindex=0;
 
         initController();
 
@@ -310,6 +311,9 @@
 
             CandidateService.UpdateInstance(instance)
                 .then(function (response) {
+
+                    vm.employeeInstances.splice( vm.toDelindex, 1 )
+                    //delete vm.employeeInstances[vm.toDelindex];
 
                 });
 

@@ -16,7 +16,8 @@ function getManagerEmployees($companyId, $managerId){
     $sql = "SELECT p.`user_id` ,u.name, u.md5_id, sum( time ) AS time
             FROM `usages` as p inner join users as u
             WHERE
-              p.`user_id` = u.id
+              p.instance_id not in (select instance_id FROM p_i_maps WHERE type='black')
+              AND p.`user_id` = u.id
               and MONTH(p.creation) = :month
               and u.company_id = (select id from companies where name = :companyId)
               and p.`user_id` in (select `user_employee_id` from manager_employee_mappings where user_manager_id = (select id from users where md5_id = :managerId))
@@ -25,7 +26,7 @@ function getManagerEmployees($companyId, $managerId){
     $getActiveUsersSql = "SELECT DISTINCT user_id
                 FROM `usages`
                 WHERE `creation`
-                BETWEEN DATE_SUB( NOW( ) , INTERVAL 10
+                BETWEEN DATE_SUB( NOW( ) , INTERVAL 30
                 MINUTE )
                 AND NOW( )
                 and user_id in
