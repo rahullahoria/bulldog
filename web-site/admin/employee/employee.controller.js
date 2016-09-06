@@ -27,6 +27,8 @@
         vm.markIid = 0;
         vm.toDelindex=0;
 
+        vm.totalExpactedWorkingHr = 0;
+
         initController();
 
         function initController() {
@@ -203,7 +205,8 @@
 
 
             };
-            vm.performance = (totalWork/(new Date().getDate()*6.85))*100;
+            vm.totalExpactedWorkingHr = expectedHrs.reduce((a, b) => a + b, 0);
+            vm.performance = (totalWork/vm.totalExpactedWorkingHr)*100;
             var data = {
                     labels: labels ,
             datasets: [
@@ -297,8 +300,8 @@
             var ctx = document.getElementById("canvas").getContext("2d");
             new Chart(ctx, {type: 'line', data, options});
 
-            drawBarChart((new Date().getDate()*6.85),totalWork, totalFun);
-            drawPolarAreaChart((new Date().getDate()*6.85),totalWork, totalFun);
+            drawBarChart(vm.totalExpactedWorkingHr,totalWork, totalFun);
+            drawPolarAreaChart(vm.totalExpactedWorkingHr,totalWork, totalFun);
 
         }
 

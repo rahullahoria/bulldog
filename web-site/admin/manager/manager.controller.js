@@ -178,6 +178,10 @@
                 .then(function (response) {
                     vm.toCallCandidates = response.employees;
 
+                    vm.date1 = new Date(2016, vm.whichMonth.num+1, 0).getDate();
+
+
+
                     for(var i=0;i < vm.toCallCandidates.length ; i++){
 
                         vm.champs += (vm.getColor(vm.toCallCandidates[i].time) == "primary")?1:0;
