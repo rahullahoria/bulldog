@@ -82,6 +82,10 @@
             if(!vm.inUser.name)
                 $location.path('/login');
 
+            CandidateService.GetTodayUsage(emp)
+                .then(function (response) {
+
+                });
 
             CandidateService.GetByManagerEmployeeId(emp,(vm.whichMonth.num+1))
                 .then(function (response) {
@@ -160,7 +164,7 @@
                     labels: ["9am", "10am", "11am", "12am", "1pm", "2pm", "3pm","4pm","5pm","6pm","7pm","8pm","9pm"],
                     datasets: [
                         {
-                            label: "My First dataset",
+                            label: "Working Min in Hour",
 
                             borderWidth: 1,
                             data: [10,56,45,60,43,34,23,45,12,35,39,49,49],

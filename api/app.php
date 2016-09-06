@@ -19,7 +19,7 @@ $app->response->headers->set('Content-Type', 'application/json');
 
 /* Starting routes */
 
-$app->get('/usage/:username/:fileId','getFile');
+$app->get('/usage/:username','getTodayUsage');
 $app->post('/usage/:username', 'saveUsage');
 
 $app->post('/auth', 'authUser');

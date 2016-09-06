@@ -25,6 +25,7 @@
         service.GetUserInstance = GetUserInstance;
         service.UpdateInstance = UpdateInstance;
         service.GetUserLast10Instance = GetUserLast10Instance;
+        service.GetTodayUsage = GetTodayUsage;
 
         return service;
 
@@ -43,6 +44,12 @@
         function GetUserLast10Instance(userId,uType) {
             return $http
                 .get('http://api.bulldog.shatkonlabs.com/instance/'+userId+'/last10')
+                .then(handleSuccess, handleError('Error getting all users'));
+        }
+
+        function GetTodayUsage(userId) {
+            return $http
+                .get('http://api.bulldog.shatkonlabs.com/usage/'+userId)
                 .then(handleSuccess, handleError('Error getting all users'));
         }
 
