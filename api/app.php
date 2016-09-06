@@ -28,6 +28,7 @@ $app->get('/companies/:company_id/managers/:manager_id/employees','getManagerEmp
 
 $app->get('/profession/:profession/type/:type/instance','getInstance');
 $app->post('/instance','updateInstance');
+$app->get('/instance/:user_id/last10','getUserLast10Instance');
 
 $app->get('/companies/:company_id/managers/:manager_id/employees/:employee','getEmployee');
 

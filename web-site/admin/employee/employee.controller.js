@@ -86,9 +86,23 @@
             CandidateService.GetByManagerEmployeeId(emp,(vm.whichMonth.num+1))
                 .then(function (response) {
                     vm.employee = response.employee;
-                    console.log(vm.employee);
+                    //console.log(vm.employee);
                     drawGraph();
                     vm.dataLoading = false;
+
+                    CandidateService.GetUserLast10Instance(emp,vm.inUser.type,(vm.whichMonth.num+1))
+                        .then(function (response) {
+
+                            vm.employeeLast10Instances = response.instances;
+
+                            for(var i = 0; i< vm.employeeInstances.length;i++){
+                                vm.employeeInstances[i].instance = $base64.decode(vm.employeeInstances[i].instance);
+                                vm.employeeInstances[i].program = $base64.decode(vm.employeeInstances[i].program);
+                            }
+
+                            //console.log(vm.employeeInstances);
+
+                        });
 
                     CandidateService.GetUserInstance(emp,vm.inUser.type,(vm.whichMonth.num+1))
                         .then(function (response) {
@@ -100,7 +114,7 @@
                                vm.employeeInstances[i].program = $base64.decode(vm.employeeInstances[i].program);
                             }
 
-                            console.log(vm.employeeInstances);
+                            //console.log(vm.employeeInstances);
 
                         });
 
@@ -212,19 +226,22 @@
             datasets: [
                 {
                     label: "Expected working hours",
-                    backgroundColor: "rgba(0,220,0,0.2)",
+                    backgroundColor: "rgba(75, 192, 192,0.4)",
+                    borderColor: "rgba(75, 192, 192,1)",
 
 
                     data: expectedHrs
         },
             {
                 label: "Fun Time",
-                    backgroundColor: "rgba(173,216,230,0.8)",
+                    backgroundColor: "rgba(255, 99, 132,0.6)",
+                borderColor: "rgba(255, 99, 132,1)",
                 data: fun
             },
             {
                 label: "Working Hours",
-                    backgroundColor: "rgba(151,187,0,0.4)",
+                    backgroundColor: "rgba(255, 206, 86,0.8)",
+                borderColor: "rgba(255, 206, 86,1)",
                 data: workingHrs
             }
         ]

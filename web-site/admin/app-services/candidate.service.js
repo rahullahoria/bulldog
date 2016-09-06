@@ -24,6 +24,7 @@
         service.GetAllProfession = GetAllProfession;
         service.GetUserInstance = GetUserInstance;
         service.UpdateInstance = UpdateInstance;
+        service.GetUserLast10Instance = GetUserLast10Instance;
 
         return service;
 
@@ -36,6 +37,12 @@
         function GetUserInstance(professionId,uType,month) {
             return $http
                 .get('http://api.bulldog.shatkonlabs.com/profession/'+professionId+'/type/'+uType+"/instance?month=" +month)
+                .then(handleSuccess, handleError('Error getting all users'));
+        }
+
+        function GetUserLast10Instance(userId,uType) {
+            return $http
+                .get('http://api.bulldog.shatkonlabs.com/instance/'+userId+'/last10')
                 .then(handleSuccess, handleError('Error getting all users'));
         }
 
